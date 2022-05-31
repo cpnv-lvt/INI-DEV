@@ -1,4 +1,4 @@
-## About the Course
+## A propos du cours
 
 Welcome to the course in basics of Python programming!
 

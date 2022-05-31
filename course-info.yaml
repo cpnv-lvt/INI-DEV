@@ -1,0 +1,12 @@
+type: marketplace
+title: INI-DEV
+language: French
+summary: |-
+  Ce cours est une introduction à python.
+    -Il est donné lors des cours d'introduction au CPNV section informatique
+    -Il couvre la base de python
+    -Il comprends des laboratoires qui permet de voir les concepts de base de la programmation en python
+programming_language: Python
+environment: unittest
+content:
+- Introduction

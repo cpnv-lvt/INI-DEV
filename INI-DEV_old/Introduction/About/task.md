@@ -1,6 +1,6 @@
 ## A propos du cours
 
-Welcome to the course in basics of Python programming!
+Bienvenue à ce cours d'initiation à la programmation avec Python !
 
 #### Why Learn Python?
 Python is one of the most popular programming languages in the world.

@@ -10,3 +10,12 @@ programming_language: Python
 environment: unittest
 content:
 - Introduction
+- Variables
+- Chaînes de caractères
+- Structures de données
+- Expressions conditionnelles
+- Boucles
+- Fonctions
+- Classes et objets
+- Modules et packages
+- Lire et écrire dans un fichier

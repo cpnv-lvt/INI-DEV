@@ -1,18 +1,18 @@
-## EduTools plugin overview
+## plugin EduTools  
 
-This lesson will help you take your first steps with the [EduTools plugin](https://www.jetbrains.com/help/education/educational-products.html) and use it to learn Python.
+Cet exercice va vous aider à faire vos premiers pas avec le [plugin EduTools](https://www.jetbrains.com/help/education/educational-products.html) afin de l'utiliser pour apprendre Python.  
 
-With the EduTools plugin, you can learn programming languages and tools by completing coding tasks and get instant feedback right inside the IDE.
+Avec ce plugin, vous pouvez apprendre différents langages de programmation au fil de défis pour lesquelles vous aurez un retour immédiat directement dans l'[IDE](https://www.redhat.com/fr/topics/middleware/what-is-ide).  
 
-Enough talking – let's get started!
+Vous êtes prêts ? **C'est parti !**  
 
-If you're already familiar with the interface, you can skip this lesson.
+*Si vous êtes déjà familier avec l'interface, vous pouvez passer ce défi.*  
 
-### Working with courses
-Every course available in EduTools is structured as a list of lessons. Lessons, in turn, can be grouped into sections. Each lesson contains several tasks.
+### Travailler avec les cours EduTools  
+Chaque cours EduTools est formé par une liste de leçons. Les leçons peuvent être regroupées par sections. Chaque leçon contient plusieurs défis.
 
-When you open a course, you will see the main tool windows used for navigation: <b>Course View</b>, <b>Editor</b>, and <b>Task Description</b>:
+Lorsque vous ouvrez un cours, vous arriverez les outils principaux utilisés pour la navigation : **Course View**, **Editor**, et **Description** :
 
 <img src="edu_course_overview.png" width="100%"/>
 
-Click the "Next" button to navigate to the next task.
+Cliquer sur le bouton "Next" pour aller sur le prochain défi.

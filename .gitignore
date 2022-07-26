@@ -117,3 +117,6 @@ dmypy.json
 .idea/
 
 *.DS_Store
+
+*task-remote-info.yaml
+*lesson-remote-info.yaml

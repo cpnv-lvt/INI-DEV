@@ -1,8 +1,8 @@
-## Read file
+## lecture de fichier
 
-
-To read a file’s contents, you can call `f.read(size)`, which reads some quantity of data and returns it as 
-a string. When size is omitted or negative, the entire contents of the file will be read and returned.
+Pour lire un fichier, vous pouvez utiliser la commande `f.read(size)`, qui lira une certaine 
+quantité de donnée et renvera une chaine de caractères. Lorsque la taille est omis ou négative, 
+l'entier du fichier sera lu et retourner.
 
 ```python
 with open('somefile.txt') as f:
@@ -11,13 +11,14 @@ with open('somefile.txt') as f:
 ```text
 Here's everything that's in the file.\n
 ```
-<i>**Note**: there will be a problem if the file is twice as large as your machine’s memory.</i>
+<i>**Note**: Il peut y avoir un problème si la taille du fichier fait deux fois la taille 
+de la mémoire de votre ordinateur.</i>
 
 
-`f.readline()` reads a single line from the file; a newline character (`\n`) is left at the end of the 
-string and is only omitted on the last line of the file if the file doesn’t end in a newline. If `f.readline()` 
-returns an empty string, the end of the file has been reached, while a blank line is represented by `\n`, 
-a string containing only a single newline.
+`f.readline()` lit une seul ligne du fichier; un caractère de nouvelle ligne (`\n`) 
+est laissé à la fin de la chaine. ce caractpre sera omi uniquement si vous êtes à la dernière ligne.
+Si `f.readline()` retourne une chaine vide, la fin du fichier a été atteint, alors qu'une ligne vide 
+sera représentée par `\n`, une chaine contenant uniquement le caractère de nouvelle line.
 
 ```python
 f.readline()

@@ -1,5 +1,5 @@
 content:
-- Open file
-- Read file
-- Write to file
-- What next
+- 00 Ouverture de fichier
+- 01 Lecture de fichier
+- 02 Ecriture de fichier
+- 03 Et après

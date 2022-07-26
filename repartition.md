@@ -6,3 +6,5 @@ Semaine 5 : Boucles
 Semaine 6 : Fonctions
 Semaine 7 : Fonctions
 Semaine 8 : Modules et packages + Lire et écrire dans un fichier
+
+Pour ceux qui vont vite : Projet de pendu avec fichier texte

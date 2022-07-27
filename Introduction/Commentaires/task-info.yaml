@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: commentaires.py
+  visible: true
+  placeholders:
+  - offset: 206
+    length: 50
+    placeholder_text: print("Cette ligne ne devrait pas être affichée !")
+- name: tests/test_task.py
+  visible: false

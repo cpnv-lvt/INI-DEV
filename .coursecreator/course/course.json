@@ -30,7 +30,6 @@
           },
           "description_text" : "## plugin EduTools  \n\nCet exercice va vous aider à faire vos premiers pas avec le [plugin EduTools](https://www.jetbrains.com/help/education/educational-products.html) afin de l'utiliser pour apprendre Python.  \n\nAvec ce plugin, vous pouvez apprendre différents langages de programmation au fil de défis pour lesquelles vous aurez un retour immédiat directement dans l'[IDE](https://www.redhat.com/fr/topics/middleware/what-is-ide).  \n\nVous êtes prêts ? **C'est parti !**  \n\n*Si vous êtes déjà familier avec l'interface, vous pouvez passer ce défi.*  \n\n### Travailler avec les cours EduTools  \nChaque cours EduTools est formé par une liste de leçons. Les leçons peuvent être regroupées par sections. Chaque leçon contient plusieurs défis.\n\nLorsque vous ouvrez un cours, vous arriverez les outils principaux utilisés pour la navigation : **Course View**, **Editor**, et **Description** :\n\n<img src=\"edu_course_overview.png\" width=\"100%\"/>\n\nCliquer sur le bouton \"Next\" pour aller sur le prochain défi.\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Navigating+Around",
           "task_type" : "theory"
         },
         {
@@ -52,7 +51,6 @@
           },
           "description_text" : "## Onglet Course\n\n<b>L'onglet \"Course\"</b> vous montre le contenu du cours: une liste de leçons contenant des tâches.\n\n<style>\nimg {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n</style>\n<img src=\"edu_course_view.png\" class=\"center\" width=\"75%\"/>\n\nVous pouvez naviguer entre les tâches en cliquant deux fois sur la tâche qui vous intéresse. Cependant, veillez à suivre l'ordre fourni lors du cours.\n\nPour cacher la fenêtre de l'onglet, cliquez sur le bouton \"Project\" ou appuyer sur <span style=\"color: #509DD6\">&shortcut:ActivateProjectToolWindow;</span>. Cela vous fournira plus de place pour l'éditeur de texte ainsi que pour la description de la tâche.\n\nPour afficher la fenêtre de l'onglet, cliquez sur le bouton \"Project\" (ou appuyez sur <span style=\"color: #509DD6\">&shortcut:ActivateProjectToolWindow;</span>) à nouveau.\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Course+View",
           "task_type" : "theory"
         },
         {
@@ -80,7 +78,6 @@
           },
           "description_text" : "## Editeur de texte\n\nL'<b>Editeurr</b> est l'outil dans lequel vous programmerez. Vous pouvez faire vos expériences en plus de l'apprentissage avec des tâches théoriques et des quizz sans validation.\n\nPour les tâches de programmation, l'éditeur vous permettra de corriger le code existant ou d'écrire votre propre code depuis le début. Le code pourra ensuite être validé.\n\n<style>\nimg {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n</style>\n<img src=\"edu_editor.png\" class=\"center\" width=\"100%\"/>\n\n\nPour lancer votre code à tout moment, cliquez sur le bouton \"Run\" dans le menu contextuel ou appuyez sur <span style=\"color: #509DD6\">&shortcut:Run;</span>:\n\n<img src=\"edu_context_menu_run.png\" class=\"center\" width=\"100%\"/>\n\n\nSi vous voulez revenir à l'éditeur et vous concentrer sur votre code, la manière la plus simple est d'utiliser la fonction permettant de cacher toutes les autres fenêtres (<span style=\"color: #509DD6\">&shortcut:HideAllWindows;</span>). Pour réafficher toutes les fenêtres, réutilisez la commande.\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Editeur de texte",
           "task_type" : "theory"
         },
         {
@@ -150,7 +147,6 @@
           },
           "description_text" : "## Description de la tâche\n\nLa fenêtre **Description** de la tâche vous fourni toutes les informations nécessaires pour compléter la tâche :\n\nPour les tâches théoriques, la description fourni des apprentissages et des parties à lire.\nPour les tâches quizz, elle offre des questions à choix multiples.\nPour les tâches de programmation, elle présente le problème à résoudre.\n\nUtilisez les icônes sur la fenêtre de description pour ces actions :\n\n| Icône                                                            | Description                                                                                                  |\n|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|\n| **Check**                                                        | <font size=\"-1\">Valider votre réponse (pour un quizz) ou votre code (pour une tâche de programmation)</font> |   \n| **Run**                                                          | <font size=\"-1\">Lancer votre code (pour une tâche théorique)</font>                                          |\n| ![](images/back.svg)                                             | <font size=\"-1\">Retourner à la tâche précédente</font>                                                       |    \n| ![](images/forward.svg) &nbsp;<font size=\"-1\">or</font> **Next** | <font size=\"-1\">Aller à la tâche suivante</font>                                                             | \n| ![](images/reset.svg)                                            | <font size=\"-1\">Supprimer tous vos changement et recommencer à zéro</font>                                   |  \n| <a>Peek Solution...</a>                                          | <font size=\"-1\">Afficher la bonne réponse et le <b>différentiel</b></font>                                   |\n\nNous vous recommandons de garder la fenêtre de description visible. Si elle vous distrait, vous pouvez la cacher en cliquant sur l'icône ![](images/hideToolWindow.svg) se trouvant dans le coin supérieur-droit de la fenêtre de description.\n\nSi vous utilisez deux écrans, il peut être utile de basculer la fenêtre de description en mode flottant pour la déplacer sur le second écran ou proche de la fenêtre principale de l'IDE. Pour se faire, cliquez sur l'icône ![](images/gear.svg) :\n\n<img src=\"images/edu_task_description_window_settings.png\" width=\"85%\"/>\n\n<style>\nimg {\n  display: inline !important;\n}\ntable, th, td {\n  border: 1px solid black;\n  border-collapse: collapse;\n}\nth, td {\n  padding: 5px;\n}\ntable td:nth-child(1) {\n    text-align: center;\n}\n</style>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Task+Description",
           "task_type" : "theory"
         },
         {
@@ -179,7 +175,6 @@
           },
           "description_text" : "## Notre premier programme\n\nPar tradition, le premier programme que l'on écrit dans n'importe quel langage est `\"Hello World!\"`.\n\n  \nBienvenue dans le monde de la programmation.\n  \nPour lancer ce script, faîtes un clique-droit n'importe où dans la fenêtre de l'**éditeur** afin de voir le menu contextuel est sélectionnez **Run 'hello_world'**.\nSinon, vous pouvez utiliser le raccourci &shortcut:RunClass;.\nUniquement dans PyCharm Edu, vous pouvez utiliser l'icône ![](execute.svg)\n\nPour plus d'information, vous pouvez consulter [l'aide en ligne](https://www.jetbrains.com/help/pycharm/running-and-rerunning-applications.html).\n\n## JetBrains Academy\n\nPour plus d'exercices et d'informations, vous pouvez également aller sur [JetBrains Academy](https://hi.hyperskill.org?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=first-task).\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Our+First+Program",
           "task_type" : "theory"
         },
         {
@@ -208,7 +203,6 @@
           },
           "description_text" : "## Commentaires\n\nLes commentaires en Python commencent par le caractère dièse (`#`) suivi d'un espace, \ncela sera valable pour la suite entière de la ligne. \nVous pouvez également utiliser &shortcut:CommentByLineComment; \npour commenter ou décommenter une ligne ou même un block de code dans PyCharm.\n\n\nN'oubliez pas de maintenir vos commentaires à jour au fur et à mesure de l'évolution du code !\nLes commentaires qui contredisent le code sont encore pire que l'absence de commentaires.\nVeillez également à faire des commentaires pertinents. Il est inutile de commenter des lignes qui sont claires par elles-mêmes, \nde plus, afin de faciliter la maintenance des commentaires, \nveillez à éviter de placer vos commentaires en suite de ligne, comme ça :\n\n\n```python\nx = x + 1                 # Incrémente x\n```\n\nLes commentaires doivent être des phrases complètes. \nFaîtes en sorte que vos commentaires soient clairs et faciles à comprendre pour d'autres personnes.\n\n\n#### Block de commentaires\n\nLes blocks de commentaires sont là pour faciliter la compréhension du code qui soit et sont indentés comme le code lui-même.\n\n#### Commentaires alignés\nBien que déconseillés, les commentaires faits sur la même ligne que du code doivent être séparés du code d'au moins deux espaces.\nAttention, les commentaires alignés peuvent être comptés comme des erreurs par certains enseignants.\n\n\nPour plus d'informations sur la manière de commenter correctement, \nvous pouvez consulter les consignes du langage Python : <a href=\"https://www.python.org/dev/peps/pep-0008/#comments\">PEP 8 – Style Guide for Python Code</a>. \n  \nVous pouvez également commenter une ligne ou un block de code si vous ne voulez pas le supprimer ou s'il sera utile par la suite. \nC'est également ce que nous conseillons afin de valoriser ce que vous auriez fait durant un test mais que vous n'auriez pas eu le temps de finir ou de corriger.\n\n### Tâche\nDans l'éditeur de code, commentez la ligne avec la commande `print` qui indique qu'elle ne devrait pas être affichée.\nRegardez la différence lors de l'exécution du code.\n\n<div class=\"hint\">\n  Ajoutez un <code>#</code> et un espace avant la commande <code>print</code>. Laissez le reste tel qu'il est.\n</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Commentaires",
           "task_type" : "edu"
         }
       ],
@@ -219,33 +213,33 @@
       "title" : "Variables",
       "task_list" : [
         {
-          "id" : 170647796,
-          "name" : "Variable definition",
+          "id" : 1912378871,
+          "name" : "Définition de variables",
           "files" : {
             "variable_definition.py" : {
               "name" : "variable_definition.py",
               "placeholders" : [
                 {
-                  "offset" : 231,
+                  "offset" : 257,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 },
                 {
-                  "offset" : 339,
-                  "length" : 20,
-                  "possible_answer" : "S8Y8k6caNonGFR82fwu21+Y53v4LpqsEB6Au8vB5xXQ=",
-                  "placeholder_text" : "# Assign a new value"
+                  "offset" : 359,
+                  "length" : 30,
+                  "possible_answer" : "Ic0X2AEBYzil9llR9S30MMWaP8aYeju2znCUqsj8iO8=",
+                  "placeholder_text" : "# Assignez une nouvelle valeur"
                 },
                 {
-                  "offset" : 493,
-                  "length" : 31,
-                  "possible_answer" : "QiveILfg4T6SDz7lKWUhDQJXG0Ry3K5hSlcmVlAo1No=",
-                  "placeholder_text" : "# Assign 2 to both a and b here"
+                  "offset" : 529,
+                  "length" : 42,
+                  "possible_answer" : "SxIqUKdMg/N37orp3Ms22WDJ9Rhx+F2ZIZdfX7cNvNNSW8a9yo5Ql6NYWV9SBhk9",
+                  "placeholder_text" : "# Assignez 2 aux deux variables a et b ici"
                 }
               ],
               "is_visible" : true,
-              "text" : "TVXBUmKnUmX68RtSluE2+caq2HyHFGJXAJZ953uFTWDx0o/9U21gZPhqYyRs1Ks0Waspnin8BaNKzCRlDAHHPOx+vIR2PCdp9zT7UhlE+3uWK+qMBQ3kwbY1FhseHSe9o2yHjvt/yagzb+0U+eyrP/Z4tenhNrEcJPvwFDgOq+GZbyCcF+0q5Kyy/Pkw331RZJT/KsYPSM3gFV0IJ1io2GgtNr3SV9L5DH2ml5mxt6SuBpd4gBbpx/eCnKU+Oyd2P59j2vTiWAMxzBfuizFKLQTe+8f4ZaV5Qapsx9TUSjdHi6jNSoOIKArkgKtuIb5pu7H8xB/YdVaPon4YKWsyuWnXUrjPXeLTX5hm41EvhlciGgRJieFkgT05ZB+k9qzFI/JnssMTkkhw/qNCdz0oKnx5MZLj5E4JTbemUOE58xpvdVi4MRvdFc9rWlLURt3jRuHhX04H4+YikVDc4XyAT6GSirizCDW0DYCPDjNDCwy2vqy8UNgd7a36V1x/5yaxWvKmVR52zN/N6sZ8d7LjGs+N3H6gvIvcp3ss15qSxky2G6YxQQlIwn2/6cdeeKVIFOeoKBl1BQz0qNsiM7o9N1lVAcm3Olng/NxrbWvmYtTwqHMi1qa1EivJW9YfE+DcSoMRurz+LbiLqkWIfwP6P2ii6dLbijY8latiTl8n092UXqlOEbQx/yhKvAsTG1ZWVb34t1rSYAbTs38/CnTO2T80SQKXuivANniDohcDaJYQANUW6uLmgfBA+Z0t/BVs"
+              "text" : "3jOwyxzq2gOjpuYeB/HIM4LCJacK3ssOYNSuGCLm0bIUF3WCCew43KRRvFCTqY2mY/14EkmBPwRjsDnHMRN8QOg5dPZa6N6Us0Vd+OwInAfIsHY2yG+RkGP90cpRZFTvlYF7as1Cmtn17t2841BWTQPJfWhX0eFCZTBk9gfczrFOmc0Tl/HGJ+PhicD2hNtHKVSD5a89sNTV+Yx1LZ7lMQcyC1nYnbt/FRml8WcIy5yl828AJBFqoADgo/FNQI52BnRQPA1DFPuzp7/gO6DrIWcJ3LGfGMtO6Mr4UFQz1wRffZR5U4DGxWHwcc0rpQuJ/j3OsN1RWsTi/kafc2k0Jova3tdRYMM2pcDMKFqVQty+P/dufzXeDM9j2zaO5j3CDu4kE6zU5tMUcmpbGKyAp53/hM6Z0wE3TBl7EtVls6/dLjWiv5nB/8Vmvycn5sqRcXJUPbg/Dg07mVsst7LS4FB/lJGIFVzBH4GihmFRKeuG1Usn6PKTbcqGjkU3YqShGB39dDYcdPZ39aeEgTUIgCK6eiDieI3oc4L+ELBQbmvqF4vkcMYAPwaTsQn+s8UxJLrbbVTb5pNEnPvmh8P6jdxpr1G3aigiXT3AYq7O4EkWoTqAn61lYs6lGUZU7RphGVMU4h536RQd13V1ILP32IU8Xq/SoCLwAldDYeCV3aAEqBSUvjaa8Znmkwm1gdxBtvku39OvrsVB5NgINQOlK18s/MCPtf4LAvl44b3u3DmGrCugJMzp3ZLnnu9MXy2w3Gjl+VyiDdVYnPOh/ERiiwSArwjqTsY21PKPCAZqTE6IWVODsBv6v2ZlTQkZdVffvujlu8p+kG+hO0Ho6Y8XoA=="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -254,14 +248,13 @@
               "text" : "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"
             }
           },
-          "description_text" : "## Variable definition\n\nVariables are used to store values so we can refer to them later. A variable \nis like a label, and in Python we use the ' `=` ' symbol, known as the \nassignment operator, to assign a value to a variable. An assignment can be \nchained, e.g., `a = b = 2`.   \n### Task\n - Change the value stored in the variable `greetings`.\n - Use the chain assignment to store 2 in both `a` and `b`.\n\n<div class=\"hint\">Type a new value in the answer placeholder.</div>\n",
+          "description_text" : "## Définition de variables\n\nLes variables sont utilisées pour stocker des valeurs afin de pouvoir les utiliser plus tard. \nUne variable est comme un label (le nom donné à la valeur) et dans ce langage, \nnous utilisons le caractère `=`, connu en tant que caractère d'assignation pour définir une valeur à une variable.\n\nDe plus, une assignation peut être chainée, par exemple :\n`a = b = 2`.   \n### Tâche\n - Changez la valeur stockée dans la variable `greetings`.\n - Utilisez l'assignation chainée pour stocker 2 dans les variables `a` et `b`.\n\n<div class=\"hint\">Entrez une nouvelle valeur dans le carré de réponse.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Variable+Definition",
           "task_type" : "edu"
         },
         {
-          "id" : 841494448,
-          "name" : "Undefined variable",
+          "id" : 1603741545,
+          "name" : "Variable non définie",
           "files" : {
             "undefined_variable.py" : {
               "name" : "undefined_variable.py",
@@ -283,9 +276,8 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Undefined variable\n\nVariable names may only contain Latin letters, digits, and/or the underscore \ncharacter, and they cannot start with a digit. They also cannot be any of the \nreserved <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#keywords\">keywords</a>.\n### Task\nCheck what happens if you use a variable which is not defined yet. Run the code in the editor – try to print out an undefined name.  \n\nNote, that \"check\" command only runs the testing system, and you will not see the output.\n\n<div class=\"hint\">Type the name of an undefined variable inside the brackets of the <code>print</code> statement. \nNote that variable names must start with a letter and can contain only letters, '_', and numbers.</div>\n",
+          "description_text" : "## Variable non définie\n\nLes noms de variables ne peuvent contenir que des lettres latines, des chiffres et/ou un caractère de soulignement (`_`), \nsans pouvoir, pour autant, commencer par un chiffre.\nDe plus, il n'est pas possible d'utiliser un nom réservé : \n<a href=\"https://docs.python.org/3/reference/lexical_analysis.html#keywords\">keywords</a>.\n### Tâche\nRegardez ce qu'il se passe si vous utilisez une variable qui n'est pas encore définie.\nLancer le code dans l'éditeur en essayant d'afficher une variable non définie.\n\nAttention, le bouton `check` ne lance que le système de validation, vous ne verrez pas le résultat du code.\n\n<div class=\"hint\">Ecrivez le nom d'une variable non définie dans les parenthèses de la commande <code>print</code>. \nAttention, le nom d'une variable doit commencer avec une lettre et ne contenir que lettres, '_' et chiffres.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Undefined+Variable",
           "task_type" : "edu"
         },
         {

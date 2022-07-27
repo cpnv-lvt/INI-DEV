@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: variable_definition.py
+  visible: true
+  placeholders:
+  - offset: 257
+    length: 3
+    placeholder_text: ???
+  - offset: 359
+    length: 30
+    placeholder_text: '# Assignez une nouvelle valeur'
+  - offset: 529
+    length: 42
+    placeholder_text: '# Assignez 2 aux deux variables a et b ici'
+- name: tests/test_task.py
+  visible: true

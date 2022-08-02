@@ -1,9 +1,9 @@
 content:
 - Définition de variables
 - Variable non définie
-- Variable types
-- Type conversion
-- Arithmetic operators
-- Assignments
-- Boolean operators
-- Comparison operators
+- Types de variable
+- Conversion de type
+- Opérateurs arithmétiques
+- Affectation augmentée
+- Opérateur booléen
+- Opérateurs de comparaison

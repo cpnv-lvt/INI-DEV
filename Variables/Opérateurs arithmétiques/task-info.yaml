@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: arithmetic_operators.py
+  visible: true
+  placeholders:
+  - offset: 49
+    length: 28
+    placeholder_text: '# divisez le nombre par deux'
+  - offset: 100
+    length: 44
+    placeholder_text: '# récupérez le reste de la division par deux'
+  - offset: 170
+    length: 48
+    placeholder_text: '# multipliez le résultat de la division par deux'
+  - offset: 238
+    length: 66
+    placeholder_text: '# ajouter le reste de la division au résultat de la multiplication'
+  - offset: 327
+    length: 64
+    placeholder_text: '# soustrayez le résultat de la multiplication au nombre original'
+  - offset: 408
+    length: 51
+    placeholder_text: '# Effectuez une division entière du nombre par deux'
+  - offset: 476
+    length: 61
+    placeholder_text: '# Augmentez le résultat de la multiplication à la puissance 3'
+- name: tests/test_task.py
+  visible: false

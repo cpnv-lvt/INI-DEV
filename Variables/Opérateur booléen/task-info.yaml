@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: boolean_operators.py
+  visible: true
+  placeholders:
+  - offset: 34
+    length: 3
+    placeholder_text: ???
+  - offset: 100
+    length: 55
+    placeholder_text: '# une valeur booléenne pour les déclarations véridiques'
+  - offset: 211
+    length: 62
+    placeholder_text: '# une valeur booléenne pour les déclarations pas si véridiques'
+- name: tests/test_task.py
+  visible: false

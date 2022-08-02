@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: variable_type.py
+  visible: true
+  placeholders:
+  - offset: 99
+    length: 3
+    placeholder_text: ???
+- name: tests/test_task.py
+  visible: false

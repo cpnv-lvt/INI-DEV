@@ -1,0 +1,25 @@
+type: edu
+files:
+- name: comparison_operators.py
+  visible: true
+  placeholders:
+  - offset: 313
+    length: 1
+    placeholder_text: '?'
+  - offset: 477
+    length: 1
+    placeholder_text: '?'
+  - offset: 643
+    length: 1
+    placeholder_text: '?'
+  - offset: 651
+    length: 1
+    placeholder_text: '?'
+  - offset: 841
+    length: 1
+    placeholder_text: '?'
+  - offset: 1004
+    length: 1
+    placeholder_text: '?'
+- name: tests/test_task.py
+  visible: false

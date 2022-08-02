@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: type_cast.py
+  visible: true
+  placeholders:
+  - offset: 233
+    length: 28
+    placeholder_text: '"convertissez le en int ici"'
+- name: tests/test_task.py
+  visible: false

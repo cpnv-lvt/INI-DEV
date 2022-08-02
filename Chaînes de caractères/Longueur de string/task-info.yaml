@@ -1,0 +1,15 @@
+type: edu
+files:
+- name: len_function.py
+  visible: true
+  placeholders:
+  - offset: 174
+    length: 5
+    placeholder_text: '"???"'
+  - offset: 228
+    length: 5
+    placeholder_text: '"???"'
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

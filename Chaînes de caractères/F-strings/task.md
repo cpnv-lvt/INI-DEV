@@ -1,16 +1,15 @@
-## Formatted string literals
+## Modèles de string
 
-A formatted string literal, or an f-string, is a string literal that is prefixed 
-with 'f' or 'F'. These strings may contain replacement fields, which are 
-expressions delimited by curly braces `{}`. 
+Un modèle de string, ou f-string, est une string qui est préfixée avec 'f' ou 'F'.
+Ces strings peuvent contenir des champs de remplacement, qui sont délimités par des crochets `{}`.
 
-The parts of the string outside curly braces are treated literally. 
-Escape sequences are decoded like in ordinary string literals.
-Replacement expressions can contain line breaks (e.g., in triple-quoted strings), 
-but they cannot contain comments. Each expression is evaluated in the context 
-where the formatted string literal appears, in order from left to right.
+Les parties de la string en dehors des crochets sont traitées littéralement.
 
-Here are some examples:
+Les caractères d'échappement sont décodés comme dans une string normale.
+Les expressions de remplacement peuvent contenir des retours à la ligne mais ne peuvent pas contenir de commentaires. 
+Chaque expression est évaluée dans le contexte où la string apparaît, dans l'ordre de gauche à droite.
+
+Voici quelques exemples :
 ```python
 name = "Fred"
 f"He said his name is {name}."
@@ -19,7 +18,7 @@ f"He said his name is {name}."
 'He said his name is Fred.'
 ```
 
-There are more fancy things you can do in f-strings, for example:
+Il y a d'autres choses particulières que vous pouvez faire avec les f-strings, par exemple :
 ```python
 f"{name.lower()} is funny."
 ```
@@ -27,10 +26,12 @@ f"{name.lower()} is funny."
 ```text
 'fred is funny.'
 ```
-For more information about formatted string literals you can refer to <a href="https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals">Python Docs</a>.
 
-Try creating an f-string yourself. Also try running the code to see what it prints.
+Pour plus d'information avec les modèles, vous pouvez consulter la <a href="https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals">Documentation Python</a>.
 
-<div class="hint">The value assigned to the <code>name</code> variable has to be a string, so it needs to be in quotes, 
-like so: <code>'Max'</code>.</div>
+### Tâche
+Essayez de créer une f-string vous-même. Essayez ensuite de lancer le code pour voir ce qui s'affiche.
+
+<div class="hint">La valeur affectée à la variable <code>name</code> doit être une string,
+et doit donc être entre caractère de citation, tel que : <code>'Max'</code>.</div>
 

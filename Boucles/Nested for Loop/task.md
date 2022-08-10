@@ -1,7 +1,8 @@
-## Nested Loops
+## Boucles imbriquées
 
-A nested loop is a loop inside another loop.
-The inner loop is executed once for each iteration of the outer loop.
+Une boucle imbriquée est en faite une boucle dans une boucle. La boucle intérieur est exécutée
+à chaque itération de la boucle principale.
+
 
 ```python
 adjectives = ["black", "stylish", "expensive"]
@@ -25,13 +26,13 @@ expensive boots
 ```
 <details>
 
-Note that any type of loop can be nested inside another loop. 
-For example, a [`while` loop](course://Boucles/While loop) (see further) can be nested inside a `for` loop, or vice versa.
+Notez que n'importe quel type de boucle permet d'être imbriquée.
+Par exemple, la boucle [`while` loop](course://Boucles/While loop) (voir chapitre sur la boucle while) 
+peut être imbriquée à l'intérieur d'une boucle `for` ou vice et versa.
 </details>
 
-
-You are given a tic-tac-toe board of 3x3, your task is to print every position. Coordinates along each side
-are stored in the list `coordinates`. The output should be:
+On vous donne un plateau du tic-tac-toe de taille 3x3, votre tâche est d'imprimer chaque position. 
+Les coordonnées de chaque côté seront enrigistrés dans la liste `coordinates`. La sortie doit être :
 ```text
 1 x 1
 1 x 2
@@ -39,10 +40,9 @@ are stored in the list `coordinates`. The output should be:
 2 x 1
 ...
 ```
-and so on for every combination of coordinates.
+Et ceci pour chaque combinaison de coordonées.
 
 <div class="hint">
 
-In the nested `for` loop, iterate over the same list once again but using another variable name
-this time (`coordinate2`).
+Dans une boucle imbriquée `for`, énuméré chaque élément de la liste en utilisant une autre variable telque (`coordinate2`).
 </div>

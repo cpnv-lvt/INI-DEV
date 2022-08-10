@@ -1,13 +1,11 @@
-## Break keyword
+## le mot clé Break
 
-An infinite loop is a loop that never exits. If the loop condition happens to 
-always be `True`, such a loop becomes infinite. The most straightforward way to create
-an infinite loop is to use `while True`. The `break` keyword is used to 
-escape the loop.  
+Une boucle infine comme son nom l'indique ne se termine jamais. Si la condition d'une boucle s'avère être 
+toujours vrai (`True`), nous appelons un tel boucle `une boucle infinie`. La manière la plus directe de faire 
+une tel boucle est d'utiliser `while True`. Le mot clé `break`, permet de quitter une tel boucle.
 
-  
-Write a condition to exit the loop on its third iteration after evaluating if `animal`
-is equal to `elephant`.  Use the `break` statement.  The `zoo` list in the end should contain 
-only `lion` and `tiger` (because you `pop` all the other ones in the loop).
+Écrivez une condition permettant de quitter la boucle à sa troisième iteration après avoir évalué si `animal` est égal
+à `elephant`. Utiliser le mot clé `break`. A la fin du programme, la liste `zoo` doit seulement contenir les mots `lion`
+et `tiger` (vu que vous avez utiliser `pop` sur les autres élements dans la boucle).
 
-<div class="hint">Use <code>==</code> to check if <code>animal</code> is equal to <code>"elephant"</code>.</div>
+<div class="hint">utiliser <code>==</code> pour vérifier si  <code>animal</code> est égal à <code>"elephant"</code>.</div>

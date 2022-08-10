@@ -1,15 +1,14 @@
-## for loop
+## la boucle for
 
-The `for` statement is used to iterate over the elements of a sequence (such as 
-a string, tuple, or list) or another iterable object. The sequence is evaluated once.
-On each iteration, the variable defined in the `for` loop will be assigned to the next value
-in the list. The code following the line with the `for` statement is executed once 
-for each item. When the items are exhausted, the loop terminates.
+Le mot clé `for` est utilisé pour passer d'un élément à un autre d'une séquence (tel qu'une chaine de caractère, 
+un tuple ou une liste). La séquence est évaluée une seule fois. A chaque évaluation, la valeur suivante de la séquence 
+sera attribuée àla variable définie dans la déclaration de la boucle `for`. Le code défini après le mot `for` 
+sera exécuté une fois pour chaque élément. Lorsque l'on arrive à la fin des éléments, la boucle s'arrête.
 
-You can read more about the `for` statement on <a href="https://docs.python.org/3/reference/compound_stmts.html#the-for-statement">this page</a> of Python Documentation.
+Vous pouvez lire d'avantage au sujet de la boucle `for` sur<a href="https://docs.python.org/3/reference/compound_stmts.html#the-for-statement">cete page</a> de la documentation python.
+
+Imprimer chaque nombre premier depuis la liste `primes` en utilisant la boucle `for`. Un nombre premier est un nombre 
+qui n'est divisible que par `1` ou lui même.
   
-Print each prime number from the `primes` list using the `for` loop. A prime 
-number is a natural number greater than `1` that has no positive divisors 
-other than `1` and itself.  
 
-<div class='hint'>Use a <code>for</code> loop to iterate over <code>primes</code> and print each element one by one.</div>
+<div class='hint'>Utiliser la boucle <code>for</code> pour passer à travers les éléments de <code>primes</code> et les imprimer un par un.</div>

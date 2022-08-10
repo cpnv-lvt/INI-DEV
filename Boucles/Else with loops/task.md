@@ -1,11 +1,11 @@
-## Else with loops
+## Les boucles avec Else
 
-We saw that the `break` statement breaks out of the innermost enclosing `for` or `while` loop.
+Nous avons déjà vu que le terme `break` sort de la boucle `for` ou `while`.
 
-Python also allows loop statements to have an `else` clause. It is executed when the loop terminates
-through exhaustion of the iterable (with `for`) or when the condition becomes `False`
-(with `while`), but not when the loop is terminated by a `break` statement. Check
-out this example of a loop which searches for prime numbers:
+Python permet aussi à une boucle d'avoir une clause `else`. Cette partie sera exécutée à la fin de la boucle sur un itérable
+(pour la boucle `for`) ou losque la condition devient `False`dans une boucle `while`, mais pas losque l'on quitte une boucle 
+avec `break`. Regarder l'exemple ci-dessous qui recherche les nombres premiers :
+
 
 ```python
 for n in range(2, 10):
@@ -27,14 +27,15 @@ for n in range(2, 10):
 8 equals 2 * 4
 9 equals 3 * 3
 ```
-In this code, the `else` clause belongs to the `for` loop, not the
-`if` statement.
 
-Remember, an `else` after an `if` statement is skipped and NOT executed if the expression following 
-`if` is `True`, while in the case of loops, an `else` clause is executed after the loop itself
-is completed (unless there was a `break` in there somewhere).
+Dans le code ci-dessus, la claude `else` est attachée à la boucle `for` et pas a un teste logique `if`.
 
-In the code editor, add two lines of code to the second loop to make sure the loop only prints
-numbers 1 and 2 and never prints the phrase `"for loop is done"`.
+Rappelez-vous que `else` après un `if`n'est PAS exécuté  si l'expression après `if` est vrai (`True`), alors que dans le
+cas d'une boucle, un `else` sera exécuté à la fin de la boucle (sauf si celle-ci est terminée par un `break`).
 
-<div class="hint">It should terminate at number 3.</div>
+# task
+
+Dans l'éditeur de code, ajoutez deux lignes de code à la seconde boucle afin d'être sûr que la boucle imprime seulement 
+les nombres 1 et 2 and n'imprime jamais la phrase `"for loop is done"`.
+
+<div class="hint">La boucle doit se terminer sur le nombre 3.</div>

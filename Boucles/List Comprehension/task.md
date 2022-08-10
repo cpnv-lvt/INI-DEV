@@ -1,7 +1,7 @@
-## List Comprehension
+## List comprehension
 
-You can use a loop to build a list (or another data structure).
-For example:
+Vous pouvez utiliser une boucle afin de construire une liste (ou une autre structure).
+Par exemple:
 
 ```python
 my_list = []
@@ -10,32 +10,35 @@ for i in range(5):
 
 print(my_list)
 ```
-Output:
+Sortie:
 ```text
 [0, 1, 2, 3, 4]
 ```
 
-This is nice, but quite bulky. List comprehension offers a more compact syntax when you want to create a new list based on the values of an existing list
-or another iterable (tuple, string, array, range, etc.). It does the same task and simplifies the program. Typically, list comprehensions are written in a single line of code.
+C'est bien mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante 
+ou un autre itérable (tuple, chaine de caractères, tableau, rang, etc...). Elle permet de faire la même tâche d'une manière plus simple.
+Typiquement, les `List comprehension` s'écrivent en une seule ligne.
 
 ```python
 my_list = [i for i in range(5)]
 print(my_list)
 ```
-Output:
+Sortie:
 ```text
 [0, 1, 2, 3, 4]
 ```
-List comprehensions are also more efficient computationally than a `for` loop.
 
-In the code editor, use list comprehension to build `my_efficient_list` from the elements of `my_inefficient_list`
-by adding $10$ to each of them. For example, the first element of `my_inefficient_list` is $1 + 10 = 11$,
-so the first element of `my_efficient_list` should be $11 + 10 = 21$, and so on.
+Les `List comprehension`  sont aussi plus efficace et rapide qu'une boucle `for`.
+
+# task
+
+Dans l'éditeur de code, utilisez une `List comprehension` afin de construire la liste `my_efficient_list` 
+depuis les éléments de  `my_inefficient_list` en ajoutant $10$ a chaque élément. Par exemple, le premier élément de 
+`my_inefficient_list` est $1 + 10 = 11$, donc le premier élément de `my_efficient_list` devrait être $11 + 10 = 21$, etc...
 
 
 <div class="hint">
 
-In the example above, we used `i for i in range(5)`. You can modify `i` as you like 
-right inside this expression. For example, to subtract `5` from every `i`, you can do 
-`i - 5 for i in range(5)`.
+Dans l'exemple ci-dessus, nous utilisons `i for i in range(5)`. Vous pouvez modifier `i` comme vous le voulez directement 
+à l'intérieur de l'expression. Par exemple, en enlevant `5` à chaque `i`, comme ceci `i - 5 for i in range(5)`.
 </div>

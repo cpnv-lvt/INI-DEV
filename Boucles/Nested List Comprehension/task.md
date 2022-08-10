@@ -1,8 +1,9 @@
-## Nested List Comprehension
+## L'imbrication de list comprehension
 
-Nested list comprehensions are simply list comprehensions nested within other 
-list comprehension. This is quite similar to [nested loops](course://Boucles/Nested for Loop).
-Here is a program that builds a [nested list](course://Structures de données/Nested Lists) using a nested loop:
+Une liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.
+Elles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).
+Voici un programme qui construit une [Liste imbriquée](course://Structures de données/Nested Lists) en utilisant 
+des boucles imbriquées :
 
 ```python
 matrix = []
@@ -17,32 +18,31 @@ for i in range(3):
 
 print(matrix)
 ```
-Output:
+Sortie:
 ```text
 [[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]
 ```
 
-The same can be done in just one line using nested list comprehension:
+Le même programme peut être écrit en une seul ligne en utilisant les listes imbriquées :
 
 ```python
 matrix = [[j for j in range(0, 10, 2)] for i in range(3)]
 print(matrix)
 ```
-Output:
+Sortie:
 ```text
 [[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]
 ```
 
 ### Task
 
-Create a $10×10$ `matrix` such that each row (sublist) contains **characters** 0–9 from
-`string`. Use list comprehension to complete the task in one line of code. 
+Créer une `matrice` de $10x10$ de tel sorte que chaque ligne (sous liste) contiennent les **caractères** 0-9 depuis une 
+chaine de caractères. Utilisez la technique présenter ci-dessous afin d'écrire un code en une ligne.
 
 <div class="hint">
 
-Follow the example in the task description. You simply need to use `string` as an iterable instead
-of one of the ranges.
-
+suivez l'exemple dans la partie ci-dessus. Vous devez simplement utiliser une `string` comme itérable à la place 
+de chaque rang ([0],[1], etc ...)
 </div>
 
 

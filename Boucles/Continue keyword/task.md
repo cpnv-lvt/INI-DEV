@@ -1,10 +1,9 @@
-## Continue keyword
+## Le mot clé Continue
 
-The `continue` keyword is used to skip the rest of the code inside the loop for 
-the current iteration only and proceed right to the next one. The loop returns to the `for` or 
-`while` statement and evaluates the condition again. If there is no next item, 
-the `else` clause is executed if it is present.
-  
-Print only the odd numbers `1, 3, 5, 7, 9`.  
+Le mot clé `contine` est utilisé afin de sauter la suite du code à l'intéreur d'une boucle seulement
+pour l'itération courante et procède directement à l'itération suivante. La boucle retour à l'évaluation 
+de `for` ou `while`. Si il n'y a plus d'objet, la condition `else` est évaluée si présente.
 
-<div class='hint'>Use the <code>%</code> operator to check if <code>x</code> is even.</div>
+Imprimer à l'écran seulement les nombres impairs `1, 3, 5, 7, 9`.
+
+<div class='hint'>Utilisez l'opérateur <code>%</code> pour vérifier si  <code>x</code> est pair.</div>

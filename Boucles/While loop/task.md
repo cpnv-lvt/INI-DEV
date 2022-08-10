@@ -1,10 +1,10 @@
-## while loop
+## la boucle while
 
-A `while` loop is somewhat similar to an `if` statement: it executes some code if some 
-condition is `True`. The key difference is that it will continue to execute indented 
-code for as long as the condition is `True`.  If the expression is `False`, the loop terminates.
-  
-Print all squares from `1` to `9`  `(1, 4, ... , 81)`. Use the `number` variable in a
-`while` loop.  
+Une boucle `while` est similair à l'instruction `if`: la boucle exécute du code seulement si une condition est vrai `True`.
+La principale différence est que la boucle s'exécutera sans intérruption tant que la condition de test est vrai. 
+Si l'expression est fausse (`False`) la boucle s'arrête.
 
-<div class='hint'>Make sure that <code>number</code> is strictly less than 10 in the condition.</div>
+A  l'aide de la variable `number` et une boucle `while`imprimer les carrés des nombres de `1` à `9`.
+
+
+<div class='hint'>Assurez-vous que la variable <code>number</code> est strictement plus petite que 10 dans la condition de la boucle.</div>

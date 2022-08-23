@@ -1,17 +1,14 @@
-## Parameters and call arguments
+## Arguments et paramètres d'une fonction
 
-Function parameters are defined inside the parentheses `()` following the 
-function name. A parameter acts as a variable name for an argument passed to the
-function. 
+Les paramètres d'une fonction sont définis à l'intérieur des parenthèses `()` juste après le nom de la fonction. 
+Un paramètre joue le rôle d'une variable pour l'argument passé à la fonction.
 
-The terms parameter and argument refer to the same thing: information 
-that is passed into a function. However, a parameter is the variable listed 
-inside the parentheses in the function definition, while an argument is the 
-value that is sent to the function when it is called.
+Les termes paramètres et arguments font référence au même chose : l'information qui est passé à une fonction. 
+Cependant, un paramètre est une variable listée à l'intérieur de la déclaration d'une fonction (dans les parenthèses), 
+alors qu'un argument est la valeur qui est envoyée à la fonction lorsqu'elle est appelée.
 
-By default, a function must be called with the correct number of arguments. 
-If your function expects 2 arguments, you have to call it 
-with 2 arguments:
+Par défaut, une fonction doit être appelée avec le nombre d'arguments correct. Si votre fonction demande deux arguments,
+vous devez lui fournir deux arguments :
 
 ```python
 def my_function(name, surname):
@@ -19,15 +16,15 @@ def my_function(name, surname):
 
 my_function("Jon", "Snow")
 ```
-Result:
+Résultat:
 ```text
 Jon Snow
 ```
-However, if you supply it with just one argument during the call:
+Sinon, si vous fournissez seulement un argument lors de son appel :
 ```python
 my_function("Sam")
 ```
-`TypeError` will be raised:
+une erreur de telque :`TypeError` sera appelée :
 ```text
 TypeError                                 Traceback (most recent call last)
 <ipython-input-29-40eb74e4b26a> in <module>
@@ -36,6 +33,6 @@ TypeError                                 Traceback (most recent call last)
 TypeError: my_function() missing 1 required positional argument: 'surname'
 ```
 ### Task
-In the code editor, define a function that prints the square of a passed parameter.  
+Dans l'éditeur de code, définissez une fonction qui imprime le carré d'un nombre.r.  
 
-<div class='hint'>Add the <code>x</code> parameter inside parentheses in the function definition.</div>
+<div class='hint'>Ajoutez un <code>x</code> comme paramètre à l'intérieur des  parenthèses dans la définition de la fonction.</div>

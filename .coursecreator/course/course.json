@@ -8,11 +8,11 @@
   "course_type" : "Marketplace",
   "items" : [
     {
-      "id" : 377198083,
+      "id" : 1414295593,
       "title" : "Introduction",
       "task_list" : [
         {
-          "id" : 1964994852,
+          "id" : 1578710375,
           "name" : "Navigation",
           "files" : {
             "main.py" : {
@@ -33,7 +33,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1948014164,
+          "id" : 2019525996,
           "name" : "Onglet Course",
           "files" : {
             "main.py" : {
@@ -54,7 +54,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 346671114,
+          "id" : 1105839133,
           "name" : "Editeur de texte",
           "files" : {
             "main.py" : {
@@ -81,7 +81,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1388433994,
+          "id" : 1222619774,
           "name" : "Description de la tâche",
           "files" : {
             "main.py" : {
@@ -150,7 +150,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1165800945,
+          "id" : 1601836047,
           "name" : "Notre premier programme",
           "files" : {
             "hello_world.py" : {
@@ -178,7 +178,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1288236552,
+          "id" : 1535811177,
           "name" : "Commentaires",
           "files" : {
             "commentaires.py" : {
@@ -209,11 +209,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 724933666,
+      "id" : 887049254,
       "title" : "Variables",
       "task_list" : [
         {
-          "id" : 1912378871,
+          "id" : 1630893212,
           "name" : "Définition de variables",
           "files" : {
             "variable_definition.py" : {
@@ -253,7 +253,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1603741545,
+          "id" : 1860226777,
           "name" : "Variable non définie",
           "files" : {
             "undefined_variable.py" : {
@@ -281,21 +281,21 @@
           "task_type" : "edu"
         },
         {
-          "id" : 966475603,
-          "name" : "Variable types",
+          "id" : 1637248186,
+          "name" : "Types de variable",
           "files" : {
             "variable_type.py" : {
               "name" : "variable_type.py",
               "placeholders" : [
                 {
-                  "offset" : 93,
+                  "offset" : 99,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "YoOJiSbqbvZVuvvxZHm4glvjYH8+2/85XfTT2CADIbSHMcaowC5ZRNG3iwVBZ04WKVTy2PlfOSKVDlYN4H54SGnSpseCW9jvWnR9DREuoHJT+G9bTMeP+jAYQmW2OYXT6uRSGZ877NoKT4n1vXGfsw=="
+              "text" : "rTkilHyrkPdH2HrP/U8wyG9+vDulUIkbGPgROxLXoWkUHdEZCtLq/7iRyFBCZWmPi8g7CEqkjLCJ5P+kl6U83bc1zR/geAR4SDztu7zWM0VyOlHfaFkq/LzXaLFE3js/ErpezRjUQqmtJ44k9AmT+A=="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -304,27 +304,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Variable types\n\nAll data in a Python program is represented by objects or by relations between \nobjects. Every object has an identity, a type, and a value. An object’s identity \nnever changes once it has been created; you may think of it as the object’s \naddress in memory.\n\nAn object’s `type` determines the operations that it supports (e.g., \n“does it have a length?”) and defines the possible values for objects of \nthat type. The `type()` function returns an object’s type (which is an object itself). \nLike its identity, an object’s type is also unchangeable.\n\nThe value of some objects can change. Objects whose value \ncan change are <i>mutable</i>; objects whose value is unchangeable once \nthey are created are called <i>immutable</i>.\n\nIn Python, there are two main types of numbers: integers and floats. The most important \ndifference between them is that a `float` is a number that has a decimal point, \nand an `int` is a number without a decimal point.  \n\nFor more information on this topic, refer to the \"<a href=\"https://docs.python.org/3/reference/datamodel.html#objects-values-and-types\">Objects, values and types</a>\"\nand \"<a href=\"https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy\">The standard type hierarchy</a>\" sections in Python Documentation.\n\n### Task\nPrint the type of the variable `float_number`.  \n\n<div class=\"hint\">\nCheck out how we determined the type of <code>number</code> on line 2 and do the same with <code>float_number</code>.</div>\n",
+          "description_text" : "## Types de variable\n\nToutes les données dans un programme en python sont représentées par des objets ou des relations entre des objets.\nChaque objet a une identité, un type et une valeur.\nL'identité d'un objet ne changera jamais après sa création, nous pouvons la considérer comme son adresse dans la mémoire.\n\nLe `type` d'un objet détermine les opérations qu'il va supporter (p.e. \"Est-ce qu'il a une longueur définie\")\net va également définir les valeurs possible pour ce type d'objet.\nLa fonction `type()` retourne le type de l'objet (le type étant un objet lui-même).\nTout comme son identité, le type d'un objet ne pourra pas changer après sa création.\n\nLa valeur de certains objets peut changer. Les objets pour lesquels la valeur peut être modifiée sont <i>variables</i>;\nLes objets dont la veleur ne peut être changée sont <i>immuables</i>, cela signifie que leur valeur est constante.\n\nEn Python, il y a deux types principaux pour les nombres: integers et floats.\nLa plus grande différence entre eux est qu'un `float` est un nombre décimal (à virgule),\nalors qu'un `int` est un nombre entier (sans virgule).\n\nPour plius d'informations sur le sujet, aller dans les sections \"<a href=\"https://docs.python.org/3/reference/datamodel.html#objects-values-and-types\">Objects, values and types</a>\"\net \"<a href=\"https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy\">The standard type hierarchy</a>\"\ndans la documentation Python.\n\n### Tâche\nAffichez le type de la variable `float_number`.\n\n<div class=\"hint\">\nRegardez comment nous déterminons le type de la variable <code>number</code> à la ligne 2 et faîtes la même chose avec <code>float_number</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Variable+Types",
           "task_type" : "edu"
         },
         {
-          "id" : 1939504621,
-          "name" : "Type conversion",
+          "id" : 1449956761,
+          "name" : "Conversion de type",
           "files" : {
             "type_cast.py" : {
               "name" : "type_cast.py",
               "placeholders" : [
                 {
-                  "offset" : 223,
-                  "length" : 24,
-                  "possible_answer" : "B/BP6+bKUiC39Doggaag/z0u7urhsEwEaq3mvctUR1s=",
-                  "placeholder_text" : "\"convert it to int here\""
+                  "offset" : 233,
+                  "length" : 28,
+                  "possible_answer" : "jvx4YHhN8lGF17/FFxyP/ud8R7PoStiCJMMlPGD0e/4=",
+                  "placeholder_text" : "\"convertissez le en int ici\""
                 }
               ],
               "is_visible" : true,
-              "text" : "YoOJiSbqbvZVuvvxZHm4glvjYH8+2/85XfTT2CADIbSHMcaowC5ZRNG3iwVBZ04WKVTy2PlfOSKVDlYN4H54SGnSpseCW9jvWnR9DREuoHLxqyx9IMl8zzefMuaeXjiBslVBPcTHDAPeZBN+JCrTBNuy7X/fD1mTRxTovDaSJr6E91FtEVyTh0P77ATxJWuRrenuCWdKxH4gerrGUimI9cCvZyt97J+5JFkHhqQcTtPtQoFmYLU9Zf59py3OnH3RPQJwyevsoAEZHddFZgGgLIN1hBjB1Wpqra3Bk0FA+y+EKw+rgZBCmQ0rpzTzAPXlL5AL/UYrojnxeo1p1S5PknYq/IOI6N3/h8EAD7Lry5aDD7p2aLEQgarq/wZM/eorMieJ6zdDAIX5NLSUKlF0XhYV3QD803sjcOEXkmOOIM+PC0vZsNms/ZqN58gQZvPYVOiBsvnk71X/dcw2WPl03ighK+rpgEMsOC854FAQeObeWgIyGCf63Td+CpOjqXBs4Og1LzrpMFpID7VtL9b/Sw=="
+              "text" : "rTkilHyrkPdH2HrP/U8wyG9+vDulUIkbGPgROxLXoWkUHdEZCtLq/7iRyFBCZWmPi8g7CEqkjLCJ5P+kl6U83bc1zR/geAR4SDztu7zWM0UyvXIagOQDqnm/sdHEKLaIbht3eXeJ+dZ5LrEE04MFt92m2gOv5wCr/mTBYvMOSYX/D5x/jPY/BaSTO38G4jcAbN8Iu+yAu92wkB+lmMPxs8E3e+a8/0eHQZyS0/gdbQDiXITAdT9jMq4zHqODgN7DVoBa7IMXV4spK8v2bvMoCe6TzDamg09izD6PobHg34C4yyxsi9eVtmewOOvB64Qnm1OtxUdSq2Y2s/xA4vrf2j0p3Jt2kLrpnAY0Lz3ghWBUVd5UW8NAYytsoYtp75JHMI70g9H8wpWIXF7rzkCt9r2BALU0N9afFdiH2PMs7RpoiO0QoT+26PvEtSUkZTzDxtTGzYal19XodHgKY5H6LIqmGUrqCK94CH7rSn6Pz1j4X34sf15P4oc1EkVMd+ecR57SJVy9SMJ5VQuVIwqQnz1d9P3FEKD0+EUbUbtdAFM="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -333,63 +332,62 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Type conversion\n\nThere are several built-in functions that let you convert one data type into another. \nThese functions return a new object representing the converted value. `int(x)` \nconverts `x` into an integer. `float(x)` converts `x` into a floating-point number. `str(x)` \nconverts object `x` into a string representation.  \n### Task\nConvert `float_number` into an integer.  \n\n<div class=\"hint\">Use the <code>int()</code> function.</div>\n",
+          "description_text" : "## Convertion de type\n\nIl y a différentes fonctions natives (déjà inclues dans le code) qui vous permette de convertir un type dans un autre.\nCes fonctions retournent un nouvel objet représentant la valeur convertie.\n`int(x)` converti `x` en un integer (nombre entier). `float(x)` converti `x` en un float (nombre décimal).\n`str(x)` converti `x` en une string (chaîne de caractères).\n\n### Tâche\nConvertissez `float_number` en un integer.\n\n<div class=\"hint\">Utilisez la fonction <code>int()</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Type+Conversion",
           "task_type" : "edu"
         },
         {
-          "id" : 652414762,
-          "name" : "Arithmetic operators",
+          "id" : 473406044,
+          "name" : "Opérateurs arithmétiques",
           "files" : {
             "arithmetic_operators.py" : {
               "name" : "arithmetic_operators.py",
               "placeholders" : [
                 {
-                  "offset" : 54,
-                  "length" : 26,
-                  "possible_answer" : "2MY44YahlQ68W6AKBOHo52aPWWkV+JfMCh1rWJ0rTRM=",
-                  "placeholder_text" : "# divide the number by two"
+                  "offset" : 49,
+                  "length" : 28,
+                  "possible_answer" : "lfJ4ULRkz3oZIdSna46/2ZiNuvV+pyvPGDCOQdhijJA=",
+                  "placeholder_text" : "# divisez le nombre par deux"
                 },
                 {
-                  "offset" : 103,
-                  "length" : 55,
-                  "possible_answer" : "9taUozasQLsuKQff5ufEXrul8eavMnrTi13815KF08tfIg8BCGg8ZnVUKksno9ND/W2DHjQuhZ0MeFbWvCEXGw==",
-                  "placeholder_text" : "# get the argument of the division of the number by two"
+                  "offset" : 100,
+                  "length" : 44,
+                  "possible_answer" : "u+zOxxEFKtpFTG7nKVLqZ3ceT5WqCmegbvkzxqil51xuL5tbxaZvOTKAP20yPcHs",
+                  "placeholder_text" : "# récupérez le reste de la division par deux"
                 },
                 {
-                  "offset" : 184,
-                  "length" : 35,
-                  "possible_answer" : "sju1MZ3NiSs5JDCc+wMVqhcfcETUaOztv5u7pcXuBpPV8HUqsATNdXqCWWz9tdCF",
-                  "placeholder_text" : "# multiply the division result by 2"
+                  "offset" : 170,
+                  "length" : 48,
+                  "possible_answer" : "CpLiywpnAxqJRcrTHr/Ns/hE/6CkeZDdCQ1ucRFXHf5Iddd9LfhcM6TL5UlorbSCrGWlDC5nHs5ASef3ZSECuw==",
+                  "placeholder_text" : "# multipliez le résultat de la division par deux"
                 },
                 {
-                  "offset" : 239,
-                  "length" : 57,
-                  "possible_answer" : "7G5rMhYQZEeNJCE/Y68cOtKZiMy1CKFbUljebvR/YvSAJ1kgf9NufOIxzYUojvrPqQ6joKunJfoder6sh11qsw==",
-                  "placeholder_text" : "# add the division remainder to the multiplication result"
+                  "offset" : 238,
+                  "length" : 66,
+                  "possible_answer" : "zB9Xl6ANGEFIdDmSb4uSKhMjxfAMyECNUhbWTgV0Fpk2vA8uaOag8OL5LEbKrcLhjAyoFz57A+Du9qRBLmSCzvwB/IN/xDzUGSLz3NrlzhI=",
+                  "placeholder_text" : "# ajouter le reste de la division au résultat de la multiplication"
                 },
                 {
-                  "offset" : 319,
-                  "length" : 60,
-                  "possible_answer" : "sGWohPIxYcc6XUIak/yhGvMlaHedfAEyofWUHZyTvK/XH0qrkDorERa5acKacBooNtddHU+IdvUKJsjOclxXxQ==",
-                  "placeholder_text" : "# subtract the multiplication result from the initial number"
+                  "offset" : 327,
+                  "length" : 64,
+                  "possible_answer" : "oRyz8QI/WhEjSAY3YInNhpUaD7rO0mNiVYSB3w5FR345b85IXXMf++Z5Trlu1K4NgeZ+8ke15U6/LuIr0XZ8KW1kQWxUHU825p5HigUZtN4=",
+                  "placeholder_text" : "# soustrayez le résultat de la multiplication au nombre original"
                 },
                 {
-                  "offset" : 396,
-                  "length" : 41,
-                  "possible_answer" : "SsD8eLqHRseXdCaOaDnw0wyQLrKiaQncSgoaY0r7+MnFJUd3hh7u7vPWUmonHWgH",
-                  "placeholder_text" : "# perform a floor division of number by 2"
-                },
-                {
-                  "offset" : 454,
+                  "offset" : 408,
                   "length" : 51,
-                  "possible_answer" : "OC0/GMOIMB7XgnAei954Ug1aBNvxfD2ABKjmRz/jTjcAqDCrZKQs1IIysxaBOQFv592GuVkRvRyXMU26tOvnDQ==",
-                  "placeholder_text" : "# raise the multiplication result to the power of 3"
+                  "possible_answer" : "IR6PHWsYzljqHV8kviMLnQ7NB69NfGTor0BumfzJzcET4nmww+B4a0ehhuM3nHUM3qBjWojHplhQVCcASF03Ew==",
+                  "placeholder_text" : "# Effectuez une division entière du nombre par deux"
+                },
+                {
+                  "offset" : 476,
+                  "length" : 61,
+                  "possible_answer" : "xBtZwA+nT7j7fviA07duAnLPeC+FiH2RITeyr26L6HwbBL4gh6kZAS5SkgkgdsssIbETzzwJkijZ8JjzfrTVyQ==",
+                  "placeholder_text" : "# Augmentez le résultat de la multiplication à la puissance 3"
                 }
               ],
               "is_visible" : true,
-              "text" : "hfbkELl8Xo1LId/aahgBqBoB6nAH3udqvuXjgK/DTg4Dga+JiEhlKs5MgAo38Or+iD4+pDHkXDl/qmk+q0a1nJIKIhRlw7XyXOxDsUdZOTazgbGxArPfGGj3iJawHVCOGN5EOcjbxtGIHfZgnvbB8sPkBMeMa2w9ZSvYU2WN6pFixj7eSoHOzjkZBBUK1d8/VbUTBIVTGr42MIHKj0mBVL+BiiI9qITp0yOtBrNMF3Mcb/mXRVnCd3lQLuVQTjSYd9M2Y0qJKDH/heKVaqL0ZV6Tu1/ziqJDosRz+YSPopTZsMTSTJNuBTbmfpRoyrRhyHmnxE3DU5haHmPhHE6CiKZjp2tcDnXUUo5ban/7HIdcUh3twqLVt6dCkEpJisD0JJ6fIWZI5ZKwZdfLn4uGrRqSB5RfTdIQXNCJ/YI6fN3lYZ00k/1m3HEKLOjz5Se2G3tTATLGtNXTgViqaBO62leUvevXeaScoOKXAtxB103RQ2vFPurfPqShB9LF3Gp6t0dJInz7Oy8ejkCUDCZ4uOu8Z9iVxMoY6ggn9PkW+doFF/E5jKZceMUZ6cQpNED9y3cuSsWbqotxVdo/sjuPc2kw9j+rrNw5tjzgZRpSpE6HXtGg4pbYe/YJgY0cZOTxm7t+E032fYRdWbIj96Vbkm1mCdinYHP6uvQLFW7q8aZw6yy8Mn9uz1O4E76WHS8E8uymNTDHg+SfP0fQVmGhqiBw9GH/Xk54iqxrMu4M1gA="
+              "text" : "n+QBBQ4GkX2b/ZxfRMFuBbR8zxXCNMuaayFp6bxLWMBiDM7LS/iIATQHHQ5noCnf+n8+E0LyiX4uQJp7Udpm8JrjRrrYwur3+iBq8cAHKqOYhbkjcUcv35mfS8Ib+DwMPwZnA09m+merqNO2zOi4/NpOukzpNkNPKFXrespnQUID6thVH0x1yYhtiGR64x4aINgYgFB32nTz0pwpt+h7xWGsIUAsTrHpiaU1WgeaFz3x+TDQSsfMSAiFYT4nAy5qM7g7Hf6i49ervM/ldKLYbtOW8voJ5mSfqneOQehMw+um485EjQmKc1q0J79//EMtC9HKDJGkneq/IizlEw02paBCpTw1AkulgotPBU2HVN2bGG6BiJ2WxZo18SmuX05ArZrOMRFL+GdFapxs17N2swj3g6i+swBQP+Vj3OSkNLtFq5ltsRtQdPs54d6tmEjaQFLcxifiJYGu6FH8M2BjAPugaDz1PFWPEI4NAwEVt1gNlTGvpH4RR0/aMVCGNrS/d4qVEsNlvOmzoJEyu/8QX1tN0WgFXnJ8QMQQF1TNgvkCsii5z9QKIxpOUjlPUS/YbX26pqBznygiz87T4KOTaSW0jjYkcZK8qH8vEovIFkk5Vn8ZAo9EvHuOdwVxhl7DklMczJDRzToXatQLFLFuacoe0E/M8/f0ALIaH0UpPwri56G4Do0srLhBChlBrVfuZ+JqE1e/JaErIZcLCfZv8N5HULl3YDjAM2J5PGBE5CIDv6jtNnz/P1dcJel1aVRgkSmBOUPQ34MXzFRLTgW4dR1Hf42i0hFztJx8f9Y1jf8="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -398,14 +396,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Arithmetic operators\n\nJust as in any other programming language, the addition ( `+` ), subtraction ( `-` ), \nmultiplication ( `*` ), and division ( `/` ) operators can be used with numbers. In \naddition, Python has the power ( `**` ),  modulo ( `%` ), and floor division ( `//` ) operators.\n\n- The `*` (multiplication) operator yields the product of its arguments. The arguments must \neither both be numbers, or one argument must be an integer and the other – a sequence.\n  \n- The `/` (division) and `//` (floor division) operators yield the quotient of their arguments. \n  Division of integers yields a float, while floor division of integers results in an integer.\n  \n- The `%` (modulo) operator yields the remainder of the division of the first argument by the second.\n\n- The `+` (addition) operator yields the sum of its arguments. The arguments must either both \n  be numbers or both be sequences of the same type.\n  \n- The `-` (subtraction) operator yields the difference of its arguments.\n\nThe binary arithmetic operations have the conventional priority levels. Note that \nsome of these operations also apply to certain non-numeric types.\n\nYou can read more on this topic <a href=\"https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations\">here</a>.\n### Task\n - Divide the value stored in `number` by `2`.\n - Calculate a remainder of such a division.\n - Multiply the division result by `2`.\n - Add the division remainder to the multiplication result.\n - Subtract the multiplication result from the number.\n - Perform a floor division of `number` by 2.\n - Raise the `multiplication_result` to the power of 3\n\n<div class='hint'>First, use the <code>/</code> operator.</div>\n<div class='hint'>Then use the <code>%</code> operator.</div>\n\n<div class='hint'>Then use the <code>*</code> operator.</div>\n\n<div class='hint'>Then use the <code>+</code> operator.</div>\n\n<div class='hint'>Then use the <code>-</code> operator.</div>\n",
+          "description_text" : "## Opérateurs arithmétiques\n\nComme dans pratiquement tous les langages de programmation, Les opérateurs d'addition ( `+` ),\nde soustraction ( `-` ), de multiplication ( `*` ) et de division ( `/` ) peuvent être utilisés avec des nombres.\nDe plus, Python propose d'autres opérateurs : La puissance ( `**` ), le modulo ( `%` ) et la division entière ( `//` ).\n\n- L'opérateur `*` (multiplication) fait le produit de ses arguments. Les arguments doivent être tous les deux des nombres, \nou l'un doit être un integer et l'autre une séquence.\n  \n- L'opérateur `/` (division) et `//` (division entière) fait le quotient de ses arguments. \n  La simple division d'integers donnera un float alors qu'une division entière d'integers donnera un integer.\n  \n- L'opérateur `%` (modulo) fourni le reste de la division du premier argument par le deuxième.\n\n- L'opérateur `+` (addition) fait la somme de ses arguments. \n  les arguments doivent être les deux des nombres ou les deux des séquences du même type.\n  \n- L'opérateur `-` (subtraction) fait la différence de ses arguments.\n\nLes opérations arithmétique binaire ont les mêmes ordres de priorités qu'en mathématique.\nÀ noter que certaines de ces opérations peuvent aussi s'appliquer sur certains types non-numériques.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations\">ici</a>.\n### Tâche\n - Divisez la valeur de `number` par `2`.\n - Calculez le reste de cette division.\n - Multipliez le résultat de la division par `2`.\n - Ajoutez le reste de la division au résultat de la multiplication.\n - Soustrayez le résultat de la multiplication au nombre.\n - Effectuez une division entière de `number` par 2.\n - Augmentez `multiplication_result` à la puissance 3.\n\n<div class='hint'>En premier, utilisez l'opérateur <code>/</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>%</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>*</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>+</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>-</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>//</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>**</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Arithmetic+Operators",
           "task_type" : "edu"
         },
         {
-          "id" : 1439031785,
-          "name" : "Assignments",
+          "id" : 1959336197,
+          "name" : "Affectation augmentée",
           "files" : {
             "assignments.py" : {
               "name" : "assignments.py",
@@ -427,14 +424,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Assignments\n\nAn augmented assignment is a single statement combining a binary operation and an \nassignment statement, such as `+=`, `-=`, etc.  \n\nAn augmented assignment expression like `x += 1` can be rewritten as `x = x + 1` to achieve a similar effect.\nYou can read more about this <a href=\"https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements\">here</a>.\n### Task\nUse an augmented assignment to add `5` to `number` and update the variable.  \n\n<div class='hint'>Use the <code>+=</code> operator.</div>\n",
+          "description_text" : "## Affectation augmentée\n\nUne affectation augmentée est une instruction unique combinant une opération binaire et une instruction d'affectation,\ntelle que `+=`, `-=`, etc.\nCela nous permet de modifier la valeur d'un objet en lui effectuant directement une opération arithmétique.\n\nUne affectation augmentée comme `x += 1` peut être réécrite comme `x = x + 1` pour arriver au même résultat.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements\">ici</a>.\n### Tâche\nFaîtes une affectation augmentée pour ajouter `5` à la variable `number`. \n\n<div class='hint'>Utilisez l'opérateur <code>+=</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Assignments",
           "task_type" : "edu"
         },
         {
-          "id" : 893664677,
-          "name" : "Boolean operators",
+          "id" : 652757146,
+          "name" : "Opérateur booléen",
           "files" : {
             "boolean_operators.py" : {
               "name" : "boolean_operators.py",
@@ -447,19 +443,19 @@
                 },
                 {
                   "offset" : 100,
-                  "length" : 41,
-                  "possible_answer" : "7wFXHvC1OCsqMdIbsjttye/30lrTQA4a8PPXLx6TDPxKM3BBOxXQTG++AEcIYutC",
-                  "placeholder_text" : "# a boolean value for truthful statements"
+                  "length" : 55,
+                  "possible_answer" : "Qat4bvfoX/LcAcbeumba6vg+9cYUkbja+zNMUGZorAPGItYZ5qmWpBAeRkAERm2utfEbYKBigC71K3B+uJo4mQ==",
+                  "placeholder_text" : "# une valeur booléenne pour les déclarations véridiques"
                 },
                 {
-                  "offset" : 197,
-                  "length" : 48,
-                  "possible_answer" : "7wFXHvC1OCsqMdIbsjttyUdsXdfB2X6ZwiihrELd822ZS9A6ZMjcOGhDTWNt0vnQd3Gv1pK1HL0En92xq38RsQ==",
-                  "placeholder_text" : "# a boolean value for not so truthful statements"
+                  "offset" : 211,
+                  "length" : 62,
+                  "possible_answer" : "Qat4bvfoX/LcAcbeumba6vg+9cYUkbja+zNMUGZorANVkMsrC2HUnHuw513UsgIKqdjzayYFcG/WnWbDWJ1pFKwocFPBlGtc4hPcwRJ8KWs=",
+                  "placeholder_text" : "# une valeur booléenne pour les déclarations pas si véridiques"
                 }
               ],
               "is_visible" : true,
-              "text" : "rwkLQHficzFtlCEYAIgJC6iE5yzExEMF7jK6026cwJKVE4i6yJsnJGqLom5V7BIJyxcYOEPkVZy0qVIlbY+hSzyTMTcwb3m6ofREzV6h2T57Sj1tlEUW9Xk3lBc3sFH1gpFlMo8ExGCyI7uI8vgGKCKvBZDkcuz9xvAcHiWZQOq+RL4hjugvaG24cB1zqA30HdiBoGJmfgGTYB+v8u+iaU17EsUncUuen4oMkmrQ9KEspbZHqaSPULBssgDrqQIEbBzgrmtdNZpDVeRsnHr4rPOV2JC5ginPLF7cCXajwODyDy/kOxhBOH0X75mePbrYgamRQDB/Z+9f3M9llfuIya+wsr3lfq410eJZt2J5czErcdshXfxVzU/nQ7jQrya1"
+              "text" : "rwkLQHficzFtlCEYAIgJC6iE5yzExEMF7jK6026cwJKVE4i6yJsnJGqLom5V7BIJyxcYOEPkVZy0qVIlbY+hSzyTMTcwb3m6ofREzV6h2T57Sj1tlEUW9Xk3lBc3sFH1Ra3HGUBe/WIZJP2zgYCqJYMRuQxy7RpO5x2DMM8GbNtTZnbZI8igiSgqiRiq0qQU3AXy1e9lrxBqfou27MeanpD6rSVvquu7CsT6RuGnPsjqvSzOokez0GC6xBxLm12hbn7XDewcBvlATMFWXE28eM7edwCNzR1JlWP68iuEXYRdIpuY9RwSpK/WwimekjuvPBl6iXQFbxuFJpg4kW5++YTirpY2fIuim3occuUOL4wCOyTCqKX53QLA1M5tgkBZ/GZbNpsqRTAOM7x2PDV9prnaExikPcybh0MdhmcR2go="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -468,57 +464,56 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Boolean operators\n\nBoolean is a type of value that can only be `True` or `False`. The `==` (equality) operator \ncompares two variables and checks whether they are equal.  \n\n### Task\n - Check whether the variable `two` is equal to `three`.\n - Check if the variable `is_equal` has a deceiving name.\n - Check if the variable `is_false` does indeed contain a lie.\n\n\n<div class='hint'>Use the <code>==</code> operator.</div>\n\n<div class='hint'>Use the <code>True</code> value.</div>\n\n<div class='hint'>Use the <code>False</code> value.</div>\n",
+          "description_text" : "## Opérateur booléen\n\nLe booléen est un type de valeur qui ne peut être que `True` (Vrai) ou `False` (Faux).\nL'opérateur `==` (égalité) compare deux variables et vérifie si elles sont égales.\n\n### Tâche\n - Vérifiez si la variable `two` est égale à la variable `three`.\n - Vérifiez si la variable `is_equal` a un nom trompeur.\n - Vérifiez si la variable `is_false` contient effectivement un mensonge.\n\n\n<div class='hint'>Utilisez l'opérateur <code>==</code>.</div>\n\n<div class='hint'>Utilisez la valeur <code>True</code>.</div>\n\n<div class='hint'>Utilisez la valeur <code>False</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Boolean+Operators",
           "task_type" : "edu"
         },
         {
-          "id" : 353459189,
-          "name" : "Comparison operators",
+          "id" : 337301891,
+          "name" : "Opérateurs de comparaison",
           "files" : {
             "comparison_operators.py" : {
               "name" : "comparison_operators.py",
               "placeholders" : [
                 {
-                  "offset" : 213,
+                  "offset" : 313,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 367,
+                  "offset" : 477,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 522,
+                  "offset" : 643,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 530,
+                  "offset" : 651,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 711,
+                  "offset" : 841,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 862,
+                  "offset" : 1004,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 }
               ],
               "is_visible" : true,
-              "text" : "5ND7RewyazfDEHM4lyuzJzIfoECsX8fCLBs1jK8P+fwNkgEPj4Bzx2xhcPReSQjnWMKzWYnK9Ed7jHUBpj9WMb53PpQbGWdrQYEsNkS2KxKeiEifsZxgnhgACMv1+6RlkE4J70lckP3FwoI8TGVWI6MhhAWUIhz/ugtamTovWcbMuCzplNtl37RT36ERXM79Lvuk6ZTih75E3OjR5ZexL+FfOxbq0/bpu7Sv+tkSzP9znHa3Yx9eFDTNnEqpc+s1sxBBWYCszvVt41So1/56LktilPpoVNUwrZVmhD493wnZEXeKzPHNSVvU8Ma+es4VZ8nQOzK661oVTpZp3Nr5jNEEUvdhYWOz7sPR5BDS+dvlB89AHevbNt/5FDeMHVcmIu2lqE55hBPDEZw35vD6/9hUsLhDiFVMgjXt9l8gpuPy5rSyIuC8DByO21O/vlQGhS/VeiBZ6lbdI+xmyGAVvGZR9sMI20/n6GKQ0ZTynZ3p16hCYcOV+7fSlvnhXeXb1NmPnRv2m1LvDnKCXrM41awlhYYNAn4bQhqKM/tSEVoyLtET3Di7mIJOhEq9pWSizTW7Nev+cho4l2BH5+rlQi1B4/BzIcEIGge1Mp8h23zXe1Dqfksml9oHvYxqp/d1o+K0Kj+Ftw6kfed1Xq0n9+7VStds7buTlWZNdDa4Z0C1UIDPVZbNr2BBVJw+kgI6FbWDKiTpdh05I9RW1mcXan669ves7iwhnyclXuhD+E/aapBvgQW0m61nXrcN3pKBh8wr0VPddIFtS40Lwb40CzYuLLq0xAtQQy8ET4VkW7GBI5NPaNaQE+CBdKQTNAMg6gRprGmWJbivf+rtXgSZDcfoIvOhru14cafIBH4WHKwRDAwqRHq0rcrxd0ToNMzmqWOqWl1S9Xt0IFeAdU0hqMAZIt0mQT6ZaZ8tV12Yc/HwyqpxdCNJw6k3iOzJfq7dA4KCHuFHwT+uASoH9FNeyCYYLM2DKA3ECNREfhoYLp5NH4nTxMu5niVh4tId7F2Jofzg9Il+SI0Q2Ojkt9x7w7hYQglA9OIOdNlzbXJScCuhCmRdI55AUyma1ZwKrdZChNevyl/XO1qkKyCp9DI5Kdd358iEMtzrdzKoGZ2W3OJPYrWTy7vCFX87BFQYhauwqdec+cN0qHNDA+W6miB3jWtTyAf3+8wFVM1Lcxsigl6qjzgLEvlD8UO4ELSkWual8RDNwvlLQ9DrjYtWz2UMvfOpiiwV5cC14Ik50WCaJO51n8//ikoLXQ8H2ywK8P4Xy8E0RnHve8om3SwnGYFsbU/sAKl9UvvBdkaWkncAfaWSWgB8pcU5afhT+4WzxBNO"
+              "text" : "5ND7RewyazfDEHM4lyuzJ1JnWx6hWXSLPye9P2f8OlC6BO//ahD23Ut0bhhKEDY6GtTAokdoz2ErA1vV+ddn1tUht3vu+uV9V27MteKJ9ngyUrc8kb3riJNQ7/TnZMx36FtdlCsUAJFG9iDA4hB+T0WnnxJfgpQYHX94nCk8fOqrPOpORsFBpb3lTfXh7H86T40V/trPK6RwPjcSI0lJYRZjzGNDkxqtxH2NG8v2xu20tjF8syq3WzYoE2B312/dbSBFq/VdxS5UU0cdbrChWyO5KwTIhQ/juNGDyL81T/HFLVSIRDr3OBge6LW7xHOMD2OfPCvsI9U7UY9bWyceyewjZHswy3yTcS5WCEvGqr5Q/xg1gSHJ2fKEwG4VlJmScYqCKayCaLPfl6kqo6V1DQRGv7comAk7DMu43mHYmwmTwxOedanT3xeodPHNi9pgWTViNgYr2I45uxAkcKUMp88SQZbBkZRCTS+WFMeQk9pb+aYhnDX/Up1gsTFxTG4FhDg5GRFcTLQ8qNLqjE+5m+IQu3nnZOJCMVca6clEexPFClqXKIKlEtZoEgaD7HLng2HXmSxi84N0f6BxtjQ1gP4mLk/FMQftmUtyMY2UOPuAFao9TMYbKVOrcqfqd+xjs0Z3YAcCz976PIabMU+YJo2SUW9744lu3rKtrg1qG3AHyA4B6fgwJ2gJ8/494anx76LEDIOkZU1lDTN+uB6QWvk3Z9QCCKIAnG5b7jHZ2DXwKUt9M+yDZfYvcCaz4KMDSos1H3foczsTZFu8DcmAUsdNNwhVHjclfLa18gKdNeBrv33XIVL4ZhKrIooKeKTfVhzXiuomBUbpxN1wArqXg4UQBXZIL140YtI20C4hBumpX4WtABTT6FVRoU20vzn3hnWudH2YNE0n9YARMmhKObQF9Jt+ekIa44FwLv/GVCZYOTn1zY0q1NdmtBadX7dJHbPtILvQ35iz4TZJl9waMud8OCkN/Eq21A2bsoQfsH/lzeSVUQXi0yeIEZvvUlfOL4+8WFqxcWFbukwTWrPUULJMWO4p2uVVApLV9Tq8PPxWhNNUlRbsWK7FY16rTnB50tSFuryRkFU5eHtZQgWBDiTDdej7pz0P0js2cn+C80WZQl2vUGrnT9UAK94ey71u20RVL7jMbnxolbX6EZ81FSTdAc2hnsgC/nYY9NoD6s1KZUftGYY0K1sT8bgg42l9xBOlTeQU7tu9uiasDVjL3oz9mjsTOqCPQqAc9iL3hWFv1KYDxwp1Lqv1oarjKVBDgBCepWvdffLok3GqTtKA3x4R7yDmRm/f5LzwugwZyISw8kij7uNYlY4Pooc7GTE/DGEm68Lb0Nxs8hMg2+ai9MCFBcyIj/rcfS81r+fI1kKjq+CmKeEuidtSJUZ+7VhJo7I1wM4vnZJBMKvM/xCscaHoyke5qBxMZ1tcQI/rLwQ="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -527,21 +522,20 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Comparison operators\n\nPython has many types of comparison operators, including: \n- `<` less than\n  \n- `>` greater than \n  \n- `==` equal \n  \n- `>=` greater or equal\n  \n- `<=` less or equal\n  \n- `!=` not equal\n\nThe operators  compare the values of two objects. The objects do not need \nto have the same type.\n\n\nAll comparison operations in Python have the same priority, which is lower than\nthat of any arithmetic, shifting or bitwise operation. Comparisons yield boolean \nvalues: either `True` or `False`. Comparisons can be chained arbitrarily, and \nexpressions like `a < b < c` have the \nconventional mathematical meaning. Read more on comparisons <a href=\"https://docs.python.org/3/reference/expressions.html#comparisons\">here</a>.\n### Task\n - Check whether the value of the variable `three` is strictly greater than the value of \nthe variable `two`.\n - Check whether the value of the variable `one` is strictly smaller than the value of\n   the variable `three`.\n - Check whether the value of the variable `three` is strictly greater than both the value of\n   the variable `two` and the value of the variable `one`.\n - Check if the variable `one` is not equal to the variable `two`.\n - Check if the variable `three` equals itself.\n\n<div class='hint'>Use the <code>></code> operator.</div>\n<div class='hint'>Use the <code><</code> operator.</div>\n<div class='hint'>Use both the <code>></code> and the <code><</code> operators.</div>\n<div class='hint'>Use the <code>!=</code> operator.</div>\n<div class='hint'>Use the <code>==</code> operator.</div>\n",
+          "description_text" : "## Opérateurs de comparaison\n\nPython a plusieurs opérateurs de comparaison, incluant : \n- `<` plus petit que\n  \n- `>` plus grand que\n  \n- `==` égal à\n  \n- `>=` plus grand ou égal à\n  \n- `<=` plus petit ou égal à\n  \n- `!=` différent de\n\nLes opérateurs comparent les valeurs de deux objets. Les objets n'ont pas besoin d'avoir le même type.\n\nEn Python, tous les opérateurs de comparaison ont la même priorité,\nqui est inférieure à celle de tous les opérateurs arithmétiques, de décalage ou les opérations de bit.\nLes comparaisons fournissent une valeur booléenne, soit `True` ou `False`.\nLes comparaisons peuvent être enchaînées arbitrairement et les expressions `a < b < c` ont la même signification qu'en mathématiques.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/expressions.html#comparisons\">ici</a>.\n\n### Tâche\n - Vérifiez si la valeur de la variable `three` est plus grande que la valeur de la variable `two`.\n - Vérifiez si la valeur de la variable `one` est plus petite que la valeur de la variable `three`.\n - Vérifiez si la valeur de la variable `three` est plus grande que la valeur de la variable `two` et que la valeur de la variable `one`.\n - Vérifier si la variable `one` est différente de la variable `two`.\n - Vérifier si la variable `three` est égale à elle-même.\n\n<div class='hint'>Utilisez l'opérateur <code>></code>.</div>\n<div class='hint'>Utilisez l'opérateur <code><</code>.</div>\n<div class='hint'>Utilisez l'opérateur <code>></code> et l'opérateur <code><</code>.</div>\n<div class='hint'>Utilisez l'opérateur <code>!=</code>.</div>\n<div class='hint'>Utilisez l'opérateur <code>==</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Comparison+Operators",
           "task_type" : "edu"
         }
       ],
       "type" : "lesson"
     },
     {
-      "id" : 1758893914,
+      "id" : 399203249,
       "title" : "Chaînes de caractères",
       "task_list" : [
         {
-          "id" : 1359342084,
-          "name" : "Concatenation",
+          "id" : 140671625,
+          "name" : "Concaténation",
           "files" : {
             "concatenation.py" : {
               "name" : "concatenation.py",
@@ -554,7 +548,7 @@
                 }
               ],
               "is_visible" : true,
-              "text" : "otZRUEKE55Dz9FFFnu8mEnTVkn+OpKUvLGNUApt70K5K/JBJ0dy4FtZfhYvXrZDPvWGLTl4NI41XzDv4XqmGU/+uaOsnwYe3FocLkoWApqkoVdko0uqV5rDdbQONng3ZWizpjPs03gSWLfeUWE/a1lmNHT0CVflh+QyyE2vIvgc="
+              "text" : "otZRUEKE55Dz9FFFnu8mEnTVkn+OpKUvLGNUApt70K5K/JBJ0dy4FtZfhYvXrZDPtzAdwb870dY16rJQ2X4HSCiuIPmzLi+IdnGjEu+dixc64ZjKzd4w1A7w/hSb9DS3SI5wENYhf3HmGLTS3Tu0xul976gBQxymoUQPPbNyk8M="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -569,14 +563,14 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Concatenation\n\nRemember that some arithmetic operations can also apply to non-numeric types?\nCombining two strings using the `+` symbol is called concatenation.  \n  \nUse the `hello` and `world` variables to get a string `\"Hello World\"`.  \n\n<div class='hint'>Use chained concatenation and a single-space string <code>\" \"</code>.</div>\n",
+          "description_text" : "## Concaténation\n\nVous souvenez-vous que certaines opérations arithmétiques peuvent aussi s'appliquer à des types non-numériques ?\nCombiner deux chaînes de caractères en utilisation le symbole `+` est appelé <i>concaténation</i>.\n\n### Tâche\nUtilisez les variables `hello` et `world` pour obtenir la chaîne de caractères `\"Hello World\"`.\n\n<div class='hint'>Utilisez une concaténation enchaînée avec un espace sous forme de string <code>\" \"</code>.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+Concatenation",
           "task_type" : "edu"
         },
         {
-          "id" : 1169710228,
-          "name" : "String multiplication",
+          "id" : 1823104903,
+          "name" : "Multiplication de string",
           "files" : {
             "string_multiplication.py" : {
               "name" : "string_multiplication.py",
@@ -604,27 +598,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String multiplication\n\nPython also supports string-by-number multiplication (but not the other way around!).  \n  \nUse `not_yet_food` variable to get a food name stored in `food` \nvariable. \n\n<div class=\"hint\">\n\n`\"cous\"` repeated `2` times gives you `\"couscous\"`.\n</div>\n\n<div class='hint'>Use multiplication.</div>\n",
+          "description_text" : "## Multiplication de string\n\nPython supporte également la multiplication de chaîne de caractères par des nombres (mais pas dans l'autre sens !).\n\n### Tâche  \nUtilisez la variable `not_yet_food` afin d'obtenir le nom d'une nourriture dans la variable `food`.\n\n<div class=\"hint\">\n\nRépétez `\"cous\"` `2` fois vous fournira `\"couscous\"`.\n</div>\n\n<div class='hint'>Utilisez la multiplication.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Multiplication",
           "task_type" : "edu"
         },
         {
-          "id" : 1525246245,
-          "name" : "String indexing",
+          "id" : 788405592,
+          "name" : "Indexation de string",
           "files" : {
             "string_indexing.py" : {
               "name" : "string_indexing.py",
               "placeholders" : [
                 {
-                  "offset" : 101,
+                  "offset" : 110,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "dBconN1efF941wppzTZUVjU2wV+vWkSXrxw+HG39S8RpbhOoQOz2Y2rgBgmhueTPCC1GPi7TGd93qyIuN/+NDo98KPOTgSfW9mBpA4mDnOK9PyLTkFAi4Tm00nJmTbNNO6wMYqg+pkhUwm8nxlGgiC3ZOwF6KxJhdJ1HxEidHjU="
+              "text" : "dBconN1efF941wppzTZUViEcQ2YhGPxPfFGunXT6Jtfp4hD5GdbjLll86uRD5cFhGJnxi8HJMcWUhlWZVDrF4mSEWuPzYTmwe3jGZ9YDzHQMor/OK6uZjKHew224riWGt5UfmnzwgvOJPLck2XtM5Tuo5Saxlw1APu8cC40EUWK84n2pv6IUzlCooR3Z0ZxD"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -639,14 +632,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String indexing\n\nYou can access a character in a string if you know its position. For example, \n`str[index]` will yield the character at position `index` in the string `str`.\nNote that string indexing always starts at `0`. `index` raises `ValueError` \nwhen `x` is not found in the string.\n\nIndices may also be negative numbers if you need to start counting from the right \n(i.e., from the end of your string). \nNote that since `-0` is the same as `0` , negative indices start from `-1`.  \n  \nUse the index operator to get the letter `\"P\"` from `\"Python\"` .  \n\n<div class=\"hint\">Note that indices start with 0.</div>\n",
+          "description_text" : "## Indexation de string\n\nVoua pouvez accéder à un caractère d'une string si vous connaissez sa position.\nPar exemple, `str[index]` vous fournira le caractère à la position `index` dans la string `str`.\nNotez que l'indexation commence toujours par `0`.\nUne erreur `ValueError` sera levée s'il n'y a pas de caractère à l'index fourni.\n\nLes index peuvent également être des nombres négatifs si vous voulez comptez depuis la droite (donc depuis la fin de votre string).\nNotez que comme `-0` est égal à `0`, les index négatifs commence à partir de `-1`.\n\n### Tâche\nUtilisez l'indexation pour récupérer la lettre `'P'` à partir de `\"Python\"`.\n\n<div class=\"hint\">Pour rappel, les index commencent à partir de 0.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Indexing",
           "task_type" : "edu"
         },
         {
-          "id" : 1564093142,
-          "name" : "String negative indexing",
+          "id" : 1619974877,
+          "name" : "Indexation négative de string",
           "files" : {
             "negative_indexing.py" : {
               "name" : "negative_indexing.py",
@@ -674,27 +666,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String negative indexing\n\nAs we said, you can use negative indices to count characters ‘backwards’ starting\nfrom the end of a string.  \n  \nUse a negative index to get the `'!'` sign from `long_string`.   \n\n<div class='hint'>Use a negative index.</div>\n",
+          "description_text" : "## Indexation négative de string\n\nComme dis précédemment, vous pouvez utilisez des index négatifs pour compter \"à l'envers\",\ncommençant ainsi à partir de la fin d'une string.\n\n### Tâche\nUtilisez un index négatif afin de récupérer le caractère `'!'` de la variable `long_string`.\n\n<div class='hint'>Utilisez un index négatif.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Negative+Indexing",
           "task_type" : "edu"
         },
         {
-          "id" : 588361407,
-          "name" : "String slicing",
+          "id" : 2074296951,
+          "name" : "Découpage de string",
           "files" : {
             "slicing.py" : {
               "name" : "slicing.py",
               "placeholders" : [
                 {
-                  "offset" : 165,
+                  "offset" : 178,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "65qTBzJxhsJNiRt1kC+yDDM3NSr6KLYPAO/hMyrVUT4q64o7earLuG1gezDJWf8BxYZy+quTy0c7cHbip+WFwJkED076kpvC+Bp4uLnSO7uXZSzXelADrOUsm9XrXwQQ6xgBwYQ+Y8RUeiQtiule1Ya9lVM4uEqS+2KvkH9cg2NXwxVCPoVBYoJe/a1fBiNuZNpNShG57RewWRKav/jvWj8aa0BDky6QKJMiGgLOaekhWrJJKN+9nMS8FqTClBNv"
+              "text" : "65qTBzJxhsJNiRt1kC+yDDM3NSr6KLYPAO/hMyrVUT6NO9RzufvicpE5XVZwPnahy1fxamePcWRih3h7WHQODPLx3BKKqgyO4WMRlNNJqnhPcLp5IHEGWc8QPlgMj2Ynda3QHCECDXIjwIXwnfAGqKqpXtc/uBQHSUVPH0/6xwZNCvkffNaio84p+YDVfFyVBLZHUrwyFXSrZd2LRZvRq+0VDKs+ETUdFv/y5+dymsS+8yFq8S3gWg96G4a3CfQA/tk0FYdsRsmHeXleO7j0bw=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -709,27 +700,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Slicing\n\nSlicing is used to extract multiple characters (a substring) from a string. \nIts syntax is similar to that of indexing, but instead of just one index you use \ntwo indices (numbers) separated by a colon, e.g., `str[ind1:ind2]`. These two \nindices correspond to the start and the end of the substring. Note that the symbol \nwith the index `ind1` will be included, while the symbol with the index `ind2` – won't.\n\nHere's a visual on how slicing works in Python:\n\n```text\n+---+---+---+---+---+---+\n| P | y | t | h | o | n |\n+---+---+---+---+---+---+\n0   1   2   3   4   5   6\n-6  -5  -4  -3  -2  -1\n```\n\n##### Example\n<pre><code>\nstr[start:end] # items start through end-1\nstr[start:]    # items start through the rest of the array\nstr[:end]      # items from the beginning through end-1\nstr[:]         # a copy of the whole array\n</code></pre>\n\nUse slicing to get `\"Python\"` from the `monty_python` variable.  \n\n<div class='hint'>You can leave one of the indices empty.</div>\n",
+          "description_text" : "## Découpage\n\nLe découpage est utilisé pour extraire plusieurs caractères (une substring) d'une string.\nLa syntaxe est similaire à l'indexation, mais au lieu d'un seul index, vous utiliserez deux index (nombres) séparés par `:`,\npar exemple, `str[ind1:ind2]`.\n\nCes deux index correspondent au début et à la fin de la substring.\n\nVoici un visuel de comment fonctionne le découpage en Python :\n\n```text\n +---+---+---+---+---+---+\n | P | y | t | h | o | n |\n +---+---+---+---+---+---+\n 0   1   2   3   4   5   6\n-6  -5  -4  -3  -2  -1\n```\n\n##### Exemple\n<pre><code>\nstr[start:end] # Commence par start jusqu'à end - 1\nstr[start:]    # Commence par start jusqu'à la fin\nstr[:end]      # Commence par le début jusqu'à end - 1\nstr[:]         # Une copie de la chaîne de caractères entière\n</code></pre>\n\n### Tâche\nUtilisez le découpage pour récupérer `\"Python\"` de la variable `monty_python`.  \n\n<div class='hint'>Vous pouvez laisser un des deux index vides.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Slicing",
           "task_type" : "edu"
         },
         {
-          "id" : 617224885,
-          "name" : "In operator",
+          "id" : 1162575075,
+          "name" : "Opérateur in",
           "files" : {
             "in_operator.py" : {
               "name" : "in_operator.py",
               "placeholders" : [
                 {
-                  "offset" : 99,
+                  "offset" : 106,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "KjIAdzQQOKu5VP5oa5uhSwi7NXrfRdidgKrlXk9dUkupAIdPNRWdXOdYMjysNGUdjvcdrGoLFUakGyl+HnAUSzc0HCxQZiAsU6Vk6vGttXdBCsjRdAeXUyXGDS7GkRO6jdTkvYhPI2PXeSerBqARHFNnGJSgPS7IO/lMU9HRR5c="
+              "text" : "KjIAdzQQOKu5VP5oa5uhS4g55MchnmanawAKtNYhpurjVauvou0VtbTN4Wxzy9/MWfgcL9Zcvui3yE2PyJ3WYPwk5ht2MtFE3BPbZtqkqUZNZ3hMu11HTieMnXq43F7FFZdP3EuuMzV9fUwyggwZ5ZrYTB+CuBt9urs5It68CjrTD8BXuyyh3vu0kv/Zbc9P"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -744,33 +734,32 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## In operator\n\nIf you want to check whether a string contains a specific letter or a substring, \nyou can use the `in` keyword.  \n  \nCheck if there is `\"ice\"` in `\"ice cream\"` and assign the result to the variable `contains`.  \n\n<div class=\"hint\">Use the <code>in</code> operator.</div>\n",
+          "description_text" : "## Opérateur in\n\nSi vous voulez vérifier si une string contient une lettre spécifique ou une substring,\nvous pouvez utiliser l'opérateur `in`.\n\n### Tâche\nVérifiez s'il y a `\"ice\"` dans `\"ice cream\"` et affectez le résultat à la variable `contains`.  \n\n<div class=\"hint\">Utilisez l'opérateur <code>in</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+In+Operator",
           "task_type" : "edu"
         },
         {
-          "id" : 905707336,
-          "name" : "String length",
+          "id" : 461483471,
+          "name" : "Longueur de string",
           "files" : {
             "len_function.py" : {
               "name" : "len_function.py",
               "placeholders" : [
                 {
-                  "offset" : 121,
+                  "offset" : 174,
                   "length" : 5,
                   "possible_answer" : "ZD0sLMW8ILY96c4jzNEvlA==",
                   "placeholder_text" : "\"???\""
                 },
                 {
-                  "offset" : 185,
+                  "offset" : 228,
                   "length" : 5,
                   "possible_answer" : "ZD0sLMW8ILY96c4jzNEvlA==",
                   "placeholder_text" : "\"???\""
                 }
               ],
               "is_visible" : true,
-              "text" : "BsnJC/FWTh0puhQakpHCyFn4LDDTR9OqykbSmp7nTdzZJqPBav31O3xQ7igZNmeo5ew02aEuhQo2OrMK+LkqUsQ5My81ox73Uv0BeaxCqWSTJQ4c7LHCfzkniXUD6MoMb6tlPGvZgIsWTYSQ89Kr9FAgygvTqwTOajSkXTrqhyxapgbiBqACy4EAbYi2vTD4iww8tWExDCR0B6J9yPJQbjmuDKpQV+4f5I8cmYu6JdYWIgNFasdOE9BhMI+RS/8fHvo3WZtlTVAO8tVY1948m3FCm+Bg7wA5BBB74c2gDIg3zGUEClis5t4ULxCojuMpORrA9Njk1rmvy8D1aP/IqQ=="
+              "text" : "BsnJC/FWTh0puhQakpHCyFn4LDDTR9OqykbSmp7nTdzZJqPBav31O3xQ7igZNmeo5ew02aEuhQo2OrMK+LkqUsQ5My81ox73Uv0BeaxCqWSTJQ4c7LHCfzkniXUD6MoMXPQJok4dGr0NuHsWhhcC1kVcHWQXO+Uoal4iik9kJARMSSQSbfGXAuZrIPYcBKCLt0OjOVUOOAFc4+j82UWpG20CAekq8LvzKmuACBYd2pvPa3qU38fRsv2QQAvahbvxo6TaLA1jswdRc1mCpPgAcuDxgtHFqYWrhhAMbz1z2j7CoLg8LYtg6QHN5hLiXBYyPzd6gEHryj2VEVC6BNN7SLc8u4ydGYfG5sMphfw1T+w="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -785,14 +774,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String length\n\nThe `len()` method is used to count how many characters a string contains.  \n  \nGet the first half of the string stored in the variable `phrase`.  \nNote: when getting the index, remember about type conversion.  \n\n<div class='hint'>You need to obtain a slice of the string from its start  \nto the middle point.</div>\n\n<div class='hint'>Get the middle index by dividing the string length by 2. The \ndivision result needs to be an integer.</div>\n",
+          "description_text" : "## Longueur d'une string\n\nLa méthode `len()` est utilisée pour compter combien de caractères sont contenus dans une string.\n\n### Tâche\nRécupérer la première moitié de la string stoquée dans la variable `phrase`.\n\nNote : quand vous récupérerez l'index, n'oubliez pas la conversion de type.  \n\n<div class='hint'>Vous devez faire le découpage du début jusqu'au milieu de la phrase.</div>\n\n<div class='hint'>\nRécupérez l'index du centre en divisant la longueur de la string par 2. Le résultat de la division doit être un integer.\n</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Length",
           "task_type" : "edu"
         },
         {
-          "id" : 966467515,
-          "name" : "Character escaping",
+          "id" : 223331408,
+          "name" : "Echappement de caractère",
           "files" : {
             "character_escaping.py" : {
               "name" : "character_escaping.py",
@@ -820,27 +808,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Character escaping\n\nBackslash is used to escape special symbols, such as single or double quotation marks, \nfor example, `\"It\\'s me\"` or `\"She said \\\"Hello\\\"\"`. If you need to actually type the <code>\\\\</code>\ncharacter as part of your string, you will need to escape it too. For example, here's how \nyou print a single backslash:\n\n```python\nprint('\\\\')\n```\n\nThe special symbol `'\\n'` is used to add a line break to a string, while `'\\t'` means tabulation.\n\nQuotes have special meanings, and they can be escaped with a backslash too. \nIf you need to print quotes inside a string, use a different kind of quotes: single quotation \nmarks may be used in a double-quoted string without escaping, and vice versa. Also, as a side note, it is a good \nidea to pick your favorite kind of quotes and use them consistently.\n\nYou can learn more about escaping from <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals\">this section</a> of Python Documentation.  \n\nPrint out the following text using one string:  \n```text\nThe name of this ice cream is \"Sweet'n'Tasty\"  \n```\n\n\n<div class='hint'>Use the backslash to escape quotes.</div>\n",
+          "description_text" : "## Echappement de caractère\n\nLe backslash est utilisé pour échapper les symboles spéciaux, tels qu'un apostrophe ou un guillemet,\npar exemple, `\"It\\'s me\"` ou `\"She said \\\"Hello\\\"\"`. \n\nSi vous voulez effectivement écrire le caractère <code>\\\\</code> dans une chaîne de caractère,\nvous devrez l'échapper également. Par exemple, voici comment afficher un backslash :\n\n```python\nprint('\\\\')\n```\n\nLe symbole spécial `'\\n'` est utilisé pour ajouter un retour à la ligne dans une string, \nalors que `'\\t'` sert pour une tabulation.\n\nLes caractères de citation ont une signification spéciale dans le code et peuvent donc être échappés également avec un backslash.\nSi vous voulez mettre un des deux dans une string, vous pouvez aussi utiliser l'autre pour englober la chaîne de caractère,\nsans besoin de caractère d'échappement.\nUn apostrophe n'a pas besoin d'être échapper dans une string entourée de guillemets et inversement.\nD'ailleurs, nous vous conseillons de choisir votre préféré entre l'apostrophe et le guillemet et d'utiliser,\nde manière constante, votre choix.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals\">ici</a>.  \n\n### Tâche\nAffichez le texte suivi en utilisant une seule string :\n```text\nThe name of this ice cream is \"Sweet'n'Tasty\"  \n```\n\n\n<div class='hint'>Utilisez le backslash pour échapper les caractères de citation.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+Character+Escaping",
           "task_type" : "edu"
         },
         {
-          "id" : 399587937,
-          "name" : "Basic string methods",
+          "id" : 1822334836,
+          "name" : "Méthodes de string",
           "files" : {
             "string_methods.py" : {
               "name" : "string_methods.py",
               "placeholders" : [
                 {
-                  "offset" : 131,
+                  "offset" : 135,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "65qTBzJxhsJNiRt1kC+yDNaEeD2PIcTxrjol+sTKBbQxCJfeYPQq0sS0Mc+1kkC3JoZb5WUj5WxDbyZrcIQuvXYaDx837mtXg+sl8ww2tDO7iy9VcONscPr4fWjEJO8LkdlqhegqesPRzFQlz9b80tsuKWKD476bNHpNEElBmWuQLbfB04T9QxyWYVBoGApD"
+              "text" : "65qTBzJxhsJNiRt1kC+yDNaEeD2PIcTxrjol+sTKBbQxCJfeYPQq0sS0Mc+1kkC3um7TZVQ0CSApDEzSQkc8V7N32hZjinho19rMWWnMwdq20/B71+Dsjkr89WuerZJJsTHbjy459mBKkCVTh7W+/tLFN42cMsaAwZc86Gmx+Xve5PYh4DItLD1kInZ3Hmnc"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -855,14 +842,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Basic string methods\n\nThere are many useful string methods. For instance, you can use the `lower()` method to get \nrid of any capitalization in your strings. The `upper()` method is used to make a string \nuppercase. To call any string method, type a dot after the string (or a variable containing \nthe string) and the method name after it, e.g., `\"John\".upper()`. In PyCharm, you can \nexplore all available string methods by using the &shortcut:CodeCompletion; shortcut after the dot. \nDetailed information about all string methods can be found <a href=\"https://docs.python.org/3/library/stdtypes.html#string-methods\">here</a>.\n  \nPrint `monty_python` in upper case using an appropriate string method.  \n\n<div class='hint'>Pay attention to how the <code>lower()</code> method is used in our code.</div>\n",
+          "description_text" : "## Méthodes de string\n\nIl y a beaucoup de méthodes utiles pour les strings.\nPar exemple, vous pouvez utiliser la méthode `lower()` pour transformer toutes les majuscules en minuscules dans vos strings.\nLa méthode `upper()` est utilisée pour transformer votre string en majuscules.\n\nPour appeler les méthodes de string, ajouter un point à la fin de la string (ou de la variable contenant la string),\nsuivi par le nom de la méthode, p.e. `\"John\".upper()`.\n\nDans PyCharm, vous pouvez explorer toutes les méthodes de string disponibles en utilisant le raccourci \n&shortcut:CodeCompletion; après le point.\n\nLes détails sur toutes ces méthodes peuvent être trouvés <a href=\"https://docs.python.org/3/library/stdtypes.html#string-methods\">ici</a>.\n\n### Tâche\nAffichez `monty_python` en majuscules en utilisant la bonne méthode.  \n\n<div class='hint'>Faîtes attention à comment la méthode <code>lower()</code> est utilisée dans le code.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+Basic+String+Methods",
           "task_type" : "edu"
         },
         {
-          "id" : 1673168284,
-          "name" : "String formatting",
+          "id" : 1923893856,
+          "name" : "Formattage de string",
           "files" : {
             "string_formatting.py" : {
               "name" : "string_formatting.py",
@@ -881,7 +867,7 @@
                 }
               ],
               "is_visible" : true,
-              "text" : "C008tCpVbf2bWeQ85pv9mUazd9ZSWm+15LQsNsNTGkhiQWOfOb7PiOlUMvOumx839a/1kIDBZFexmAo3yy4/1xak+gfbsLyQcu3J1ZrkN+u1oosKCrmreifmhn+RincIbcUNkpOnW7/H14EbmQxHX0d6rf+O9TGUl9Z88tdYxrbewM1OcC84KkehYcx6FPes/FDk8N5S7+IVW+yGU0LQew=="
+              "text" : "C008tCpVbf2bWeQ85pv9mRRYpwuvWAxL1Ph5Dh/r8TsATihjcXjuBV+N6RbR7JU/oIpRtgClqrsVz+XuF/kY1NeHm2p+dpMofb2KG/9bu7cCz6cHHMKIRkAVH/TJzudnOID0V8xzPCkw6aj+1HCMP45rzu2eNeuCzXE6cut1FgEnVypwlkLc0BdU1w/i7ki1u0Gr+Uk7q39EBL6+RpKjlw=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -896,13 +882,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String formatting\n\nThe `%` operator after a string is used to combine the string with variables. \nThe `%` operator will replace `%s` in a string with the string variable that \ncomes after it. The `%d` special symbol is used as a placeholder for numeric \nor decimal values.  \n\n> <i><b>Note</b>: The formatting operations described here exhibit a variety \n> of quirks that lead to a number of common errors. \n> Using the newer formatted string literals (see [further](course://Textes/F-strings)), \n> the <code><a href=\"https://docs.python.org/3/library/stdtypes.html#str.format\">str.format()</a></code> \n> interface, or <a href=\"https://docs.python.org/3/library/string.html#template-strings\">template strings</a> may help avoid these errors. \n> Each of these alternatives provides their own trade-offs and benefits of \n> simplicity, flexibility, and/or extensibility.</i>\n  \nTell PyCharm how old you are (using digits).  \n\n<div class='hint'>Use the <code>%d</code> special symbol.</div>\n<div class='hint'>How old are you?</div>\n",
+          "description_text" : "## Formattage de string\n\nL'opérateur `%` après une string est utilisé pour la combiner avec des variables.\n\nL'opérateur `%` va remplacer `%s` dans une string avec la valeur de la variable qui sera après.\n\nLe symbole spécial `%d` est utilisé pour les valeurs entières ou décimales.  \n\n> <i><b>Note</b>: Les opérations de formatage décrites ici présentent une variété de bizarreries \n> qui conduisent à un certain nombre d'erreurs courantes. \n> En utilisant les nouvelles chaînes formatées (voir [plus loin](course://Textes/F-strings)), \n> La méthode <code><a href=\"https://docs.python.org/3/library/stdtypes.html#str.format\">str.format()</a></code> \n> , ou les <a href=\"https://docs.python.org/3/library/string.html#template-strings\">modèles</a> peuvent aider à éviter ces erreurs. \n> Chacune de ces alternatives offre ses propres compromis et avantages de simplicité,\n> de flexibilité et/ou d'extensibilité.</i>\n\n### Tâche\nDîtes à PyCharm quel âge vous avez (en utilisant des chiffres).\n\n<div class='hint'>Utilisez le symbole spécial <code>%d</code>.</div>\n<div class='hint'>Quel âge avez-vous ?</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Formatting",
           "task_type" : "edu"
         },
         {
-          "id" : 164701980,
+          "id" : 1683324463,
           "name" : "F-strings",
           "files" : {
             "f_strings.py" : {
@@ -949,20 +934,19 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Formatted string literals\n\nA formatted string literal, or an f-string, is a string literal that is prefixed \nwith 'f' or 'F'. These strings may contain replacement fields, which are \nexpressions delimited by curly braces `{}`. \n\nThe parts of the string outside curly braces are treated literally. \nEscape sequences are decoded like in ordinary string literals.\nReplacement expressions can contain line breaks (e.g., in triple-quoted strings), \nbut they cannot contain comments. Each expression is evaluated in the context \nwhere the formatted string literal appears, in order from left to right.\n\nHere are some examples:\n```python\nname = \"Fred\"\nf\"He said his name is {name}.\"\n```\n```text\n'He said his name is Fred.'\n```\n\nThere are more fancy things you can do in f-strings, for example:\n```python\nf\"{name.lower()} is funny.\"\n```\n\n```text\n'fred is funny.'\n```\nFor more information about formatted string literals you can refer to <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals\">Python Docs</a>.\n\nTry creating an f-string yourself. Also try running the code to see what it prints.\n\n<div class=\"hint\">The value assigned to the <code>name</code> variable has to be a string, so it needs to be in quotes, \nlike so: <code>'Max'</code>.</div>\n\n",
+          "description_text" : "## Modèles de string\n\nUn modèle de string, ou f-string, est une string qui est préfixée avec 'f' ou 'F'.\nCes strings peuvent contenir des champs de remplacement, qui sont délimités par des crochets `{}`.\n\nLes parties de la string en dehors des crochets sont traitées littéralement.\n\nLes caractères d'échappement sont décodés comme dans une string normale.\nLes expressions de remplacement peuvent contenir des retours à la ligne mais ne peuvent pas contenir de commentaires. \nChaque expression est évaluée dans le contexte où la string apparaît, dans l'ordre de gauche à droite.\n\nVoici quelques exemples :\n```python\nname = \"Fred\"\nf\"He said his name is {name}.\"\n```\n```text\n'He said his name is Fred.'\n```\n\nIl y a d'autres choses particulières que vous pouvez faire avec les f-strings, par exemple :\n```python\nf\"{name.lower()} is funny.\"\n```\n\n```text\n'fred is funny.'\n```\n\nPour plus d'information avec les modèles, vous pouvez consulter la <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals\">Documentation Python</a>.\n\n### Tâche\nEssayez de créer une f-string vous-même. Essayez ensuite de lancer le code pour voir ce qui s'affiche.\n\n<div class=\"hint\">La valeur affectée à la variable <code>name</code> doit être une string,\net doit donc être entre caractère de citation, tel que : <code>'Max'</code>.</div>\n\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+F-strings",
           "task_type" : "edu"
         }
       ],
       "type" : "lesson"
     },
     {
-      "id" : 729672980,
+      "id" : 475172663,
       "title" : "Structures de données",
       "task_list" : [
         {
-          "id" : 1992997395,
+          "id" : 263590659,
           "name" : "Lists introduction",
           "files" : {
             "lists.py" : {
@@ -997,7 +981,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1097553715,
+          "id" : 525973471,
           "name" : "Lists operations",
           "files" : {
             "list_operations.py" : {
@@ -1032,7 +1016,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1099063749,
+          "id" : 1345455645,
           "name" : "List items",
           "files" : {
             "list_items.py" : {
@@ -1067,7 +1051,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 498225896,
+          "id" : 501860729,
           "name" : "Nested Lists",
           "files" : {
             "task.py" : {
@@ -1108,7 +1092,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1040939375,
+          "id" : 586743756,
           "name" : "Tuples",
           "files" : {
             "tuples.py" : {
@@ -1149,7 +1133,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 625107794,
+          "id" : 1884111619,
           "name" : "Join method",
           "files" : {
             "join_method.py" : {
@@ -1184,7 +1168,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1998369398,
+          "id" : 814723577,
           "name" : "Dictionaries",
           "files" : {
             "dicts.py" : {
@@ -1231,7 +1215,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2016840559,
+          "id" : 1677595792,
           "name" : "Dictionary keys() and values()",
           "files" : {
             "dict_key_value.py" : {
@@ -1266,7 +1250,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 496190727,
+          "id" : 110989756,
           "name" : "In keyword",
           "files" : {
             "in_keyword.py" : {
@@ -1310,11 +1294,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 207528364,
+      "id" : 244842153,
       "title" : "Expressions conditionnelles",
       "task_list" : [
         {
-          "id" : 962622735,
+          "id" : 1361048893,
           "name" : "Boolean operators",
           "files" : {
             "boolean_operators.py" : {
@@ -1349,7 +1333,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1975643327,
+          "id" : 1112944922,
           "name" : "Boolean operators order",
           "files" : {
             "boolean_order.py" : {
@@ -1384,7 +1368,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1929196669,
+          "id" : 673994909,
           "name" : "If statement",
           "files" : {
             "if_statement.py" : {
@@ -1425,7 +1409,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 917267067,
+          "id" : 546259352,
           "name" : "Else and elif parts in if statement",
           "files" : {
             "else_elif.py" : {
@@ -1469,11 +1453,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 486638,
+      "id" : 1133720499,
       "title" : "Boucles",
       "task_list" : [
         {
-          "id" : 1979715724,
+          "id" : 2109390976,
           "name" : "For loop",
           "files" : {
             "for_loop.py" : {
@@ -1502,13 +1486,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## for loop\n\nThe `for` statement is used to iterate over the elements of a sequence (such as \na string, tuple, or list) or another iterable object. The sequence is evaluated once.\nOn each iteration, the variable defined in the `for` loop will be assigned to the next value\nin the list. The code following the line with the `for` statement is executed once \nfor each item. When the items are exhausted, the loop terminates.\n\nYou can read more about the `for` statement on <a href=\"https://docs.python.org/3/reference/compound_stmts.html#the-for-statement\">this page</a> of Python Documentation.\n  \nPrint each prime number from the `primes` list using the `for` loop. A prime \nnumber is a natural number greater than `1` that has no positive divisors \nother than `1` and itself.  \n\n<div class='hint'>Use a <code>for</code> loop to iterate over <code>primes</code> and print each element one by one.</div>\n",
+          "description_text" : "## la boucle for\n\nLe mot clé `for` est utilisé pour passer d'un élément à un autre d'une séquence (tel qu'une chaine de caractère, \nun tuple ou une liste). La séquence est évaluée une seule fois. A chaque évaluation, la valeur suivante de la séquence \nsera attribuée àla variable définie dans la déclaration de la boucle `for`. Le code défini après le mot `for` \nsera exécuté une fois pour chaque élément. Lorsque l'on arrive à la fin des éléments, la boucle s'arrête.\n\nVous pouvez lire d'avantage au sujet de la boucle `for` sur<a href=\"https://docs.python.org/3/reference/compound_stmts.html#the-for-statement\">cete page</a> de la documentation python.\n\nImprimer chaque nombre premier depuis la liste `primes` en utilisant la boucle `for`. Un nombre premier est un nombre \nqui n'est divisible que par `1` ou lui même.\n  \n\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer à travers les éléments de <code>primes</code> et les imprimer un par un.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+For+Loop",
           "task_type" : "edu"
         },
         {
-          "id" : 1841663213,
+          "id" : 924354330,
           "name" : "Loop over a string",
           "files" : {
             "for_string.py" : {
@@ -1537,13 +1521,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Loop over a string\n\nAs we discussed earlier, strings in Python are in many ways similar to lists. \nYou can iterate over a string just like you would iterate over a list.  \n  \nUse a loop to count how many characters `hello_world` contains. Store \nthis number in the variable `length`.  \n\n<div class='hint'>Use a <code>for</code> loop to iterate over the <code>hello_world</code> string.</div>\n",
+          "description_text" : "## Passer à travers une chaine de caractères\n\nComme discuter préalablement, une chaine de caractères en python est d'une certaine manière similaire à une liste.\nVous pouvez passer d'un caractère à un autre d'une chaine de la même manière qu'une liste.\n\nUtiliser une boucle pour compter le nombre de caractère que contient `hello_world`. Enregistrer le résultat dans \nla variable `length`. \n\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer d'un caractère à un autre de la chaine <code>hello_world</code>.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Loop+over+a+String",
           "task_type" : "edu"
         },
         {
-          "id" : 942638228,
+          "id" : 1833014240,
           "name" : "Nested for Loop",
           "files" : {
             "task.py" : {
@@ -1578,13 +1562,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Nested Loops\n\nA nested loop is a loop inside another loop.\nThe inner loop is executed once for each iteration of the outer loop.\n\n```python\nadjectives = [\"black\", \"stylish\", \"expensive\"]\nclothes = [\"jacket\", \"shirt\", \"boots\"]\n\nfor x in adjectives:\n  for y in clothes:\n    print(x, y)\n```\nOutput:\n```text\nblack jacket\nblack shirt\nblack boots\nstylish jacket\nstylish shirt\nstylish boots\nexpensive jacket\nexpensive shirt\nexpensive boots\n```\n<details>\n\nNote that any type of loop can be nested inside another loop. \nFor example, a [`while` loop](course://Boucles/While loop) (see further) can be nested inside a `for` loop, or vice versa.\n</details>\n\n\nYou are given a tic-tac-toe board of 3x3, your task is to print every position. Coordinates along each side\nare stored in the list `coordinates`. The output should be:\n```text\n1 x 1\n1 x 2\n1 x 3\n2 x 1\n...\n```\nand so on for every combination of coordinates.\n\n<div class=\"hint\">\n\nIn the nested `for` loop, iterate over the same list once again but using another variable name\nthis time (`coordinate2`).\n</div>\n",
+          "description_text" : "## Boucles imbriquées\n\nUne boucle imbriquée est en faite une boucle dans une boucle. La boucle intérieur est exécutée\nà chaque itération de la boucle principale.\n\n\n```python\nadjectives = [\"black\", \"stylish\", \"expensive\"]\nclothes = [\"jacket\", \"shirt\", \"boots\"]\n\nfor x in adjectives:\n  for y in clothes:\n    print(x, y)\n```\nOutput:\n```text\nblack jacket\nblack shirt\nblack boots\nstylish jacket\nstylish shirt\nstylish boots\nexpensive jacket\nexpensive shirt\nexpensive boots\n```\n<details>\n\nNotez que n'importe quel type de boucle permet d'être imbriquée.\nPar exemple, la boucle [`while` loop](course://Boucles/While loop) (voir chapitre sur la boucle while) \npeut être imbriquée à l'intérieur d'une boucle `for` ou vice et versa.\n</details>\n\nOn vous donne un plateau du tic-tac-toe de taille 3x3, votre tâche est d'imprimer chaque position. \nLes coordonnées de chaque côté seront enrigistrés dans la liste `coordinates`. La sortie doit être :\n```text\n1 x 1\n1 x 2\n1 x 3\n2 x 1\n...\n```\nEt ceci pour chaque combinaison de coordonées.\n\n<div class=\"hint\">\n\nDans une boucle imbriquée `for`, énuméré chaque élément de la liste en utilisant une autre variable telque (`coordinate2`).\n</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Nested+For+Loop",
           "task_type" : "edu"
         },
         {
-          "id" : 1099239932,
+          "id" : 1553091159,
           "name" : "List Comprehension",
           "files" : {
             "task.py" : {
@@ -1619,13 +1603,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List Comprehension\n\nYou can use a loop to build a list (or another data structure).\nFor example:\n\n```python\nmy_list = []\nfor i in range(5):\n    my_list.append(i)\n\nprint(my_list)\n```\nOutput:\n```text\n[0, 1, 2, 3, 4]\n```\n\nThis is nice, but quite bulky. List comprehension offers a more compact syntax when you want to create a new list based on the values of an existing list\nor another iterable (tuple, string, array, range, etc.). It does the same task and simplifies the program. Typically, list comprehensions are written in a single line of code.\n\n```python\nmy_list = [i for i in range(5)]\nprint(my_list)\n```\nOutput:\n```text\n[0, 1, 2, 3, 4]\n```\nList comprehensions are also more efficient computationally than a `for` loop.\n\nIn the code editor, use list comprehension to build `my_efficient_list` from the elements of `my_inefficient_list`\nby adding $10$ to each of them. For example, the first element of `my_inefficient_list` is $1 + 10 = 11$,\nso the first element of `my_efficient_list` should be $11 + 10 = 21$, and so on.\n\n\n<div class=\"hint\">\n\nIn the example above, we used `i for i in range(5)`. You can modify `i` as you like \nright inside this expression. For example, to subtract `5` from every `i`, you can do \n`i - 5 for i in range(5)`.\n</div>",
+          "description_text" : "## List comprehension\n\nVous pouvez utiliser une boucle afin de construire une liste (ou une autre structure).\nPar exemple:\n\n```python\nmy_list = []\nfor i in range(5):\n    my_list.append(i)\n\nprint(my_list)\n```\nSortie:\n```text\n[0, 1, 2, 3, 4]\n```\n\nC'est bien mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante \nou un autre itérable (tuple, chaine de caractères, tableau, rang, etc...). Elle permet de faire la même tâche d'une manière plus simple.\nTypiquement, les `List comprehension` s'écrivent en une seule ligne.\n\n```python\nmy_list = [i for i in range(5)]\nprint(my_list)\n```\nSortie:\n```text\n[0, 1, 2, 3, 4]\n```\n\nLes `List comprehension`  sont aussi plus efficace et rapide qu'une boucle `for`.\n\n# task\n\nDans l'éditeur de code, utilisez une `List comprehension` afin de construire la liste `my_efficient_list` \ndepuis les éléments de  `my_inefficient_list` en ajoutant $10$ a chaque élément. Par exemple, le premier élément de \n`my_inefficient_list` est $1 + 10 = 11$, donc le premier élément de `my_efficient_list` devrait être $11 + 10 = 21$, etc...\n\n\n<div class=\"hint\">\n\nDans l'exemple ci-dessus, nous utilisons `i for i in range(5)`. Vous pouvez modifier `i` comme vous le voulez directement \nà l'intérieur de l'expression. Par exemple, en enlevant `5` à chaque `i`, comme ceci `i - 5 for i in range(5)`.\n</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+List+Comprehension",
           "task_type" : "edu"
         },
         {
-          "id" : 938999088,
+          "id" : 1996959621,
           "name" : "Nested List Comprehension",
           "files" : {
             "task.py" : {
@@ -1660,13 +1644,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Nested List Comprehension\n\nNested list comprehensions are simply list comprehensions nested within other \nlist comprehension. This is quite similar to [nested loops](course://Boucles/Nested for Loop).\nHere is a program that builds a [nested list](course://Structures de données/Nested Lists) using a nested loop:\n\n```python\nmatrix = []\n\nfor i in range(3):\n\n    # Append an empty sublist inside the list\n    matrix.append([])\n\n    for j in range(0, 10, 2):\n        matrix[i].append(j)\n\nprint(matrix)\n```\nOutput:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\nThe same can be done in just one line using nested list comprehension:\n\n```python\nmatrix = [[j for j in range(0, 10, 2)] for i in range(3)]\nprint(matrix)\n```\nOutput:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\n### Task\n\nCreate a $10×10$ `matrix` such that each row (sublist) contains **characters** 0–9 from\n`string`. Use list comprehension to complete the task in one line of code. \n\n<div class=\"hint\">\n\nFollow the example in the task description. You simply need to use `string` as an iterable instead\nof one of the ranges.\n\n</div>\n\n\n\n",
+          "description_text" : "## L'imbrication de list comprehension\n\nUne liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.\nElles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).\nVoici un programme qui construit une [Liste imbriquée](course://Structures de données/Nested Lists) en utilisant \ndes boucles imbriquées :\n\n```python\nmatrix = []\n\nfor i in range(3):\n\n    # Append an empty sublist inside the list\n    matrix.append([])\n\n    for j in range(0, 10, 2):\n        matrix[i].append(j)\n\nprint(matrix)\n```\nSortie:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\nLe même programme peut être écrit en une seul ligne en utilisant les listes imbriquées :\n\n```python\nmatrix = [[j for j in range(0, 10, 2)] for i in range(3)]\nprint(matrix)\n```\nSortie:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\n### Task\n\nCréer une `matrice` de $10x10$ de tel sorte que chaque ligne (sous liste) contiennent les **caractères** 0-9 depuis une \nchaine de caractères. Utilisez la technique présenter ci-dessous afin d'écrire un code en une ligne.\n\n<div class=\"hint\">\n\nsuivez l'exemple dans la partie ci-dessus. Vous devez simplement utiliser une `string` comme itérable à la place \nde chaque rang ([0],[1], etc ...)\n</div>\n\n\n\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Nested+List+Comprehension",
           "task_type" : "edu"
         },
         {
-          "id" : 1981070791,
+          "id" : 72631848,
           "name" : "While loop",
           "files" : {
             "while_loop.py" : {
@@ -1695,13 +1679,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## while loop\n\nA `while` loop is somewhat similar to an `if` statement: it executes some code if some \ncondition is `True`. The key difference is that it will continue to execute indented \ncode for as long as the condition is `True`.  If the expression is `False`, the loop terminates.\n  \nPrint all squares from `1` to `9`  `(1, 4, ... , 81)`. Use the `number` variable in a\n`while` loop.  \n\n<div class='hint'>Make sure that <code>number</code> is strictly less than 10 in the condition.</div>\n",
+          "description_text" : "## la boucle while\n\nUne boucle `while` est similair à l'instruction `if`: la boucle exécute du code seulement si une condition est vrai `True`.\nLa principale différence est que la boucle s'exécutera sans intérruption tant que la condition de test est vrai. \nSi l'expression est fausse (`False`) la boucle s'arrête.\n\nA  l'aide de la variable `number` et une boucle `while`imprimer les carrés des nombres de `1` à `9`.\n\n\n<div class='hint'>Assurez-vous que la variable <code>number</code> est strictement plus petite que 10 dans la condition de la boucle.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+While+loop",
           "task_type" : "edu"
         },
         {
-          "id" : 844864693,
+          "id" : 1709906897,
           "name" : "Break keyword",
           "files" : {
             "break_keyword.py" : {
@@ -1736,13 +1720,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Break keyword\n\nAn infinite loop is a loop that never exits. If the loop condition happens to \nalways be `True`, such a loop becomes infinite. The most straightforward way to create\nan infinite loop is to use `while True`. The `break` keyword is used to \nescape the loop.  \n\n  \nWrite a condition to exit the loop on its third iteration after evaluating if `animal`\nis equal to `elephant`.  Use the `break` statement.  The `zoo` list in the end should contain \nonly `lion` and `tiger` (because you `pop` all the other ones in the loop).\n\n<div class=\"hint\">Use <code>==</code> to check if <code>animal</code> is equal to <code>\"elephant\"</code>.</div>\n",
+          "description_text" : "## le mot clé Break\n\nUne boucle infine comme son nom l'indique ne se termine jamais. Si la condition d'une boucle s'avère être \ntoujours vrai (`True`), nous appelons un tel boucle `une boucle infinie`. La manière la plus directe de faire \nune tel boucle est d'utiliser `while True`. Le mot clé `break`, permet de quitter une tel boucle.\n\nÉcrivez une condition permettant de quitter la boucle à sa troisième iteration après avoir évalué si `animal` est égal\nà `elephant`. Utiliser le mot clé `break`. A la fin du programme, la liste `zoo` doit seulement contenir les mots `lion`\net `tiger` (vu que vous avez utiliser `pop` sur les autres élements dans la boucle).\n\n<div class=\"hint\">utiliser <code>==</code> pour vérifier si  <code>animal</code> est égal à <code>\"elephant\"</code>.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Break+keyword",
           "task_type" : "edu"
         },
         {
-          "id" : 1538810355,
+          "id" : 728053193,
           "name" : "Else with loops",
           "files" : {
             "else_with_loops.py" : {
@@ -1777,13 +1761,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Else with loops\n\nWe saw that the `break` statement breaks out of the innermost enclosing `for` or `while` loop.\n\nPython also allows loop statements to have an `else` clause. It is executed when the loop terminates\nthrough exhaustion of the iterable (with `for`) or when the condition becomes `False`\n(with `while`), but not when the loop is terminated by a `break` statement. Check\nout this example of a loop which searches for prime numbers:\n\n```python\nfor n in range(2, 10):\n    for x in range(2, n):\n        if n % x == 0:\n            print(n, 'equals', x, '*', n//x)\n            break\n    else:\n        # loop fell through without finding a factor\n        print(n, 'is a prime number')\n```\n```text\n2 is a prime number\n3 is a prime number\n4 equals 2 * 2\n5 is a prime number\n6 equals 2 * 3\n7 is a prime number\n8 equals 2 * 4\n9 equals 3 * 3\n```\nIn this code, the `else` clause belongs to the `for` loop, not the\n`if` statement.\n\nRemember, an `else` after an `if` statement is skipped and NOT executed if the expression following \n`if` is `True`, while in the case of loops, an `else` clause is executed after the loop itself\nis completed (unless there was a `break` in there somewhere).\n\nIn the code editor, add two lines of code to the second loop to make sure the loop only prints\nnumbers 1 and 2 and never prints the phrase `\"for loop is done\"`.\n\n<div class=\"hint\">It should terminate at number 3.</div>",
+          "description_text" : "## Les boucles avec Else\n\nNous avons déjà vu que le terme `break` sort de la boucle `for` ou `while`.\n\nPython permet aussi à une boucle d'avoir une clause `else`. Cette partie sera exécutée à la fin de la boucle sur un itérable\n(pour la boucle `for`) ou losque la condition devient `False`dans une boucle `while`, mais pas losque l'on quitte une boucle \navec `break`. Regarder l'exemple ci-dessous qui recherche les nombres premiers :\n\n\n```python\nfor n in range(2, 10):\n    for x in range(2, n):\n        if n % x == 0:\n            print(n, 'equals', x, '*', n//x)\n            break\n    else:\n        # loop fell through without finding a factor\n        print(n, 'is a prime number')\n```\n```text\n2 is a prime number\n3 is a prime number\n4 equals 2 * 2\n5 is a prime number\n6 equals 2 * 3\n7 is a prime number\n8 equals 2 * 4\n9 equals 3 * 3\n```\n\nDans le code ci-dessus, la claude `else` est attachée à la boucle `for` et pas a un teste logique `if`.\n\nRappelez-vous que `else` après un `if`n'est PAS exécuté  si l'expression après `if` est vrai (`True`), alors que dans le\ncas d'une boucle, un `else` sera exécuté à la fin de la boucle (sauf si celle-ci est terminée par un `break`).\n\n# task\n\nDans l'éditeur de code, ajoutez deux lignes de code à la seconde boucle afin d'être sûr que la boucle imprime seulement \nles nombres 1 et 2 and n'imprime jamais la phrase `\"for loop is done\"`.\n\n<div class=\"hint\">La boucle doit se terminer sur le nombre 3.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Else+with+loops",
           "task_type" : "edu"
         },
         {
-          "id" : 1395530185,
+          "id" : 1708153895,
           "name" : "Continue keyword",
           "files" : {
             "continue_keyword.py" : {
@@ -1818,7 +1802,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Continue keyword\n\nThe `continue` keyword is used to skip the rest of the code inside the loop for \nthe current iteration only and proceed right to the next one. The loop returns to the `for` or \n`while` statement and evaluates the condition again. If there is no next item, \nthe `else` clause is executed if it is present.\n  \nPrint only the odd numbers `1, 3, 5, 7, 9`.  \n\n<div class='hint'>Use the <code>%</code> operator to check if <code>x</code> is even.</div>\n",
+          "description_text" : "## Le mot clé Continue\n\nLe mot clé `contine` est utilisé afin de sauter la suite du code à l'intéreur d'une boucle seulement\npour l'itération courante et procède directement à l'itération suivante. La boucle retour à l'évaluation \nde `for` ou `while`. Si il n'y a plus d'objet, la condition `else` est évaluée si présente.\n\nImprimer à l'écran seulement les nombres impairs `1, 3, 5, 7, 9`.\n\n<div class='hint'>Utilisez l'opérateur <code>%</code> pour vérifier si  <code>x</code> est pair.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Continue+keyword",
           "task_type" : "edu"
@@ -1827,11 +1811,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 1815753263,
+      "id" : 1904560638,
       "title" : "Fonctions",
       "task_list" : [
         {
-          "id" : 1851258479,
+          "id" : 2115739011,
           "name" : "Definition",
           "files" : {
             "functions.py" : {
@@ -1860,13 +1844,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Definition\n\nFunctions are a convenient way to divide your code into useful blocks, make it more \nreadable, and reuse it.\nThe keyword `def` introduces a function definition. \nIt must be followed by the function name and the parenthesized list of formal parameters (which can be empty). \nThe statements that form the body of the function start at the next line and must be indented.\n\n\nFunctions only run when they are called. To call a function, use its name followed by parentheses:\n\n```python\ndef my_function():  # function definition\n  print(\"Hello from a function\")\n\nmy_function()  # function call\n```\n\nRead more about defining functions in <a href=\"https://docs.python.org/3/tutorial/controlflow.html#defining-functions\">this section</a> of Python Documentation.\n### Task\n - Call the function `my_function` inside the loop to repeat its invocation 5 times\n - Define a function that can replace the duplicated `print` statements in the file.  \n\n<div class='hint'>Use the <code>()</code> to call the <code>my_function</code> function.</div>\n<div class='hint'>Use the <code>def</code> keyword to define the <code>fun</code> function.</div>\n",
+          "description_text" : "## Definition\n\nLes fonctions permettent de découper votre code en petite partie utile, plus lisible et surtout réutilisable.\nLe mot clé `def` commence la définition d'une nouvelle fonction. Ce mot sera suivi du nom de la fonction et \n entre parenthèse d'une liste de paramètres (qui peut être vide) et se termine avec le caractère `:`. Le code de la fonction commence à la ligne suivante \net doit être indenté. \n\nLe code contenu dans une fonction ne sersa executé que lorsque celle-ci est appelée. Pour appeler une fonction, utiliser \nson nom avec les parenthèses.\n\n```python\ndef my_function():  # définition d'une fonction\n  print(\"Hello from a function\")\n\nmy_function()  # appel de la fonction\n```\n\n\nPour en savoir plus sur la définition d'une fonction sur <a href=\"https://docs.python.org/3/tutorial/controlflow.html#defining-functions\">cette page</a> de la documentation de Python.\n\n### Task\n - Appelez la fonction `my_function` à l'intérieur de la boucle afin de l'invoquer 5 fois.\n - Définissez une fonction qui remplace les appels duplicer de `print` dans le fichier.  \n\n<div class='hint'>Utilisez les <code>()</code> pour appelez la fonction  <code>my_function</code>.</div>\n<div class='hint'>Utilisez le mot clé <code>def</code> pour définir la <code>fonction</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Definition",
           "task_type" : "edu"
         },
         {
-          "id" : 1996010927,
+          "id" : 2085762292,
           "name" : "Parameters and call arguments",
           "files" : {
             "param_args.py" : {
@@ -1889,13 +1872,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Parameters and call arguments\n\nFunction parameters are defined inside the parentheses `()` following the \nfunction name. A parameter acts as a variable name for an argument passed to the\nfunction. \n\nThe terms parameter and argument refer to the same thing: information \nthat is passed into a function. However, a parameter is the variable listed \ninside the parentheses in the function definition, while an argument is the \nvalue that is sent to the function when it is called.\n\nBy default, a function must be called with the correct number of arguments. \nIf your function expects 2 arguments, you have to call it \nwith 2 arguments:\n\n```python\ndef my_function(name, surname):\n    print(name + \" \" + surname)\n\nmy_function(\"Jon\", \"Snow\")\n```\nResult:\n```text\nJon Snow\n```\nHowever, if you supply it with just one argument during the call:\n```python\nmy_function(\"Sam\")\n```\n`TypeError` will be raised:\n```text\nTypeError                                 Traceback (most recent call last)\n<ipython-input-29-40eb74e4b26a> in <module>\n----> 1 my_function('Jon')\n\nTypeError: my_function() missing 1 required positional argument: 'surname'\n```\n### Task\nIn the code editor, define a function that prints the square of a passed parameter.  \n\n<div class='hint'>Add the <code>x</code> parameter inside parentheses in the function definition.</div>\n",
+          "description_text" : "## Arguments et paramètres d'une fonction\n\nLes paramètres d'une fonction sont définis à l'intérieur des parenthèses `()` juste après le nom de la fonction. \nUn paramètre joue le rôle d'une variable pour l'argument passé à la fonction.\n\nLes termes paramètres et arguments font référence au même chose : l'information qui est passé à une fonction. \nCependant, un paramètre est une variable listée à l'intérieur de la déclaration d'une fonction (dans les parenthèses), \nalors qu'un argument est la valeur qui est envoyée à la fonction lorsqu'elle est appelée.\n\nPar défaut, une fonction doit être appelée avec le nombre d'arguments correct. Si votre fonction demande deux arguments,\nvous devez lui fournir deux arguments :\n\n```python\ndef my_function(name, surname):\n    print(name + \" \" + surname)\n\nmy_function(\"Jon\", \"Snow\")\n```\nRésultat:\n```text\nJon Snow\n```\nSinon, si vous fournissez seulement un argument lors de son appel :\n```python\nmy_function(\"Sam\")\n```\nune erreur de telque :`TypeError` sera appelée :\n```text\nTypeError                                 Traceback (most recent call last)\n<ipython-input-29-40eb74e4b26a> in <module>\n----> 1 my_function('Jon')\n\nTypeError: my_function() missing 1 required positional argument: 'surname'\n```\n### Task\nDans l'éditeur de code, définissez une fonction qui imprime le carré d'un nombre.r.  \n\n<div class='hint'>Ajoutez un <code>x</code> comme paramètre à l'intérieur des  parenthèses dans la définition de la fonction.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Parameters+and+call+arguments",
           "task_type" : "edu"
         },
         {
-          "id" : 1429932776,
+          "id" : 461663805,
           "name" : "Return value",
           "files" : {
             "return_keyword.py" : {
@@ -1936,13 +1918,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Return value\n\nFunctions may return a value to the caller, using the keyword `return` . You can use the \nreturned value to assign it to a variable or just print it out. In fact, even functions \nwithout a `return` statement do return a value. This value is \ncalled `None` (it’s a built-in name). Writing the value `None` is normally suppressed by \nthe interpreter, but if you really want to see it, you can use `print(some_func())`.\n\n><i>The first statement of the function body can optionally be a string literal; this string \nliteral is the function’s documentation string, or docstring (more about docstrings can \nbe found in the section <a href=\"https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings\">Documentation Strings</a>\nin Python Documentation). It’s good practice to include docstrings in the code that you write.</i>\n  \nIn the Fibonacci sequence, the first two numbers are `1` and `1`, and each subsequent \nnumber is the sum of the previous two. \n\n### Task\nWrite a function that returns a list of numbers \nof the Fibonacci sequence up to `n` .  \n\n<div class='hint'>Initialize <code>b</code> with 1.</div>\n<div class='hint'>Update <code>b</code> with <code>a + b</code>.</div>\n<div class='hint'>Update <code>a</code> with <code>tmp_var</code>.</div>\n\n\n",
+          "description_text" : "## La valeur de Return \n\nLes fonctions peuvent retourner une valeur à celui qui l'a appelé, en utilisant le mot clé `return` . \nVous pouvez utiliser la valeur retournée en l'assignant à une variable ou simplement en l'imprimant. En fait, \nune fonction qui n'emploi pas le mot `return` renvoi une valeur. Cette valeur est appelée  `None` (C'est un nom interne à python).\nÉcrire la valeur `None` est normalement supprimé par l'interpréteur python, si vous voulez le voir, vous pouvez appeler\nla fonction comme tel : `print(some_func())`.\n\n><i>La première déclaration d'une fonction peut être une chaine de caractères; cette chaine sert à documenter votre fonction.   \nOn l'appel docstring (vous trouverez plus d'information sur docstrings dans la section :\n<a href=\"https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings\">Documentation Strings</a>\nde la documentation Python). C'est une bonne pratique d'inclure un docstrings dans votre code.</i>\n\nDans la suite de Fibonacci, les deux premiers nombres sont `1` et `1`, chaque séquence suivante est la somme des deux précédents.\n\n### Task\nÉcrire une fonction qui retourne la liste des nombres de la suite de Fibonacci jusqu'à `n` .  \n\n<div class='hint'>Initialise <code>b</code> avec 1.</div>\n<div class='hint'>Mettez à jour <code>b</code> avec <code>a + b</code>.</div>\n<div class='hint'>Mettez à jour <code>a</code> avec <code>tmp_var</code>.</div>\n\n\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Return+value",
           "task_type" : "edu"
         },
         {
-          "id" : 1860205757,
+          "id" : 1095817301,
           "name" : "Default parameters",
           "files" : {
             "default_parameter.py" : {
@@ -1965,13 +1946,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Default parameters\n\nIt is also possible to define functions with a variable number of arguments. There are \nthree forms, which can be combined. The most useful form is to specify a default value \nfor one or more arguments. This creates a function that can be called with fewer \narguments than it is defined with. For example, check out the first function in the code editor.\nThis function can be called in several ways:\n\n- giving only the mandatory argument `a`: `multiply_by(3)`\n\n- giving one of the optional arguments: `multiply_by(3, 47)`, or `multiply_by(3, c=47)`\n\n- or even giving all arguments: `multiply_by(3, 47, 0)`\n\nYou can specify which argument you are providing in the function call, just like we did in the third case\nwith `c=47`. If you do not specify that, values will be assigned according to their order.\nDo not put spaces around the `=` symbol in function calls and definitions.\n \nExplore this topic further by reading <a href=\"https://docs.python.org/3/tutorial/controlflow.html#default-argument-values\">this section</a>\nof Python Documentation.\n\n\n### Task\nAdd parameters to the `hello()` function and set a default value for the `name` parameter.  \n\n<div class='hint'>Specify any default value for the <code>name</code> parameter.</div>\n",
+          "description_text" : "## Paramètres par défaut\n\nIl est possible de définir une fonction avec un nombre variable d'arguments. Il y a trois formes qui peuvent être combinés.\nLa forme la plus pratique est de définir une valeur par défaut pour l'un ou plusieurs des arguments. Cela permet de définir une \nfonction qui sera appelée avec moins d'arguments. Par exemple, vérifiez la première fonction dans l'éditeur de code.\nCette fonction peut être appelée de différentes manières :\n\n- en donnant que l'argument obligatoire : `a`: `multiply_by(3)`\n\n- en donnant l'un des arguments facultatifs : `multiply_by(3, 47)`, ou `multiply_by(3, c=47)`\n\n- ou en donnant tous les arguments : `multiply_by(3, 47, 0)`\n\nVous pouvez spécifier quel argument vous fournissez à votre fonction, tel que dans le troisième exemple ci-dessus avec `c=47`.\nSi vous ne spécifiez rien, les valeurs seront assignées selon l'ordre présent dans la déclaration de votre fonction.\nAttention, vous ne devez pas mettre d'espace entre le symbole `=` lors de la déclaration ou de l'appel.\n\n\n \nSi vous voulez en savoir plus sur le sujet voici <a href=\"https://docs.python.org/3/tutorial/controlflow.html#default-argument-values\">un lien</a>\ndans le documentation Python.\n\n\n### Task\nAjoutez un paramètre à la fonction `hello()`  et configurer une valeur par défaut pour le paramètre `name`.  \n\n<div class='hint'> Spécifiez n'importe quelle valeur pour le paramètre <code>name</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Default+parameters",
           "task_type" : "edu"
         },
         {
-          "id" : 1070926720,
+          "id" : 1669702265,
           "name" : "Keyword Arguments",
           "files" : {
             "keyword_args.py" : {
@@ -1994,13 +1974,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Keyword Arguments\n\nWe already hinted that functions can also be called using keyword arguments of the form `kwarg=value`. For \ninstance, the function `cat()`, which we defined for you,\naccepts one required argument (`food`) and three optional arguments (`state`, `action`, and `breed`). \nIt can be called in any of the following ways (you can try them all out):\n\n```python\ncat('chicken')                     # 1 positional argument\ncat(food='chicken')                # 1 keyword argument\ncat(food='fish', action='bite')    # 2 keyword arguments\ncat(action='bite', food='fish')    # 2 keyword arguments\ncat('beef', 'happy', 'hiss')       # 3 positional arguments\ncat('a hug', state='purrring')     # 1 positional, 1 keyword\n```\nIn a function call, keyword arguments must follow positional arguments. All the keyword \narguments passed must match one of the arguments accepted by the function (e.g., `book` is not a valid \nargument for the `cat` function), and their order is not important. This also includes non-optional \narguments (e.g., `cat(food='fish')` is valid too). No argument may receive a value more than once.\nAll the following calls would be invalid:\n\n```python\ncat()                              # required argument missing\ncat(food='fish', 'dead')           # positional argument after a keyword argument\ncat('veggies', food='nothing')     # duplicate value for the same argument\ncat(actor='Johnny Depp')           # unknown keyword argument\n```\n\n### Task\nIn the editor, complete the function call  with arguments so that it prints the following:\n```text\n-- This cat wouldn't growl if you gave it soup\n-- Lovely fur, the Sphinx\n-- It's still hungry!\n```\n\n<div class=\"hint\">For keyword arguments, use syntax such as <code>state='asleep'</code>.</div>\n<div class=\"hint\">The required argument <code>food</code> has to be in the first position, unless you supply it as a keyword argument.</div>",
+          "description_text" : "## Nom d'argument\n\nWe already hinted that functions can also be called using keyword arguments of the form `kwarg=value`. For \ninstance, the function `cat()`, which we defined for you,\naccepts one required argument (`food`) and three optional arguments (`state`, `action`, and `breed`). \nIt can be called in any of the following ways (you can try them all out):\n\n```python\ncat('chicken')                     # 1 positional argument\ncat(food='chicken')                # 1 keyword argument\ncat(food='fish', action='bite')    # 2 keyword arguments\ncat(action='bite', food='fish')    # 2 keyword arguments\ncat('beef', 'happy', 'hiss')       # 3 positional arguments\ncat('a hug', state='purrring')     # 1 positional, 1 keyword\n```\nIn a function call, keyword arguments must follow positional arguments. All the keyword \narguments passed must match one of the arguments accepted by the function (e.g., `book` is not a valid \nargument for the `cat` function), and their order is not important. This also includes non-optional \narguments (e.g., `cat(food='fish')` is valid too). No argument may receive a value more than once.\nAll the following calls would be invalid:\n\n```python\ncat()                              # required argument missing\ncat(food='fish', 'dead')           # positional argument after a keyword argument\ncat('veggies', food='nothing')     # duplicate value for the same argument\ncat(actor='Johnny Depp')           # unknown keyword argument\n```\n\n### Task\nIn the editor, complete the function call  with arguments so that it prints the following:\n```text\n-- This cat wouldn't growl if you gave it soup\n-- Lovely fur, the Sphinx\n-- It's still hungry!\n```\n\n<div class=\"hint\">For keyword arguments, use syntax such as <code>state='asleep'</code>.</div>\n<div class=\"hint\">The required argument <code>food</code> has to be in the first position, unless you supply it as a keyword argument.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Keyword+Arguments",
           "task_type" : "edu"
         },
         {
-          "id" : 204706840,
+          "id" : 245223273,
           "name" : "Args and kwargs",
           "files" : {
             "args_kwargs.py" : {
@@ -2037,11 +2017,10 @@
           },
           "description_text" : "## Args and kwargs\n\nWhen a final formal parameter of the form `**name` is present, it receives a dictionary \n(see [Data Structures — Dictionaries ](course://Structures de données/Dictionaries)) containing \nall keyword arguments except for those corresponding \nto a formal parameter. This may be combined with a formal parameter of the form `*name` which \nreceives a tuple containing any number of positional arguments beyond the formal parameter list \n(`*name` must occur before `**name`). For example, if we define a function like the one in the \ncode editor, it could be called as shown in call 1, which would print:\n```text\n-- Do you know how to get to the Library ?\n-- I'm sorry, I am not from here, no idea about the Library\nDo you at least have a cigar, sir?\nSure, help yourself.\n----------------------------------------\nlost_person : old banker\nother_guy : street clown\nscene : in a park\n```\nThis function can be called with an arbitrary number of arguments. These arguments will be wrapped \nup in a tuple (see [Tuples](course://Structures de données/Tuples)). Before the variable number of arguments, zero or \nmore normal arguments may occur; in our case there's one – `place`. Any formal parameters that occur \nafter the `*args` parameter are ‘keyword-only’ arguments, meaning that they can only be used as keywords \nrather than positional arguments. Another way to call this function is shown in call 2, and it will give \nus the same output.\n\n### Task\n\nIn the code editor, modify the code below the `cat()` function so that it prints \nthe following:\n```text\n-- This cat would eat if you gave it anything\n-- Lovely fur, the Maine Coon\n-- It's fat !\nIT IS TOO FAT.\nYOU ARE FEEDING YOUR CAT TOO MUCH.\n```\n<div class=\"hint\">Remember to unpack extra positional arguments with <code>*</code>.</div>\n\n<div class=\"hint\">Remember to unpack keyword arguments with <code>**</code>.</div>\n\n<div class=\"hint\">Do not forget to provide the value for the formal parameter <code>food</code>.</div>\n\n\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Args+and+Kwargs",
           "task_type" : "edu"
         },
         {
-          "id" : 30581564,
+          "id" : 919645441,
           "name" : "Recursion",
           "files" : {
             "recursion.py" : {
@@ -2073,11 +2052,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 1285709816,
+      "id" : 1688520523,
       "title" : "Modules et packages",
       "task_list" : [
         {
-          "id" : 2066001187,
+          "id" : 1063103453,
           "name" : "Import module",
           "files" : {
             "my_module.py" : {
@@ -2136,7 +2115,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1806132491,
+          "id" : 1608244696,
           "name" : "Built-in modules",
           "files" : {
             "builtin_modules.py" : {
@@ -2171,7 +2150,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2147016704,
+          "id" : 1825627015,
           "name" : "From import",
           "files" : {
             "my_module.py" : {
@@ -2224,7 +2203,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1114513050,
+          "id" : 935437658,
           "name" : "Packages",
           "files" : {
             "packages.py" : {
@@ -2307,7 +2286,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 478019137,
+          "id" : 1703998268,
           "name" : "Executing modules as scripts",
           "files" : {
             "task.py" : {
@@ -2370,11 +2349,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 222630959,
+      "id" : 199013689,
       "title" : "Lire et écrire dans un fichier",
       "task_list" : [
         {
-          "id" : 1952603788,
+          "id" : 239219899,
           "name" : "00 Ouverture de fichier",
           "files" : {
             "input.txt" : {
@@ -2421,13 +2400,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Ouverture d'un fichier\r\nPython intègre plusieurs fonctions pour l’ouverture, la lecture et l’écriture d’un fichier.\r\n\r\n`open()` permet l’ouverture d’un fichier. La plupart du temps on l’utilise avec deux arguments tel que :\r\n`open(nom_de_fichier, mode)`:\r\n\r\n```python\r\nf = open('mon_fichier.txt', 'w')\r\n```\r\n\r\nLe premier argument est une chaine de caractère contenant le nom de fichier. Le second argument est une autre chaine de caractère permettant \r\nde définir le mode d’ouverture tel que :\r\n\r\n`'r'`  : ouverture en lecture seul  \r\n`'w'` : ouverture en écriture (attention, si le fichier existe il sera écrasé)  \r\n`'a'`  : ouverture en mode addition (le texte ajouté le sera en fin de fichier)  \r\n`'r+'` : ouverture en mode lecture/écriture  \r\n\r\nIl est conseillé d’utiliser la méthode d’ouverture avec `with` afin d’automatiser la fermeture du fichier. Voici un exemple d’utilisation :\r\n\r\n```python\r\nwith open('mon_fichier.txt') as f:\r\n    read_data = f.read()\r\n\r\n# Nous pouvons vérifier que le fichier est bien fermé automatiquement\r\nf.closed\r\n```\r\n```text\r\nTrue\r\n```\r\n**Important**:  \r\n\r\nSi vous n’utilisez pas la méthode d’ouverture avec le terme ‘with’,  vous devrez utiliser ‘f.close()’ pour fermer le fichier et libéré la mémoire \r\net les ressources système. De plus, lorsque vous utiliser ‘f.close()’, vous n’aurez plus accès au contenu du fichier. \r\n\r\nDans votre éditeur, ouvrez le fichier ‘input1.txt’ en mode lecture avec la méthode ‘with’. Vérifier le nom utiliser pour le fichier \r\nsur les lignes suivantes et utiliser-le. A la fin, femer le fichier de sortie `outfile` préalablement ouvert.\r\n\r\nAprès l'execution de votre code, vérifier le fichier de sortie présent de la vue du cours à côté des autres fichiers.\r\n\r\n<div class=\"hint\">Utiliser l'argument <code>r</code> de la commande <code>open()</code>,\r\npour jouer un peu avec les fichiers!</div>\r\n",
+          "description_text" : "## Ouverture d'un fichier\nPython intègre plusieurs fonctions pour l’ouverture, la lecture et l’écriture d’un fichier.\n\n`open()` permet l’ouverture d’un fichier. La plupart du temps on l’utilise avec deux arguments tel que :\n`open(nom_de_fichier, mode)`:\n\n```python\nf = open('mon_fichier.txt', 'w')\n```\n\nLe premier argument est une chaine de caractère contenant le nom de fichier. Le second argument est une autre chaine de caractère permettant \nde définir le mode d’ouverture tel que :\n\n`'r'`  : ouverture en lecture seul  \n`'w'` : ouverture en écriture (attention, si le fichier existe il sera écrasé)  \n`'a'`  : ouverture en mode addition (le texte ajouté le sera en fin de fichier)  \n`'r+'` : ouverture en mode lecture/écriture  \n\nIl est conseillé d’utiliser la méthode d’ouverture avec `with` afin d’automatiser la fermeture du fichier. Voici un exemple d’utilisation :\n\n```python\nwith open('mon_fichier.txt') as f:\n    read_data = f.read()\n\n# Nous pouvons vérifier que le fichier est bien fermé automatiquement\nf.closed\n```\n```text\nTrue\n```\n**Important**:  \n\nSi vous n’utilisez pas la méthode d’ouverture avec le terme ‘with’,  vous devrez utiliser ‘f.close()’ pour fermer le fichier et libéré la mémoire \net les ressources système. De plus, lorsque vous utiliser ‘f.close()’, vous n’aurez plus accès au contenu du fichier. \n\nDans votre éditeur, ouvrez le fichier ‘input1.txt’ en mode lecture avec la méthode ‘with’. Vérifier le nom utiliser pour le fichier \nsur les lignes suivantes et utiliser-le. A la fin, femer le fichier de sortie `outfile` préalablement ouvert.\n\nAprès l'execution de votre code, vérifier le fichier de sortie présent de la vue du cours à côté des autres fichiers.\n\n<div class=\"hint\">Utiliser l'argument <code>r</code> de la commande <code>open()</code>,\npour jouer un peu avec les fichiers!</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Open+file",
           "task_type" : "edu"
         },
         {
-          "id" : 1179259988,
+          "id" : 873704284,
           "name" : "01 Lecture de fichier",
           "files" : {
             "input.txt" : {
@@ -2480,13 +2459,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## lecture de fichier\r\n\r\nPour lire un fichier, vous pouvez utiliser la commande `f.read(size)`, qui lira une certaine \r\nquantité de donnée et renvera une chaine de caractères. Lorsque la taille est omis ou négative, \r\nl'entier du fichier sera lu et retourner.\r\n\r\n```python\r\nwith open('somefile.txt') as f:\r\n    print(f.read())\r\n```\r\n```text\r\nHere's everything that's in the file.\\n\r\n```\r\n<i>**Note**: Il peut y avoir un problème si la taille du fichier fait deux fois la taille \r\nde la mémoire de votre ordinateur.</i>\r\n\r\n\r\n`f.readline()` lit une seul ligne du fichier; un caractère de nouvelle ligne (`\\n`) \r\nest laissé à la fin de la chaine. ce caractpre sera omi uniquement si vous êtes à la dernière ligne.\r\nSi `f.readline()` retourne une chaine vide, la fin du fichier a été atteint, alors qu'une ligne vide \r\nsera représentée par `\\n`, une chaine contenant uniquement le caractère de nouvelle line.\r\n\r\n```python\r\nf.readline()\r\n```\r\n```text\r\n'This is the first line of the file.\\n'\r\n```\r\n```python\r\nf.readline()\r\n```\r\n```text\r\n'Second line of the file\\n'\r\n```\r\n```python\r\nf.readline()\r\n```\r\n```text\r\n''\r\n``` \r\nFor reading lines from a file, you can loop over the file object. This is memory efficient, fast, and \r\nmakes the code simple:\r\n```python\r\nfor line in f:\r\n    print(line)\r\n```\r\n```text\r\nThis is the first line of the file.\r\nSecond line of the file\r\n```\r\n\r\nIf you want to read all the lines of a file in a list, you can also use `list(f)` or `f.readlines()`.\r\n\r\n\r\nFor more details, check out the section [Methods of File Objects](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects) in Python Tutorial.\r\n\r\n\r\nPrint the contents of \"input.txt\" to output by iterating over the lines of the file and printing each one.\r\nThen print only the first line of \"input1.txt\".\r\n\r\n<div class=\"hint\">Loop over the file object as in the example in the task description.</div>\r\n<div class='hint'>Use the <code>print</code> function.</div>\r\n<div class='hint'>Use the <code>readline()</code> method to print a single line.</div>\r\n",
+          "description_text" : "## lecture de fichier\n\nPour lire un fichier, vous pouvez utiliser la commande `f.read(size)`, qui lira une certaine \nquantité de donnée et renvera une chaine de caractères. Lorsque la taille est omis ou négative, \nl'entier du fichier sera lu et retourner.\n\n```python\nwith open('somefile.txt') as f:\n    print(f.read())\n```\n```text\nHere's everything that's in the file.\\n\n```\n<i>**Note**: Il peut y avoir un problème si la taille du fichier fait deux fois la taille \nde la mémoire de votre ordinateur.</i>\n\n\n`f.readline()` lit une seul ligne du fichier; un caractère de nouvelle ligne (`\\n`) \nest laissé à la fin de la chaine. ce caractpre sera omi uniquement si vous êtes à la dernière ligne.\nSi `f.readline()` retourne une chaine vide, la fin du fichier a été atteint, alors qu'une ligne vide \nsera représentée par `\\n`, une chaine contenant uniquement le caractère de nouvelle line.\n\n```python\nf.readline()\n```\n```text\n'This is the first line of the file.\\n'\n```\n```python\nf.readline()\n```\n```text\n'Second line of the file\\n'\n```\n```python\nf.readline()\n```\n```text\n''\n``` \nFor reading lines from a file, you can loop over the file object. This is memory efficient, fast, and \nmakes the code simple:\n```python\nfor line in f:\n    print(line)\n```\n```text\nThis is the first line of the file.\nSecond line of the file\n```\n\nIf you want to read all the lines of a file in a list, you can also use `list(f)` or `f.readlines()`.\n\n\nFor more details, check out the section [Methods of File Objects](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects) in Python Tutorial.\n\n\nPrint the contents of \"input.txt\" to output by iterating over the lines of the file and printing each one.\nThen print only the first line of \"input1.txt\".\n\n<div class=\"hint\">Loop over the file object as in the example in the task description.</div>\n<div class='hint'>Use the <code>print</code> function.</div>\n<div class='hint'>Use the <code>readline()</code> method to print a single line.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Read+file",
           "task_type" : "edu"
         },
         {
-          "id" : 901145898,
+          "id" : 1450747889,
           "name" : "02 Ecriture de fichier",
           "files" : {
             "output.txt" : {
@@ -2533,13 +2512,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Write to file\r\n\r\nAs we already mentioned, if you use `'w'` as the second argument in `open()`, the file opens for \r\nwriting only. A new empty file will be created. If another file with the same name already exists, it \r\nwill be erased. If you want to add some content to an existing file, you should use the `'a'` \r\n(append) modifier.  \r\n  \r\nAnother file object method, `f.write(string)`, writes the contents of a <i>string</i> to the file, returning the \r\nnumber of characters written.\r\n\r\n```python\r\nf.write('This is a test\\n')\r\n```\r\n```text\r\n15\r\n```\r\nOther types of objects in text mode need to be converted into a string first:\r\n```python\r\nvalue = ('the answer', 42)\r\ns = str(value)  # convert the tuple into string\r\nf.write(s)\r\n```\r\n```python\r\n18\r\n```\r\nWhere the specified text will be inserted in the file depends on the file mode (`'a'` vs `'w'`).\r\n\r\n`'a'`:  the text will be inserted at the end of the file.\r\n\r\n`'w'`: the file will be emptied before the text will be inserted at the beginning.\r\n\r\nIf you want to include a symbol such as a line break, into your string (to start from a new line),\r\nadd it with a `+`:\r\n```python\r\nf.write('\\n' + 'string,' + ' ' + 'another string')\r\n```\r\nThis will add a new line and write `'string, another string'`.\r\n\r\nIn the code editor, **append** one new line to `output.txt` with all elements from the `zoo` list separated by `' and '`. \r\nUse the <code>' and '.join(lst)</code> syntax to join the list elements into the required string. Afterwards, \r\nappend another line with the `number` to the same output file.\r\n\r\n<div class='hint'>Use the <code>'a'</code> modifier to append lines at the end of the file.</div>\r\n<div class='hint'>Use the <code>write()</code> method.</div>\r\n<div class='hint'>Convert <code>number</code> into a string before writing.</div>\r\n<div class=\"hint\">Add <code>\\n</code> at the beginning of each string to write so that it eds up a separate line.</div>\r\n\r\n\r\n\r\n## What's next?\r\n\r\nNow, once you have mastered the basics of Python, we bet that you’re wondering what to do next. \r\nWe recommend checking out [JetBrains Academy](https://hi.hyperskill.org?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task). \r\nHere are several reasons to try JetBrains Academy now:\r\n\r\n- At the moment, 37 Python projects and 348 topics are available for learning, and the number keeps growing.\r\n  Other programming languages, such as Kotlin and Java, are also available.\r\n- Projects of varying difficulty levels provide a flexible learning experience for all.\r\n- Comprehensive learning tracks are augmented with a detailed [Knowledge Map](https://hyperskill.org/knowledge-map?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\r\n- Learn anywhere: you can start learning on your tablet or mobile phone via a browser and continue on your \r\n  laptop or PC; you can even build the projects [right in your IDE](https://hyperskill.org/plugin#python?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\r\n\r\nJoin JetBrains Academy [here](https://hyperskill.org/onboarding?track=python&utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task) and try it yourself!\r\n",
+          "description_text" : "## Write to file\n\nAs we already mentioned, if you use `'w'` as the second argument in `open()`, the file opens for \nwriting only. A new empty file will be created. If another file with the same name already exists, it \nwill be erased. If you want to add some content to an existing file, you should use the `'a'` \n(append) modifier.  \n  \nAnother file object method, `f.write(string)`, writes the contents of a <i>string</i> to the file, returning the \nnumber of characters written.\n\n```python\nf.write('This is a test\\n')\n```\n```text\n15\n```\nOther types of objects in text mode need to be converted into a string first:\n```python\nvalue = ('the answer', 42)\ns = str(value)  # convert the tuple into string\nf.write(s)\n```\n```python\n18\n```\nWhere the specified text will be inserted in the file depends on the file mode (`'a'` vs `'w'`).\n\n`'a'`:  the text will be inserted at the end of the file.\n\n`'w'`: the file will be emptied before the text will be inserted at the beginning.\n\nIf you want to include a symbol such as a line break, into your string (to start from a new line),\nadd it with a `+`:\n```python\nf.write('\\n' + 'string,' + ' ' + 'another string')\n```\nThis will add a new line and write `'string, another string'`.\n\nIn the code editor, **append** one new line to `output.txt` with all elements from the `zoo` list separated by `' and '`. \nUse the <code>' and '.join(lst)</code> syntax to join the list elements into the required string. Afterwards, \nappend another line with the `number` to the same output file.\n\n<div class='hint'>Use the <code>'a'</code> modifier to append lines at the end of the file.</div>\n<div class='hint'>Use the <code>write()</code> method.</div>\n<div class='hint'>Convert <code>number</code> into a string before writing.</div>\n<div class=\"hint\">Add <code>\\n</code> at the beginning of each string to write so that it eds up a separate line.</div>\n\n\n\n## What's next?\n\nNow, once you have mastered the basics of Python, we bet that you’re wondering what to do next. \nWe recommend checking out [JetBrains Academy](https://hi.hyperskill.org?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task). \nHere are several reasons to try JetBrains Academy now:\n\n- At the moment, 37 Python projects and 348 topics are available for learning, and the number keeps growing.\n  Other programming languages, such as Kotlin and Java, are also available.\n- Projects of varying difficulty levels provide a flexible learning experience for all.\n- Comprehensive learning tracks are augmented with a detailed [Knowledge Map](https://hyperskill.org/knowledge-map?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\n- Learn anywhere: you can start learning on your tablet or mobile phone via a browser and continue on your \n  laptop or PC; you can even build the projects [right in your IDE](https://hyperskill.org/plugin#python?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\n\nJoin JetBrains Academy [here](https://hyperskill.org/onboarding?track=python&utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task) and try it yourself!\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Write+to+file",
           "task_type" : "edu"
         },
         {
-          "id" : 1798676987,
+          "id" : 337951978,
           "name" : "03 Et après",
           "files" : {
             "main.py" : {
@@ -2549,7 +2528,7 @@
               "text" : "jHkRbjGYl4LUayu8aC+eDb6AToluD+nKtWSsUfz8mjhutIjonllV/S3o/303QMEDOEzHSTjSXJ7k6Q87wNJF19pn0KZ1gqewqfXLUbxnCZLyn/Z1wfWScZYhqpJFu3Tz6VmvjXAjKsNqPU5JKegEZsxPV7NfY0Hv7eVXzmgJqbD3/H/pkQKIUWTc4c1Dp4yciauyguhx5+JKohiehy8cCaC4MhdzIMhvVNJUVUK4D5g/7jmdcyyyBrzg2Xqa2VT3EYXw6Lf8IBRfyp9qgn6A8vezBI0AuDFv7M4oZU8XHn1CEklOsEpX2Vwr7IYUWL07DrFjEGNgGu4x9PG7b+ugRFusSdbPRRqdmkhbBYE/Bks70f5K8ATCyxMextJUK2U5lRkve0or+yDzvfzuheHaIs0G8MeTtIl/6l2F0sZ+L3rLi3YpLltv0RSMvJ8Ib16TGdVWs71dMjhdJ2soFIvbg877DLCJBC1bdECHOs7L6SY9cOITBePus5ISGewQmd1Arw2fLCF1A/eQeSjT51FJeyAEYTxPEOcseHyYM3k/u+I+RiF6DJlHnAal9+IuHVg0jCB1Yiz4qV81fVypfwUfhWZT0lkTgXyO6/S1HZrF6f4WqMeC76IXgpdMpZo6sEZEs+f5B2J6DCsl5uacbk4Jwc7Pinp0UgwDauiYSH7g2QdPM+CmGlBPERF2RDYzCCk+VFBO2QpsFrlDlXAMRhl0NQeUl/HSHvOeHrpkVdyAXKnsywKtbuuGTC24Q8gMzIgZ4v0ceYgDTLDm8RmmttbQV9tCvAbx5JkNlrph8iWQr3n0DnUGApjVUKOuy8RPcfnjm8k7Vn6pr9MRFxZb6q8aAc0G4RVzegQbNpS++y5IbTZZyYHVGws+GtRLum1ISeHrzhe2PGcepy6CNXiLueLU6drgPx/Iqyxxx75VZ6n8KxPyDUirYpq4dI0AAw7n48X8"
             }
           },
-          "description_text" : "Congratulations, you made it to the end of the course! We hope you enjoyed it.\r\n\r\nIf you would like to leave general feedback – write us a review on the course’s Marketplace [page](https://plugins.jetbrains.com/plugin/16630-introduction-to-python/reviews).\r\nIf you want to contribute, feel free to create a pull request or an issue in the course’s [GitHub repo](https://github.com/jetbrains-academy/introduction_to_python).\r\n\r\n### What next?\r\n\r\nNow that you’ve explored the basics of Python programming, you can dive deeper and polish your new skills! Here are some options for you:\r\n- Learn about the most widely used Python library with our [course on NumPy](https://plugins.jetbrains.com/plugin/18302-python-libraries--numpy).\r\n- Find out how to build an [AMazing](https://plugins.jetbrains.com/plugin/17519-amazing) maze with Python.\r\n- Discover the basics of [Machine Learning](https://plugins.jetbrains.com/plugin/18392-machine-learning-101).\r\n- Check out the projects in the [Python Core](https://hyperskill.org/tracks/2) or [Python for Beginners](https://hyperskill.org/tracks/6) track at JetBrains Academy.\r\n\r\nStay tuned for new courses and updates!\r\n",
+          "description_text" : "Congratulations, you made it to the end of the course! We hope you enjoyed it.\n\nIf you would like to leave general feedback – write us a review on the course’s Marketplace [page](https://plugins.jetbrains.com/plugin/16630-introduction-to-python/reviews).\nIf you want to contribute, feel free to create a pull request or an issue in the course’s [GitHub repo](https://github.com/jetbrains-academy/introduction_to_python).\n\n### What next?\n\nNow that you’ve explored the basics of Python programming, you can dive deeper and polish your new skills! Here are some options for you:\n- Learn about the most widely used Python library with our [course on NumPy](https://plugins.jetbrains.com/plugin/18302-python-libraries--numpy).\n- Find out how to build an [AMazing](https://plugins.jetbrains.com/plugin/17519-amazing) maze with Python.\n- Discover the basics of [Machine Learning](https://plugins.jetbrains.com/plugin/18392-machine-learning-101).\n- Check out the projects in the [Python Core](https://hyperskill.org/tracks/2) or [Python for Beginners](https://hyperskill.org/tracks/6) track at JetBrains Academy.\n\nStay tuned for new courses and updates!\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+What+next",
           "task_type" : "theory"
@@ -2558,11 +2537,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 477597187,
+      "id" : 1760429161,
       "title" : "Classes et objets",
       "task_list" : [
         {
-          "id" : 465258855,
+          "id" : 582792789,
           "name" : "Definition",
           "files" : {
             "class_definition.py" : {
@@ -2603,7 +2582,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 497213455,
+          "id" : 837343964,
           "name" : "Variable access",
           "files" : {
             "access_variable.py" : {
@@ -2644,7 +2623,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1541320761,
+          "id" : 1766375,
           "name" : "Update variable",
           "custom_name" : "Update variable",
           "files" : {
@@ -2698,7 +2677,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2115969793,
+          "id" : 1854012320,
           "name" : "The self parameter",
           "files" : {
             "self_parameter.py" : {
@@ -2739,7 +2718,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1060027860,
+          "id" : 692647483,
           "name" : "Special __init__ method",
           "files" : {
             "init_method.py" : {
@@ -2774,7 +2753,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 889618598,
+          "id" : 1577187316,
           "name" : "__str__ vs __repr__",
           "files" : {
             "str_and_repr.py" : {
@@ -2815,7 +2794,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 460828999,
+          "id" : 156480024,
           "name" : "Class and Instance Variables",
           "files" : {
             "class_instance_variables.py" : {
@@ -2865,11 +2844,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 1566325733,
+      "id" : 1469462285,
       "title" : "Pendu",
       "task_list" : [
         {
-          "id" : 1264876075,
+          "id" : 108650081,
           "name" : "Le jeu",
           "files" : {
             "task.py" : {
@@ -2916,7 +2895,7 @@
       "name" : "repartition.md",
       "placeholders" : [ ],
       "is_visible" : true,
-      "text" : "vyl8lWjGHnSUnPUS9b2pKWdSzDgOG8p+yyU960tR21lgwy/ALKDeIjCQjpOPtQ3GO75m6YGGV0B3qAaH3JMNU4t6NpTCXVnk1uQmkIvBuPvX9kaoP9eidVoSafZgQ1A6owRuDy60huYyf1Ja9vrXMObHV3V4NEKyxNongdCXyRtUhNwB1nrxOmbksaPiA5OA2GLlreaQLVDVSFy9C8ffFMjnrHwlEiJRIdxgqBlJriS8yxiJWHfWM4DLGzb2vVN+tcQDW8LpWkLhSAOjjSM3qQEJC7v+K4mCy47oxB+UVjM2Vq9w97saLQb3+jyZKSdK0dHRRYCP2hIGNTSAhImKGwa5yJqvMuoDURp5/xq/1CJEbSz5qMu7NcK/h400gN9tht9y6eWomgVf53ng1E1KPltAGQjkT9ZBkDBobieP3x4XnDH7Ks+W6dE8Hnn/Bpoy6iM4CMXoo/h1cvHbXR9nkQ=="
+      "text" : "vyl8lWjGHnSUnPUS9b2pKWdSzDgOG8p+yyU960tR21k7lC6Yszd82Q0nxsX4PCElYmgw+DWeN9B5TOQZtvjR7OrnbKZKMjPwPXPp1vSCbNsnrZ0EXdSyYBqX8CETnFBPciGIjgM+5ZF5vmsFe7+ikeaW/YCawkV74pqXm9rhlLi9qiCaejyNPMwIXusuUSrLtJSoM0bR3X+CauS86tDEqB15I+LF9JvrDQDPFn3DvdowuQPVghLWaME0nYSoZcK3ZgYo/GNJbxkcUTid5Inq2m9oI+M+0RbYIgFsfGnF/WhEe2gFmg0+PWgcDtdeasI5WDpwXbFCnsWKRNVuYkcptWc29CjMbYW8rs+r9l0hSG+iYgEmjWECmJgbd5EY55F2e8p760a1E6MyE96WB2IR0vpDilS51wbtBju3IJOJwOtTPNpSdfVpnNH3sZpYymUbywgn8D/sw9n8JuF8iZUnKQ=="
     },
     {
       "name" : "Modules et packages/__init__.py",

@@ -1,6 +1,6 @@
 content:
-- Definition
-- Parameters and call arguments
-- Return value
-- Default parameters
-- Keyword Arguments
+- Définition
+- Arguments et paramètres d'une fonction
+- La valeur de retour (Return)
+- Paramètres par défaut
+- Nom d'argument

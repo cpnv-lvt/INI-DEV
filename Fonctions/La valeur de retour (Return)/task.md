@@ -1,4 +1,4 @@
-## La valeur de Return 
+## La valeur de retour (Return)
 
 Les fonctions peuvent retourner une valeur à celui qui l'a appelé, en utilisant le mot clé `return` . 
 Vous pouvez utiliser la valeur retournée en l'assignant à une variable ou simplement en l'imprimant. En fait, 

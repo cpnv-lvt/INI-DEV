@@ -1,4 +1,4 @@
-## la boucle while
+## La boucle while
 
 Une boucle `while` est similair à l'instruction `if`: la boucle exécute du code seulement si une condition est vrai `True`.
 La principale différence est que la boucle s'exécutera sans intérruption tant que la condition de test est vrai. 

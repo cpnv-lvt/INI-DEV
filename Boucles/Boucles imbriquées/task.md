@@ -27,7 +27,7 @@ expensive boots
 <details>
 
 Notez que n'importe quel type de boucle permet d'être imbriquée.
-Par exemple, la boucle [`while` loop](course://Boucles/While loop) (voir chapitre sur la boucle while) 
+Par exemple, la boucle [`while` loop](course://Boucles/La boucle while) (voir chapitre sur la boucle while) 
 peut être imbriquée à l'intérieur d'une boucle `for` ou vice et versa.
 </details>
 

@@ -1,4 +1,4 @@
-## la boucle for
+## La boucle for
 
 Le mot clé `for` est utilisé pour passer d'un élément à un autre d'une séquence (tel qu'une chaine de caractère, 
 un tuple ou une liste). La séquence est évaluée une seule fois. A chaque évaluation, la valeur suivante de la séquence 

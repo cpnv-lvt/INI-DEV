@@ -1,7 +1,7 @@
 ## L'imbrication de list comprehension
 
 Une liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.
-Elles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).
+Elles sont très similaires aux [Boucles imbriquées](course://Boucles/Boucles imbriquées).
 Voici un programme qui construit une [Liste imbriquée](course://Structures de données/Nested Lists) en utilisant 
 des boucles imbriquées :
 

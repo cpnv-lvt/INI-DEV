@@ -1,4 +1,4 @@
-## Definition
+## Définition
 
 Les fonctions permettent de découper votre code en petite partie utile, plus lisible et surtout réutilisable.
 Le mot clé `def` commence la définition d'une nouvelle fonction. Ce mot sera suivi du nom de la fonction et 

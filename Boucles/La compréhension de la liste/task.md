@@ -1,4 +1,4 @@
-## List comprehension
+## La compréhension de la liste (List comprehension)
 
 Vous pouvez utiliser une boucle afin de construire une liste (ou une autre structure).
 Par exemple:
@@ -15,7 +15,7 @@ Sortie:
 [0, 1, 2, 3, 4]
 ```
 
-C'est bien mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante 
+C'est bien, mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante 
 ou un autre itérable (tuple, chaine de caractères, tableau, rang, etc...). Elle permet de faire la même tâche d'une manière plus simple.
 Typiquement, les `List comprehension` s'écrivent en une seule ligne.
 

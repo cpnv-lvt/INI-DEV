@@ -1,10 +1,10 @@
 content:
-- Lists introduction
-- Lists operations
-- List items
-- Nested Lists
+- Introduction aux listes
+- Opérations sur les listes
+- Eléments de liste
+- Listes imbriquées
 - Tuples
-- Join method
-- Dictionaries
-- Dictionary keys() and values()
-- In keyword
+- Méthode join
+- Dictionnaires
+- Méthodes de dictionnaire
+- Opérateur in

@@ -281,7 +281,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1637248186,
+          "id" : 966475603,
           "name" : "Types de variable",
           "files" : {
             "variable_type.py" : {
@@ -309,7 +309,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1449956761,
+          "id" : 1939504621,
           "name" : "Conversion de type",
           "files" : {
             "type_cast.py" : {
@@ -337,7 +337,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 473406044,
+          "id" : 652414762,
           "name" : "Opérateurs arithmétiques",
           "files" : {
             "arithmetic_operators.py" : {
@@ -401,7 +401,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1959336197,
+          "id" : 1439031785,
           "name" : "Affectation augmentée",
           "files" : {
             "assignments.py" : {
@@ -429,7 +429,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 652757146,
+          "id" : 893664677,
           "name" : "Opérateur booléen",
           "files" : {
             "boolean_operators.py" : {
@@ -469,7 +469,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 337301891,
+          "id" : 353459189,
           "name" : "Opérateurs de comparaison",
           "files" : {
             "comparison_operators.py" : {
@@ -534,7 +534,7 @@
       "title" : "Chaînes de caractères",
       "task_list" : [
         {
-          "id" : 140671625,
+          "id" : 1359342084,
           "name" : "Concaténation",
           "files" : {
             "concatenation.py" : {
@@ -569,7 +569,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1823104903,
+          "id" : 1169710228,
           "name" : "Multiplication de string",
           "files" : {
             "string_multiplication.py" : {
@@ -603,7 +603,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 788405592,
+          "id" : 1525246245,
           "name" : "Indexation de string",
           "files" : {
             "string_indexing.py" : {
@@ -637,7 +637,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1619974877,
+          "id" : 1564093142,
           "name" : "Indexation négative de string",
           "files" : {
             "negative_indexing.py" : {
@@ -671,7 +671,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2074296951,
+          "id" : 588361407,
           "name" : "Découpage de string",
           "files" : {
             "slicing.py" : {
@@ -705,7 +705,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1162575075,
+          "id" : 617224885,
           "name" : "Opérateur in",
           "files" : {
             "in_operator.py" : {
@@ -739,7 +739,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 461483471,
+          "id" : 905707336,
           "name" : "Longueur de string",
           "files" : {
             "len_function.py" : {
@@ -779,7 +779,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 223331408,
+          "id" : 966467515,
           "name" : "Echappement de caractère",
           "files" : {
             "character_escaping.py" : {
@@ -813,7 +813,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1822334836,
+          "id" : 399587937,
           "name" : "Méthodes de string",
           "files" : {
             "string_methods.py" : {
@@ -847,7 +847,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1923893856,
+          "id" : 1673168284,
           "name" : "Formattage de string",
           "files" : {
             "string_formatting.py" : {
@@ -946,21 +946,21 @@
       "title" : "Structures de données",
       "task_list" : [
         {
-          "id" : 263590659,
-          "name" : "Lists introduction",
+          "id" : 445274496,
+          "name" : "Introduction aux listes",
           "files" : {
             "lists.py" : {
               "name" : "lists.py",
               "placeholders" : [
                 {
-                  "offset" : 72,
+                  "offset" : 76,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "2wbKfLqLledF05vgQmwVMZ4NQVKuCcEARmYXTs5bDpQddaRzdJUKadrSSzOi0xikRCgl9WkdvMCAFH/YHLgTvc9Yff1buglj6LSHlUS2HOI="
+              "text" : "+cZ/jTQFoHIsTNLZ97L3g+sZDB0WQaTKE2m6qPIkVHsqlCy0UqqfGSlG/tkMQ/Ceh4uODnDPi3CPjQaZwf2dPHa+a/zP++TuFk4uqxlswMhb2Le1klnbrvK60F7AvJnY"
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -975,27 +975,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Lists introduction\n\nPython has a number of compound data types used to group data together. \nThe most versatile is the list, which can be written as a series of comma-separated \nvalues (items) enclosed in square brackets, e.g., `lst = [item1, item2]`. \nLists might contain items of different types, but usually all the items in a list \nare of the same type. Like strings, lists can be indexed and sliced (see [Lesson 3](course://Textes/String slicing)).\nAll slice operations return a new list containing the requested elements.\n\nLists also support operations like concatenation:\n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares + [36, 49, 64, 81, 100]\n[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n```\n\nYou can explore lists in more detail by reading <a href=\"https://docs.python.org/3.9/tutorial/introduction.html#lists\">this page</a>.\n\nUse list slicing to print `[4, 9, 16]`.  \n\n<div class='hint'>List slicing syntax looks just like that for strings: <code>lst[index1:index2]</code>.\nDon't forget that the element with the index <code>index2</code> is not included!</div>\n",
+          "description_text" : "## Introduction aux listes\n\nPython a plusieurs types de donnée utilisés pour grouper des données ensemble.\nLe type le plus polyvalent est la liste,\nqui peut être écrite en une série de valeurs (éléments) séparées par des virgules et englobées dans des crochets,\npar exemple : `lst = [item1, item2]`. \n\nLes listes peuvent contenir des éléments de types différents, cependant,\npar convention, tous les éléments d'une liste sont d'un même type.\n\nTout comme les strings, les listes peuvent être indexées et découpées (voir la [Leçon 3](course://Chaînes de caractères/Découpage de string)).\nToutes les opérations de découpage retourneront une nouvelle liste contenant les éléments attendus.\n\nLes listes supportent également les opérations comme la concaténation :\n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares + [36, 49, 64, 81, 100]\n[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n```\n\nVous pouvez en apprendre plus sur les listes en lisant <a href=\"https://docs.python.org/3.9/tutorial/introduction.html#lists\">cette page</a>.\n\n### Tâche\nUtilisez le découpage pour afficher `[4, 9, 16]`.  \n\n<div class='hint'>\nLe découpage de liste fonctionne exactement comme pour les strings : <code>list[index1:index2]</code>.\n\nN'oubliez pas que l'élément avec l'index <code>index2</code> ne sera pas inclus !\n</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Lists+Introduction",
           "task_type" : "edu"
         },
         {
-          "id" : 525973471,
-          "name" : "Lists operations",
+          "id" : 1432925376,
+          "name" : "Opérations sur les listes",
           "files" : {
             "list_operations.py" : {
               "name" : "list_operations.py",
               "placeholders" : [
                 {
-                  "offset" : 259,
+                  "offset" : 279,
                   "length" : 37,
-                  "possible_answer" : "3JCh9U8ibeF9rawNy2Uf/4mWr69etqR5yPF2yywmvLAdlTJNoBjP1FAqh2Dgtlau",
-                  "placeholder_text" : "# Replace \"dino\" with \"dinosaur\" here"
+                  "possible_answer" : "PYf3FC8f8u2aeDNF8bI1/csGdPPaT8ZlC8oQm/74dR3FjyjkUOnYGvEC4MUMLgxV",
+                  "placeholder_text" : "# Remplacez \"dino\" par \"dinosaur\" ici"
                 }
               ],
               "is_visible" : true,
-              "text" : "ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8ZQYUssTLeP9/zxjALi5j7KePAG3qNm9c/GnQIIFdrNQNdjqGokrSnY4TYE/fEYJgqeSoJcPVLtSUjOz+098586BOkH/xhBhtRtR/RIZx6xGru7S1S5NMHA9Qq3XLVP0JjcXO5EEiBxH1BMEtr4woEG3UB2VeIsNf8vbqlTk1z8EKnAR4vFV9VjLLhcShl0BA6Zc2Gf8N69a72mXSZNPL8ZDJIQbGt6B4k5f9oGENIFlwK9rvyvI+VsGC5jeMOywG6ysa9eIZDB6/plzGJyqre4/fqLSUKyEDm3ZQ2oBR4sP4AXZd7wC4nf+dOeCHPGbkfzivg3c56NyI2YSO7l/CA3eeuB+ujt8w/cQfWlkB/fk="
+              "text" : "+cZ/jTQFoHIsTNLZ97L3gwaHYS7QhYjUwkU3/gf29XVR2WL4fVgWSlyX20qE2RXbyZQ4HktPCdBJGek9MnPMIyZUCe/dyOmWCsPAU7FG692nX/pUuygzmzX84A5vv151R8coWEQ9jWFpqXZeHYilLUra3rZV2Ga8CW+WsdlrQpvFDfq+AjAN94YvUUImhDtrdzorivbTjRc2S86mw/cBRq3mFL4DQ/Uj5V4ERn+SvYtpgFa1EE+xuoQ0qDintsvKGeL8levrsxXarO8doy7wBLvnJISQg09077mEHRFgXgX8HcN07fVW7wf2N3WJFOmprYR6OxcQV1WiR5VaMj7Od7zhEG7gi8jlhdY+7RwmA0ZD885mbwdy8p0w1U3Nkp/FHEqxD9fTz4o60Qy8FTKsyHXOuml/7x1XWraMxxQIuqGyrvSIZrmHn6v2WPXJ3R500PTmpV6eMOYvm1JnXTUOIQ=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -1010,27 +1009,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List operations\n\nUnlike strings, lists are a mutable type, i.e., it is possible to\nchange their content using `lst[index] = new_item`.\n\n```python\ncubes = [1, 8, 27, 65, 125]  # something's wrong here\n4 ** 3  # the cube of 4 is 64, not 65!\n```\n```text\n64\n```\n```python\ncubes[3] = 64  # replace the wrong value\ncubes\n```\n```text\n[1, 8, 27, 64, 125]\n```\n\nYou can add new items at the end of the list by using the `append()` method or \nlist concatenation. \n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares.append(6**2)\nsquares\n```\n```text\n[1, 4, 9, 16, 25, 36]\n```\n  \nFind out about many other useful list methods on <a href=\"https://docs.python.org/3/tutorial/datastructures.html#more-on-lists\">this page</a>.\n\nReplace `\"dino\"` with `\"dinosaur\"` in the `animals` list.  \n<div class='hint'>Use list indexing operation and value assignment.</div>\n",
+          "description_text" : "## Opération sur les listes\n\nContrairement aux strings, les listes font partie des types mutables,\nc'est-à-dire qu'il est possible de modifier leur contenu en utilisant `lst[index] = new_item`.\n\n```python\n# Il y a quelque chose de faux ici\ncubes = [1, 8, 27, 65, 125]\n# Le cube de 4 est 64 et pas 65 !\n4 ** 3\n```\n```python\n# Remplace la mauvaise valeur\ncubes[3] = 64\n[1, 8, 27, 64, 125]\n```\n\nVous pouvez ajouter de nouveaux éléments à la fin de la liste en utilisant la méthode `append()` ou la concaténation.\n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares.append(6**2)\n[1, 4, 9, 16, 25, 36]\n```\n\nVous en apprendrez plus à propos des méthodes de liste sur <a href=\"https://docs.python.org/3/tutorial/datastructures.html#more-on-lists\">cette page</a>.\n\n### Tâche\nRemplacez `\"dino\"` par `\"dinosaur\"` dans la liste `animals`.\n\n<div class='hint'>Utilisez l'indexation de liste et l'assignation de valeur.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+List+Operations",
           "task_type" : "edu"
         },
         {
-          "id" : 1345455645,
-          "name" : "List items",
+          "id" : 461901592,
+          "name" : "Eléments de liste",
           "files" : {
             "list_items.py" : {
               "name" : "list_items.py",
               "placeholders" : [
                 {
-                  "offset" : 302,
-                  "length" : 16,
-                  "possible_answer" : "3GcT/SJiEYCTTQCkqmpgDtjVVOtZEG8kA6tFnfzXK0k=",
-                  "placeholder_text" : "# Clear the list"
+                  "offset" : 309,
+                  "length" : 46,
+                  "possible_answer" : "/tvQcZ2t2UHkMHz84EnaOKFbiS9BU343BPRmollzaMyhCFjiMpvGlFKOq94MqlybFuPdcBT7zBYPTTZ6hbZxbw==",
+                  "placeholder_text" : "# Videz les deux derniers éléments de la liste"
                 }
               ],
               "is_visible" : true,
-              "text" : "ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8Z5vzJxnuXBTUb9zRgAc/PIbu2Ekkzfnaaj/ENQyHiJ+VFOvMIViFyEGelUf2FY80h8TWAmbP8IGmdwT92Wm6ySqZioml8YdHSMxZhuuqVzbp0WqfbdyJrDFEqQuHmiFC9O/0T+ImkI85xmCmhnSvnqHNBF2RrlmLfqzEyCHnvDTH1Dd6PhS84qZISPdtufmF/pqZLoPjH+v+d8T7OWadjN8ymqahhxCpK0LcJnQxO/wioaGZaUsyb8L/7AGN8/Tbh40xrv8+Zf2FYugqSb+t6R9xRR42yJrSvnXnMf/IMwN1gwKU1kvgnTV/aMoj1JZCkVoH0WpN63BFHFeQxIwaM4MrytHaD/MTDbP5ZD/B81ykt4QYHvThlcYql/Ksc8P2"
+              "text" : "+cZ/jTQFoHIsTNLZ97L3gwaHYS7QhYjUwkU3/gf29XVR2WL4fVgWSlyX20qE2RXbyZQ4HktPCdBJGek9MnPMI1ZvFKSbiJUQNviTxq4DDxuRLd09AdQAs1ZnaX+QYoeyJ9R3+HbkYAqEm3w+l53XkIB6pjWsQMqvHGHE51M/bPlajv/o6PLjrzVgEw5l/sFSCsGn4fcIjR2KiumUFfhyUZt8eFVA45jWO3HjHRazZ8dWhbnaYSAvAV6WrjPpaxRuzeIabNv4TtH4rznYAQNuCydsFCBbldDDzX2p7E2GOx8etuL+Q8x6T4fODHUSRrDbCuoMuokncCQKIKZRrbsuIctURvNH4oNB2xLMrptTdZgrPvXsj4qnkBed0ePxLEh3RAgae+8TaM02ckrKZ54TGs1bpvGbtlexYuqwC6o7ilW14rNN6b5/+UPP/a9bikmyRq1wCrOrBrJzrbXupo0vvjAB6aT1r5L++UMpxjPsWQM1bkFJXZ8HJNRJbySE6pd+"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -1045,33 +1043,32 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List items\n\nAssignment is possible to slices of lists, just like to individual list elements. \nThis way you can even change the size of a list or clear it entirely by doing something like:\n\n```python\nanimals[:] = []\n```\n  \nMake all `animals` elephants by replacing the last two items.  \n\n<div class='hint'>Use assignment to a slice as in examples.</div>\n",
+          "description_text" : "## Eléments de liste\n\nTout comme pour des éléments individuels, il est possible de faire une affectation sur un découpage de liste.\n\nDe cette manière, il est possible également de modifier la taille de la liste, voire de la vider entièrement,\nde cette manière :\n\n```python\nanimals[:] = []\n```\n\n### Tâche\nTransformer tous les animaux en `elephant` en remplaçant les deux derniers éléments.\n\n<div class='hint'>Faîtes une affectation vide avec un découpage sur les deux derniers éléments.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+List+Items",
           "task_type" : "edu"
         },
         {
-          "id" : 501860729,
-          "name" : "Nested Lists",
+          "id" : 340392382,
+          "name" : "Listes imbriquées",
           "files" : {
             "task.py" : {
               "name" : "task.py",
               "placeholders" : [
                 {
                   "offset" : 55,
-                  "length" : 37,
-                  "possible_answer" : "TfLtjS7O0XUJi+gnO3vD8wIIOEoDEMIJUNq+63+j4Fips50rAOK0dbPT+cWX0d9a",
-                  "placeholder_text" : "'Print number 9 from the nested list'"
+                  "length" : 43,
+                  "possible_answer" : "Zq0c36uHQI4BMtMroNSmj5tZciTfjPVit7qCFrlHxkcQBHmwAbe1OhDiQ6DoNMmR",
+                  "placeholder_text" : "'Affichez 9 à partir de la liste imbriquée'"
                 },
                 {
-                  "offset" : 100,
-                  "length" : 38,
-                  "possible_answer" : "gAmzN0dNpQSiYBfQCWLXRCi3UtC5cgqcT6K2vQxblTG7wRL+UtaBv5nN7Vq0j5oU",
-                  "placeholder_text" : "'Print number 10 from the nested list'"
+                  "offset" : 106,
+                  "length" : 44,
+                  "possible_answer" : "qijtZKLdEn/IhJ8DiqnrwhGyU/cdrGE/OVOzcFeQM2l0mwkfUPJnm+FbxxTX7cuT",
+                  "placeholder_text" : "'Affichez 10 à partir de la liste imbriquée'"
                 }
               ],
               "is_visible" : true,
-              "text" : "D6wqlir08VmCGA3oW5uWQS2/ryc0T1EA6bmBi7siQEGV+pGT8i+ea2oaIcvrEnAqTtLOxI5Y0dzSCXXLaWLLQ5bmohwkQ68gg/Ily6oZg5od/czz4cFi8X9fdvJoW1TVpJwvzQiYkvMs6yfySowNdHPMoYjVtRki+3iVuVTnqugyOc+XFxrXwAx7/3DH10tB"
+              "text" : "D6wqlir08VmCGA3oW5uWQS2/ryc0T1EA6bmBi7siQEGV+pGT8i+ea2oaIcvrEnAq0AV/izpsShyPjCog/kGO1RqlCdNFdqJ38hRIcLahn0iLj6N6mRYiIHyafSpExLjN99FyPnlw1Ppnz97neS/D3PlwW5YT8xHNDaXUkrdrTKIJpWkYl/IHxtNo6IRtULK8EHTGkkhP5yhL6ISJhTN0dQ=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -1086,9 +1083,8 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Nested Lists\n\nA list can contain any kind of objects, even other lists (sublists). This \ndata structure is known as a nested list.\n\nYou can use nested lists to arrange data into hierarchical structures.\n\nA nested list can be created by writing a comma-separated sequence of sublists:\n\n```python\nnested_list = [[1, 2, 3], [4, 5], 6]\n```\n\nYou can access items in a nested list using indices just like before:\n\n```python\nprint(nested_list[1])\nprint(nested_list[2])\n```\nOutput:\n```text\n[4, 5]\n6\n```\nYou can access items within sublists in a nested list using multiple indices.\nTo access number `1` from `nested_list`, use the index `0` twice. First, you access the element `[1,2,3]` and then, the first element of that sublist:\n```python\nprint(nested_list[0][0])\n```\nOutput:\n```text\n1\n```\nIn the code editor, use indexing to access and print elements `9` and `10` from of the nested list `my_list`. \n\n<div class=\"hint\">If you're stuck, review the examples in the task description again.</div>",
+          "description_text" : "## Listes imbriquées\n\nUne liste peut contenir n'importe quel objet, même d'autres listes (sublists).\nDans ce cas de figure, on les nomme listes imbriquées (nested list).\n\nVous pouvez utiliser les listes imbriquées pour arranger les données en structures hiérarchiques.\n\nUne liste imbriquée peut être créée en séparant des listes par des virgules :\n\n```python\nnested_list = [[1, 2, 3], [4, 5], 6]\n```\n\nYou can access items in a nested list using indices just like before:\n\n```python\nprint(nested_list[1])\nprint(nested_list[2])\n```\nOutput:\n```text\n[4, 5]\n6\n```\nYou can access items within sublists in a nested list using multiple indices.\nTo access number `1` from `nested_list`, use the index `0` twice. First, you access the element `[1,2,3]` and then, the first element of that sublist:\n```python\nprint(nested_list[0][0])\n```\nOutput:\n```text\n1\n```\nIn the code editor, use indexing to access and print elements `9` and `10` from of the nested list `my_list`. \n\n<div class=\"hint\">If you're stuck, review the examples in the task description again.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Nested+Lists",
           "task_type" : "edu"
         },
         {
@@ -1287,7 +1283,6 @@
           },
           "description_text" : "## In keyword\n\nThe `in` keyword is used to check if a list or a dictionary contains a specific \nitem. You can apply `in` to lists or dictionaries the same way you did it with strings.  \n  \n1) Check if `grocery_dict` values contain number `6`.  \n2) Check if the dictionary contains `\"basil\"`.\n\nPlease complete the task in the specified order.\n\n<div class=\"hint\">Use the <code>in</code> keyword.</div>\n\n<div class=\"hint\">Use the <code>.values()</code> and <code>.keys()</code> attributes.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+In+keyword",
           "task_type" : "edu"
         }
       ],
@@ -1486,7 +1481,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## la boucle for\n\nLe mot clé `for` est utilisé pour passer d'un élément à un autre d'une séquence (tel qu'une chaine de caractère, \nun tuple ou une liste). La séquence est évaluée une seule fois. A chaque évaluation, la valeur suivante de la séquence \nsera attribuée àla variable définie dans la déclaration de la boucle `for`. Le code défini après le mot `for` \nsera exécuté une fois pour chaque élément. Lorsque l'on arrive à la fin des éléments, la boucle s'arrête.\n\nVous pouvez lire d'avantage au sujet de la boucle `for` sur<a href=\"https://docs.python.org/3/reference/compound_stmts.html#the-for-statement\">cete page</a> de la documentation python.\n\nImprimer chaque nombre premier depuis la liste `primes` en utilisant la boucle `for`. Un nombre premier est un nombre \nqui n'est divisible que par `1` ou lui même.\n  \n\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer à travers les éléments de <code>primes</code> et les imprimer un par un.</div>\n",
+          "description_text" : "## la boucle for\r\n\r\nLe mot clé `for` est utilisé pour passer d'un élément à un autre d'une séquence (tel qu'une chaine de caractère, \r\nun tuple ou une liste). La séquence est évaluée une seule fois. A chaque évaluation, la valeur suivante de la séquence \r\nsera attribuée àla variable définie dans la déclaration de la boucle `for`. Le code défini après le mot `for` \r\nsera exécuté une fois pour chaque élément. Lorsque l'on arrive à la fin des éléments, la boucle s'arrête.\r\n\r\nVous pouvez lire d'avantage au sujet de la boucle `for` sur<a href=\"https://docs.python.org/3/reference/compound_stmts.html#the-for-statement\">cete page</a> de la documentation python.\r\n\r\nImprimer chaque nombre premier depuis la liste `primes` en utilisant la boucle `for`. Un nombre premier est un nombre \r\nqui n'est divisible que par `1` ou lui même.\r\n  \r\n\r\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer à travers les éléments de <code>primes</code> et les imprimer un par un.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+For+Loop",
           "task_type" : "edu"
@@ -1521,7 +1516,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Passer à travers une chaine de caractères\n\nComme discuter préalablement, une chaine de caractères en python est d'une certaine manière similaire à une liste.\nVous pouvez passer d'un caractère à un autre d'une chaine de la même manière qu'une liste.\n\nUtiliser une boucle pour compter le nombre de caractère que contient `hello_world`. Enregistrer le résultat dans \nla variable `length`. \n\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer d'un caractère à un autre de la chaine <code>hello_world</code>.</div>\n",
+          "description_text" : "## Passer à travers une chaine de caractères\r\n\r\nComme discuter préalablement, une chaine de caractères en python est d'une certaine manière similaire à une liste.\r\nVous pouvez passer d'un caractère à un autre d'une chaine de la même manière qu'une liste.\r\n\r\nUtiliser une boucle pour compter le nombre de caractère que contient `hello_world`. Enregistrer le résultat dans \r\nla variable `length`. \r\n\r\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer d'un caractère à un autre de la chaine <code>hello_world</code>.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Loop+over+a+String",
           "task_type" : "edu"
@@ -1562,7 +1557,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Boucles imbriquées\n\nUne boucle imbriquée est en faite une boucle dans une boucle. La boucle intérieur est exécutée\nà chaque itération de la boucle principale.\n\n\n```python\nadjectives = [\"black\", \"stylish\", \"expensive\"]\nclothes = [\"jacket\", \"shirt\", \"boots\"]\n\nfor x in adjectives:\n  for y in clothes:\n    print(x, y)\n```\nOutput:\n```text\nblack jacket\nblack shirt\nblack boots\nstylish jacket\nstylish shirt\nstylish boots\nexpensive jacket\nexpensive shirt\nexpensive boots\n```\n<details>\n\nNotez que n'importe quel type de boucle permet d'être imbriquée.\nPar exemple, la boucle [`while` loop](course://Boucles/While loop) (voir chapitre sur la boucle while) \npeut être imbriquée à l'intérieur d'une boucle `for` ou vice et versa.\n</details>\n\nOn vous donne un plateau du tic-tac-toe de taille 3x3, votre tâche est d'imprimer chaque position. \nLes coordonnées de chaque côté seront enrigistrés dans la liste `coordinates`. La sortie doit être :\n```text\n1 x 1\n1 x 2\n1 x 3\n2 x 1\n...\n```\nEt ceci pour chaque combinaison de coordonées.\n\n<div class=\"hint\">\n\nDans une boucle imbriquée `for`, énuméré chaque élément de la liste en utilisant une autre variable telque (`coordinate2`).\n</div>\n",
+          "description_text" : "## Boucles imbriquées\r\n\r\nUne boucle imbriquée est en faite une boucle dans une boucle. La boucle intérieur est exécutée\r\nà chaque itération de la boucle principale.\r\n\r\n\r\n```python\r\nadjectives = [\"black\", \"stylish\", \"expensive\"]\r\nclothes = [\"jacket\", \"shirt\", \"boots\"]\r\n\r\nfor x in adjectives:\r\n  for y in clothes:\r\n    print(x, y)\r\n```\r\nOutput:\r\n```text\r\nblack jacket\r\nblack shirt\r\nblack boots\r\nstylish jacket\r\nstylish shirt\r\nstylish boots\r\nexpensive jacket\r\nexpensive shirt\r\nexpensive boots\r\n```\r\n<details>\r\n\r\nNotez que n'importe quel type de boucle permet d'être imbriquée.\r\nPar exemple, la boucle [`while` loop](course://Boucles/While loop) (voir chapitre sur la boucle while) \r\npeut être imbriquée à l'intérieur d'une boucle `for` ou vice et versa.\r\n</details>\r\n\r\nOn vous donne un plateau du tic-tac-toe de taille 3x3, votre tâche est d'imprimer chaque position. \r\nLes coordonnées de chaque côté seront enrigistrés dans la liste `coordinates`. La sortie doit être :\r\n```text\r\n1 x 1\r\n1 x 2\r\n1 x 3\r\n2 x 1\r\n...\r\n```\r\nEt ceci pour chaque combinaison de coordonées.\r\n\r\n<div class=\"hint\">\r\n\r\nDans une boucle imbriquée `for`, énuméré chaque élément de la liste en utilisant une autre variable telque (`coordinate2`).\r\n</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Nested+For+Loop",
           "task_type" : "edu"
@@ -1603,7 +1598,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List comprehension\n\nVous pouvez utiliser une boucle afin de construire une liste (ou une autre structure).\nPar exemple:\n\n```python\nmy_list = []\nfor i in range(5):\n    my_list.append(i)\n\nprint(my_list)\n```\nSortie:\n```text\n[0, 1, 2, 3, 4]\n```\n\nC'est bien mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante \nou un autre itérable (tuple, chaine de caractères, tableau, rang, etc...). Elle permet de faire la même tâche d'une manière plus simple.\nTypiquement, les `List comprehension` s'écrivent en une seule ligne.\n\n```python\nmy_list = [i for i in range(5)]\nprint(my_list)\n```\nSortie:\n```text\n[0, 1, 2, 3, 4]\n```\n\nLes `List comprehension`  sont aussi plus efficace et rapide qu'une boucle `for`.\n\n# task\n\nDans l'éditeur de code, utilisez une `List comprehension` afin de construire la liste `my_efficient_list` \ndepuis les éléments de  `my_inefficient_list` en ajoutant $10$ a chaque élément. Par exemple, le premier élément de \n`my_inefficient_list` est $1 + 10 = 11$, donc le premier élément de `my_efficient_list` devrait être $11 + 10 = 21$, etc...\n\n\n<div class=\"hint\">\n\nDans l'exemple ci-dessus, nous utilisons `i for i in range(5)`. Vous pouvez modifier `i` comme vous le voulez directement \nà l'intérieur de l'expression. Par exemple, en enlevant `5` à chaque `i`, comme ceci `i - 5 for i in range(5)`.\n</div>\n",
+          "description_text" : "## List comprehension\r\n\r\nVous pouvez utiliser une boucle afin de construire une liste (ou une autre structure).\r\nPar exemple:\r\n\r\n```python\r\nmy_list = []\r\nfor i in range(5):\r\n    my_list.append(i)\r\n\r\nprint(my_list)\r\n```\r\nSortie:\r\n```text\r\n[0, 1, 2, 3, 4]\r\n```\r\n\r\nC'est bien mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante \r\nou un autre itérable (tuple, chaine de caractères, tableau, rang, etc...). Elle permet de faire la même tâche d'une manière plus simple.\r\nTypiquement, les `List comprehension` s'écrivent en une seule ligne.\r\n\r\n```python\r\nmy_list = [i for i in range(5)]\r\nprint(my_list)\r\n```\r\nSortie:\r\n```text\r\n[0, 1, 2, 3, 4]\r\n```\r\n\r\nLes `List comprehension`  sont aussi plus efficace et rapide qu'une boucle `for`.\r\n\r\n# task\r\n\r\nDans l'éditeur de code, utilisez une `List comprehension` afin de construire la liste `my_efficient_list` \r\ndepuis les éléments de  `my_inefficient_list` en ajoutant $10$ a chaque élément. Par exemple, le premier élément de \r\n`my_inefficient_list` est $1 + 10 = 11$, donc le premier élément de `my_efficient_list` devrait être $11 + 10 = 21$, etc...\r\n\r\n\r\n<div class=\"hint\">\r\n\r\nDans l'exemple ci-dessus, nous utilisons `i for i in range(5)`. Vous pouvez modifier `i` comme vous le voulez directement \r\nà l'intérieur de l'expression. Par exemple, en enlevant `5` à chaque `i`, comme ceci `i - 5 for i in range(5)`.\r\n</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+List+Comprehension",
           "task_type" : "edu"
@@ -1644,7 +1639,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## L'imbrication de list comprehension\n\nUne liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.\nElles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).\nVoici un programme qui construit une [Liste imbriquée](course://Structures de données/Nested Lists) en utilisant \ndes boucles imbriquées :\n\n```python\nmatrix = []\n\nfor i in range(3):\n\n    # Append an empty sublist inside the list\n    matrix.append([])\n\n    for j in range(0, 10, 2):\n        matrix[i].append(j)\n\nprint(matrix)\n```\nSortie:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\nLe même programme peut être écrit en une seul ligne en utilisant les listes imbriquées :\n\n```python\nmatrix = [[j for j in range(0, 10, 2)] for i in range(3)]\nprint(matrix)\n```\nSortie:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\n### Task\n\nCréer une `matrice` de $10x10$ de tel sorte que chaque ligne (sous liste) contiennent les **caractères** 0-9 depuis une \nchaine de caractères. Utilisez la technique présenter ci-dessous afin d'écrire un code en une ligne.\n\n<div class=\"hint\">\n\nsuivez l'exemple dans la partie ci-dessus. Vous devez simplement utiliser une `string` comme itérable à la place \nde chaque rang ([0],[1], etc ...)\n</div>\n\n\n\n",
+          "description_text" : "## L'imbrication de list comprehension\r\n\r\nUne liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.\r\nElles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).\r\nVoici un programme qui construit une [Liste imbriquée](course://Structures de données/Listes imbriquées) en utilisant \r\ndes boucles imbriquées :\r\n\r\n```python\r\nmatrix = []\r\n\r\nfor i in range(3):\r\n\r\n    # Append an empty sublist inside the list\r\n    matrix.append([])\r\n\r\n    for j in range(0, 10, 2):\r\n        matrix[i].append(j)\r\n\r\nprint(matrix)\r\n```\r\nSortie:\r\n```text\r\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\r\n```\r\n\r\nLe même programme peut être écrit en une seul ligne en utilisant les listes imbriquées :\r\n\r\n```python\r\nmatrix = [[j for j in range(0, 10, 2)] for i in range(3)]\r\nprint(matrix)\r\n```\r\nSortie:\r\n```text\r\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\r\n```\r\n\r\n### Task\r\n\r\nCréer une `matrice` de $10x10$ de tel sorte que chaque ligne (sous liste) contiennent les **caractères** 0-9 depuis une \r\nchaine de caractères. Utilisez la technique présenter ci-dessous afin d'écrire un code en une ligne.\r\n\r\n<div class=\"hint\">\r\n\r\nsuivez l'exemple dans la partie ci-dessus. Vous devez simplement utiliser une `string` comme itérable à la place \r\nde chaque rang ([0],[1], etc ...)\r\n</div>\r\n\r\n\r\n\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Nested+List+Comprehension",
           "task_type" : "edu"
@@ -1679,7 +1674,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## la boucle while\n\nUne boucle `while` est similair à l'instruction `if`: la boucle exécute du code seulement si une condition est vrai `True`.\nLa principale différence est que la boucle s'exécutera sans intérruption tant que la condition de test est vrai. \nSi l'expression est fausse (`False`) la boucle s'arrête.\n\nA  l'aide de la variable `number` et une boucle `while`imprimer les carrés des nombres de `1` à `9`.\n\n\n<div class='hint'>Assurez-vous que la variable <code>number</code> est strictement plus petite que 10 dans la condition de la boucle.</div>\n",
+          "description_text" : "## la boucle while\r\n\r\nUne boucle `while` est similair à l'instruction `if`: la boucle exécute du code seulement si une condition est vrai `True`.\r\nLa principale différence est que la boucle s'exécutera sans intérruption tant que la condition de test est vrai. \r\nSi l'expression est fausse (`False`) la boucle s'arrête.\r\n\r\nA  l'aide de la variable `number` et une boucle `while`imprimer les carrés des nombres de `1` à `9`.\r\n\r\n\r\n<div class='hint'>Assurez-vous que la variable <code>number</code> est strictement plus petite que 10 dans la condition de la boucle.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+While+loop",
           "task_type" : "edu"
@@ -1720,7 +1715,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## le mot clé Break\n\nUne boucle infine comme son nom l'indique ne se termine jamais. Si la condition d'une boucle s'avère être \ntoujours vrai (`True`), nous appelons un tel boucle `une boucle infinie`. La manière la plus directe de faire \nune tel boucle est d'utiliser `while True`. Le mot clé `break`, permet de quitter une tel boucle.\n\nÉcrivez une condition permettant de quitter la boucle à sa troisième iteration après avoir évalué si `animal` est égal\nà `elephant`. Utiliser le mot clé `break`. A la fin du programme, la liste `zoo` doit seulement contenir les mots `lion`\net `tiger` (vu que vous avez utiliser `pop` sur les autres élements dans la boucle).\n\n<div class=\"hint\">utiliser <code>==</code> pour vérifier si  <code>animal</code> est égal à <code>\"elephant\"</code>.</div>\n",
+          "description_text" : "## le mot clé Break\r\n\r\nUne boucle infine comme son nom l'indique ne se termine jamais. Si la condition d'une boucle s'avère être \r\ntoujours vrai (`True`), nous appelons un tel boucle `une boucle infinie`. La manière la plus directe de faire \r\nune tel boucle est d'utiliser `while True`. Le mot clé `break`, permet de quitter une tel boucle.\r\n\r\nÉcrivez une condition permettant de quitter la boucle à sa troisième iteration après avoir évalué si `animal` est égal\r\nà `elephant`. Utiliser le mot clé `break`. A la fin du programme, la liste `zoo` doit seulement contenir les mots `lion`\r\net `tiger` (vu que vous avez utiliser `pop` sur les autres élements dans la boucle).\r\n\r\n<div class=\"hint\">utiliser <code>==</code> pour vérifier si  <code>animal</code> est égal à <code>\"elephant\"</code>.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Break+keyword",
           "task_type" : "edu"
@@ -1761,7 +1756,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Les boucles avec Else\n\nNous avons déjà vu que le terme `break` sort de la boucle `for` ou `while`.\n\nPython permet aussi à une boucle d'avoir une clause `else`. Cette partie sera exécutée à la fin de la boucle sur un itérable\n(pour la boucle `for`) ou losque la condition devient `False`dans une boucle `while`, mais pas losque l'on quitte une boucle \navec `break`. Regarder l'exemple ci-dessous qui recherche les nombres premiers :\n\n\n```python\nfor n in range(2, 10):\n    for x in range(2, n):\n        if n % x == 0:\n            print(n, 'equals', x, '*', n//x)\n            break\n    else:\n        # loop fell through without finding a factor\n        print(n, 'is a prime number')\n```\n```text\n2 is a prime number\n3 is a prime number\n4 equals 2 * 2\n5 is a prime number\n6 equals 2 * 3\n7 is a prime number\n8 equals 2 * 4\n9 equals 3 * 3\n```\n\nDans le code ci-dessus, la claude `else` est attachée à la boucle `for` et pas a un teste logique `if`.\n\nRappelez-vous que `else` après un `if`n'est PAS exécuté  si l'expression après `if` est vrai (`True`), alors que dans le\ncas d'une boucle, un `else` sera exécuté à la fin de la boucle (sauf si celle-ci est terminée par un `break`).\n\n# task\n\nDans l'éditeur de code, ajoutez deux lignes de code à la seconde boucle afin d'être sûr que la boucle imprime seulement \nles nombres 1 et 2 and n'imprime jamais la phrase `\"for loop is done\"`.\n\n<div class=\"hint\">La boucle doit se terminer sur le nombre 3.</div>\n",
+          "description_text" : "## Les boucles avec Else\r\n\r\nNous avons déjà vu que le terme `break` sort de la boucle `for` ou `while`.\r\n\r\nPython permet aussi à une boucle d'avoir une clause `else`. Cette partie sera exécutée à la fin de la boucle sur un itérable\r\n(pour la boucle `for`) ou losque la condition devient `False`dans une boucle `while`, mais pas losque l'on quitte une boucle \r\navec `break`. Regarder l'exemple ci-dessous qui recherche les nombres premiers :\r\n\r\n\r\n```python\r\nfor n in range(2, 10):\r\n    for x in range(2, n):\r\n        if n % x == 0:\r\n            print(n, 'equals', x, '*', n//x)\r\n            break\r\n    else:\r\n        # loop fell through without finding a factor\r\n        print(n, 'is a prime number')\r\n```\r\n```text\r\n2 is a prime number\r\n3 is a prime number\r\n4 equals 2 * 2\r\n5 is a prime number\r\n6 equals 2 * 3\r\n7 is a prime number\r\n8 equals 2 * 4\r\n9 equals 3 * 3\r\n```\r\n\r\nDans le code ci-dessus, la claude `else` est attachée à la boucle `for` et pas a un teste logique `if`.\r\n\r\nRappelez-vous que `else` après un `if`n'est PAS exécuté  si l'expression après `if` est vrai (`True`), alors que dans le\r\ncas d'une boucle, un `else` sera exécuté à la fin de la boucle (sauf si celle-ci est terminée par un `break`).\r\n\r\n# task\r\n\r\nDans l'éditeur de code, ajoutez deux lignes de code à la seconde boucle afin d'être sûr que la boucle imprime seulement \r\nles nombres 1 et 2 and n'imprime jamais la phrase `\"for loop is done\"`.\r\n\r\n<div class=\"hint\">La boucle doit se terminer sur le nombre 3.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Else+with+loops",
           "task_type" : "edu"
@@ -1802,7 +1797,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Le mot clé Continue\n\nLe mot clé `contine` est utilisé afin de sauter la suite du code à l'intéreur d'une boucle seulement\npour l'itération courante et procède directement à l'itération suivante. La boucle retour à l'évaluation \nde `for` ou `while`. Si il n'y a plus d'objet, la condition `else` est évaluée si présente.\n\nImprimer à l'écran seulement les nombres impairs `1, 3, 5, 7, 9`.\n\n<div class='hint'>Utilisez l'opérateur <code>%</code> pour vérifier si  <code>x</code> est pair.</div>\n",
+          "description_text" : "## Le mot clé Continue\r\n\r\nLe mot clé `contine` est utilisé afin de sauter la suite du code à l'intéreur d'une boucle seulement\r\npour l'itération courante et procède directement à l'itération suivante. La boucle retour à l'évaluation \r\nde `for` ou `while`. Si il n'y a plus d'objet, la condition `else` est évaluée si présente.\r\n\r\nImprimer à l'écran seulement les nombres impairs `1, 3, 5, 7, 9`.\r\n\r\n<div class='hint'>Utilisez l'opérateur <code>%</code> pour vérifier si  <code>x</code> est pair.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Continue+keyword",
           "task_type" : "edu"

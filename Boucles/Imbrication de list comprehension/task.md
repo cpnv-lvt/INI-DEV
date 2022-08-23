@@ -1,8 +1,13 @@
 ## L'imbrication de list comprehension
 
 Une liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.
+<<<<<<< HEAD:Boucles/L'imbrication de list comprehension/task.md
 Elles sont très similaires aux [Boucles imbriquées](course://Boucles/Boucles imbriquées).
 Voici un programme qui construit une [Liste imbriquée](course://Structures de données/Nested Lists) en utilisant 
+=======
+Elles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).
+Voici un programme qui construit une [Liste imbriquée](course://Structures de données/Listes imbriquées) en utilisant 
+>>>>>>> 3e2eab02fd795977b26cdd1f52f34137704e113b:Boucles/Nested List Comprehension/task.md
 des boucles imbriquées :
 
 ```python

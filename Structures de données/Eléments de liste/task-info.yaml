@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: list_items.py
+  visible: true
+  placeholders:
+  - offset: 309
+    length: 46
+    placeholder_text: '# Videz les deux derniers éléments de la liste'
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

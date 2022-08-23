@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: dict_key_value.py
+  visible: true
+  placeholders:
+  - offset: 213
+    length: 3
+    placeholder_text: ???
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

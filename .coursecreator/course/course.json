@@ -8,11 +8,11 @@
   "course_type" : "Marketplace",
   "items" : [
     {
-      "id" : 377198083,
+      "id" : 1414295593,
       "title" : "Introduction",
       "task_list" : [
         {
-          "id" : 1964994852,
+          "id" : 1578710375,
           "name" : "Navigation",
           "files" : {
             "main.py" : {
@@ -33,7 +33,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1948014164,
+          "id" : 2019525996,
           "name" : "Onglet Course",
           "files" : {
             "main.py" : {
@@ -54,7 +54,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 346671114,
+          "id" : 1105839133,
           "name" : "Editeur de texte",
           "files" : {
             "main.py" : {
@@ -81,7 +81,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1388433994,
+          "id" : 1222619774,
           "name" : "Description de la tâche",
           "files" : {
             "main.py" : {
@@ -150,7 +150,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1165800945,
+          "id" : 1601836047,
           "name" : "Notre premier programme",
           "files" : {
             "hello_world.py" : {
@@ -178,7 +178,7 @@
           "task_type" : "theory"
         },
         {
-          "id" : 1288236552,
+          "id" : 1535811177,
           "name" : "Commentaires",
           "files" : {
             "commentaires.py" : {
@@ -209,11 +209,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 724933666,
+      "id" : 887049254,
       "title" : "Variables",
       "task_list" : [
         {
-          "id" : 1912378871,
+          "id" : 1630893212,
           "name" : "Définition de variables",
           "files" : {
             "variable_definition.py" : {
@@ -253,7 +253,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1603741545,
+          "id" : 1860226777,
           "name" : "Variable non définie",
           "files" : {
             "undefined_variable.py" : {
@@ -530,7 +530,7 @@
       "type" : "lesson"
     },
     {
-      "id" : 1758893914,
+      "id" : 399203249,
       "title" : "Chaînes de caractères",
       "task_list" : [
         {
@@ -887,7 +887,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 164701980,
+          "id" : 1683324463,
           "name" : "F-strings",
           "files" : {
             "f_strings.py" : {
@@ -942,7 +942,7 @@
       "type" : "lesson"
     },
     {
-      "id" : 729672980,
+      "id" : 475172663,
       "title" : "Structures de données",
       "task_list" : [
         {
@@ -1088,7 +1088,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1040939375,
+          "id" : 586743756,
           "name" : "Tuples",
           "files" : {
             "tuples.py" : {
@@ -1129,7 +1129,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 625107794,
+          "id" : 1884111619,
           "name" : "Join method",
           "files" : {
             "join_method.py" : {
@@ -1164,7 +1164,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1998369398,
+          "id" : 814723577,
           "name" : "Dictionaries",
           "files" : {
             "dicts.py" : {
@@ -1211,7 +1211,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2016840559,
+          "id" : 1677595792,
           "name" : "Dictionary keys() and values()",
           "files" : {
             "dict_key_value.py" : {
@@ -1246,7 +1246,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 496190727,
+          "id" : 110989756,
           "name" : "In keyword",
           "files" : {
             "in_keyword.py" : {
@@ -1289,11 +1289,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 207528364,
+      "id" : 244842153,
       "title" : "Expressions conditionnelles",
       "task_list" : [
         {
-          "id" : 962622735,
+          "id" : 1361048893,
           "name" : "Boolean operators",
           "files" : {
             "boolean_operators.py" : {
@@ -1328,7 +1328,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1975643327,
+          "id" : 1112944922,
           "name" : "Boolean operators order",
           "files" : {
             "boolean_order.py" : {
@@ -1363,7 +1363,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1929196669,
+          "id" : 673994909,
           "name" : "If statement",
           "files" : {
             "if_statement.py" : {
@@ -1404,7 +1404,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 917267067,
+          "id" : 546259352,
           "name" : "Else and elif parts in if statement",
           "files" : {
             "else_elif.py" : {
@@ -1448,11 +1448,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 486638,
+      "id" : 1133720499,
       "title" : "Boucles",
       "task_list" : [
         {
-          "id" : 1979715724,
+          "id" : 2109390976,
           "name" : "For loop",
           "files" : {
             "for_loop.py" : {
@@ -1487,7 +1487,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1841663213,
+          "id" : 924354330,
           "name" : "Loop over a string",
           "files" : {
             "for_string.py" : {
@@ -1522,7 +1522,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 942638228,
+          "id" : 1833014240,
           "name" : "Nested for Loop",
           "files" : {
             "task.py" : {
@@ -1563,7 +1563,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1099239932,
+          "id" : 1553091159,
           "name" : "List Comprehension",
           "files" : {
             "task.py" : {
@@ -1604,7 +1604,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 938999088,
+          "id" : 1996959621,
           "name" : "Nested List Comprehension",
           "files" : {
             "task.py" : {
@@ -1645,7 +1645,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1981070791,
+          "id" : 72631848,
           "name" : "While loop",
           "files" : {
             "while_loop.py" : {
@@ -1680,7 +1680,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 844864693,
+          "id" : 1709906897,
           "name" : "Break keyword",
           "files" : {
             "break_keyword.py" : {
@@ -1721,7 +1721,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1538810355,
+          "id" : 728053193,
           "name" : "Else with loops",
           "files" : {
             "else_with_loops.py" : {
@@ -1762,7 +1762,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1395530185,
+          "id" : 1708153895,
           "name" : "Continue keyword",
           "files" : {
             "continue_keyword.py" : {
@@ -1806,11 +1806,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 1815753263,
+      "id" : 1904560638,
       "title" : "Fonctions",
       "task_list" : [
         {
-          "id" : 1851258479,
+          "id" : 2115739011,
           "name" : "Definition",
           "files" : {
             "functions.py" : {
@@ -1839,13 +1839,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Definition\n\nFunctions are a convenient way to divide your code into useful blocks, make it more \nreadable, and reuse it.\nThe keyword `def` introduces a function definition. \nIt must be followed by the function name and the parenthesized list of formal parameters (which can be empty). \nThe statements that form the body of the function start at the next line and must be indented.\n\n\nFunctions only run when they are called. To call a function, use its name followed by parentheses:\n\n```python\ndef my_function():  # function definition\n  print(\"Hello from a function\")\n\nmy_function()  # function call\n```\n\nRead more about defining functions in <a href=\"https://docs.python.org/3/tutorial/controlflow.html#defining-functions\">this section</a> of Python Documentation.\n### Task\n - Call the function `my_function` inside the loop to repeat its invocation 5 times\n - Define a function that can replace the duplicated `print` statements in the file.  \n\n<div class='hint'>Use the <code>()</code> to call the <code>my_function</code> function.</div>\n<div class='hint'>Use the <code>def</code> keyword to define the <code>fun</code> function.</div>\n",
+          "description_text" : "## Definition\n\nLes fonctions permettent de découper votre code en petite partie utile, plus lisible et surtout réutilisable.\nLe mot clé `def` commence la définition d'une nouvelle fonction. Ce mot sera suivi du nom de la fonction et \n entre parenthèse d'une liste de paramètres (qui peut être vide) et se termine avec le caractère `:`. Le code de la fonction commence à la ligne suivante \net doit être indenté. \n\nLe code contenu dans une fonction ne sersa executé que lorsque celle-ci est appelée. Pour appeler une fonction, utiliser \nson nom avec les parenthèses.\n\n```python\ndef my_function():  # définition d'une fonction\n  print(\"Hello from a function\")\n\nmy_function()  # appel de la fonction\n```\n\n\nPour en savoir plus sur la définition d'une fonction sur <a href=\"https://docs.python.org/3/tutorial/controlflow.html#defining-functions\">cette page</a> de la documentation de Python.\n\n### Task\n - Appelez la fonction `my_function` à l'intérieur de la boucle afin de l'invoquer 5 fois.\n - Définissez une fonction qui remplace les appels duplicer de `print` dans le fichier.  \n\n<div class='hint'>Utilisez les <code>()</code> pour appelez la fonction  <code>my_function</code>.</div>\n<div class='hint'>Utilisez le mot clé <code>def</code> pour définir la <code>fonction</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Definition",
           "task_type" : "edu"
         },
         {
-          "id" : 1996010927,
+          "id" : 2085762292,
           "name" : "Parameters and call arguments",
           "files" : {
             "param_args.py" : {
@@ -1868,13 +1867,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Parameters and call arguments\n\nFunction parameters are defined inside the parentheses `()` following the \nfunction name. A parameter acts as a variable name for an argument passed to the\nfunction. \n\nThe terms parameter and argument refer to the same thing: information \nthat is passed into a function. However, a parameter is the variable listed \ninside the parentheses in the function definition, while an argument is the \nvalue that is sent to the function when it is called.\n\nBy default, a function must be called with the correct number of arguments. \nIf your function expects 2 arguments, you have to call it \nwith 2 arguments:\n\n```python\ndef my_function(name, surname):\n    print(name + \" \" + surname)\n\nmy_function(\"Jon\", \"Snow\")\n```\nResult:\n```text\nJon Snow\n```\nHowever, if you supply it with just one argument during the call:\n```python\nmy_function(\"Sam\")\n```\n`TypeError` will be raised:\n```text\nTypeError                                 Traceback (most recent call last)\n<ipython-input-29-40eb74e4b26a> in <module>\n----> 1 my_function('Jon')\n\nTypeError: my_function() missing 1 required positional argument: 'surname'\n```\n### Task\nIn the code editor, define a function that prints the square of a passed parameter.  \n\n<div class='hint'>Add the <code>x</code> parameter inside parentheses in the function definition.</div>\n",
+          "description_text" : "## Arguments et paramètres d'une fonction\n\nLes paramètres d'une fonction sont définis à l'intérieur des parenthèses `()` juste après le nom de la fonction. \nUn paramètre joue le rôle d'une variable pour l'argument passé à la fonction.\n\nLes termes paramètres et arguments font référence au même chose : l'information qui est passé à une fonction. \nCependant, un paramètre est une variable listée à l'intérieur de la déclaration d'une fonction (dans les parenthèses), \nalors qu'un argument est la valeur qui est envoyée à la fonction lorsqu'elle est appelée.\n\nPar défaut, une fonction doit être appelée avec le nombre d'arguments correct. Si votre fonction demande deux arguments,\nvous devez lui fournir deux arguments :\n\n```python\ndef my_function(name, surname):\n    print(name + \" \" + surname)\n\nmy_function(\"Jon\", \"Snow\")\n```\nRésultat:\n```text\nJon Snow\n```\nSinon, si vous fournissez seulement un argument lors de son appel :\n```python\nmy_function(\"Sam\")\n```\nune erreur de telque :`TypeError` sera appelée :\n```text\nTypeError                                 Traceback (most recent call last)\n<ipython-input-29-40eb74e4b26a> in <module>\n----> 1 my_function('Jon')\n\nTypeError: my_function() missing 1 required positional argument: 'surname'\n```\n### Task\nDans l'éditeur de code, définissez une fonction qui imprime le carré d'un nombre.r.  \n\n<div class='hint'>Ajoutez un <code>x</code> comme paramètre à l'intérieur des  parenthèses dans la définition de la fonction.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Parameters+and+call+arguments",
           "task_type" : "edu"
         },
         {
-          "id" : 1429932776,
+          "id" : 461663805,
           "name" : "Return value",
           "files" : {
             "return_keyword.py" : {
@@ -1915,13 +1913,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Return value\n\nFunctions may return a value to the caller, using the keyword `return` . You can use the \nreturned value to assign it to a variable or just print it out. In fact, even functions \nwithout a `return` statement do return a value. This value is \ncalled `None` (it’s a built-in name). Writing the value `None` is normally suppressed by \nthe interpreter, but if you really want to see it, you can use `print(some_func())`.\n\n><i>The first statement of the function body can optionally be a string literal; this string \nliteral is the function’s documentation string, or docstring (more about docstrings can \nbe found in the section <a href=\"https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings\">Documentation Strings</a>\nin Python Documentation). It’s good practice to include docstrings in the code that you write.</i>\n  \nIn the Fibonacci sequence, the first two numbers are `1` and `1`, and each subsequent \nnumber is the sum of the previous two. \n\n### Task\nWrite a function that returns a list of numbers \nof the Fibonacci sequence up to `n` .  \n\n<div class='hint'>Initialize <code>b</code> with 1.</div>\n<div class='hint'>Update <code>b</code> with <code>a + b</code>.</div>\n<div class='hint'>Update <code>a</code> with <code>tmp_var</code>.</div>\n\n\n",
+          "description_text" : "## La valeur de Return \n\nLes fonctions peuvent retourner une valeur à celui qui l'a appelé, en utilisant le mot clé `return` . \nVous pouvez utiliser la valeur retournée en l'assignant à une variable ou simplement en l'imprimant. En fait, \nune fonction qui n'emploi pas le mot `return` renvoi une valeur. Cette valeur est appelée  `None` (C'est un nom interne à python).\nÉcrire la valeur `None` est normalement supprimé par l'interpréteur python, si vous voulez le voir, vous pouvez appeler\nla fonction comme tel : `print(some_func())`.\n\n><i>La première déclaration d'une fonction peut être une chaine de caractères; cette chaine sert à documenter votre fonction.   \nOn l'appel docstring (vous trouverez plus d'information sur docstrings dans la section :\n<a href=\"https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings\">Documentation Strings</a>\nde la documentation Python). C'est une bonne pratique d'inclure un docstrings dans votre code.</i>\n\nDans la suite de Fibonacci, les deux premiers nombres sont `1` et `1`, chaque séquence suivante est la somme des deux précédents.\n\n### Task\nÉcrire une fonction qui retourne la liste des nombres de la suite de Fibonacci jusqu'à `n` .  \n\n<div class='hint'>Initialise <code>b</code> avec 1.</div>\n<div class='hint'>Mettez à jour <code>b</code> avec <code>a + b</code>.</div>\n<div class='hint'>Mettez à jour <code>a</code> avec <code>tmp_var</code>.</div>\n\n\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Return+value",
           "task_type" : "edu"
         },
         {
-          "id" : 1860205757,
+          "id" : 1095817301,
           "name" : "Default parameters",
           "files" : {
             "default_parameter.py" : {
@@ -1944,13 +1941,12 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Default parameters\n\nIt is also possible to define functions with a variable number of arguments. There are \nthree forms, which can be combined. The most useful form is to specify a default value \nfor one or more arguments. This creates a function that can be called with fewer \narguments than it is defined with. For example, check out the first function in the code editor.\nThis function can be called in several ways:\n\n- giving only the mandatory argument `a`: `multiply_by(3)`\n\n- giving one of the optional arguments: `multiply_by(3, 47)`, or `multiply_by(3, c=47)`\n\n- or even giving all arguments: `multiply_by(3, 47, 0)`\n\nYou can specify which argument you are providing in the function call, just like we did in the third case\nwith `c=47`. If you do not specify that, values will be assigned according to their order.\nDo not put spaces around the `=` symbol in function calls and definitions.\n \nExplore this topic further by reading <a href=\"https://docs.python.org/3/tutorial/controlflow.html#default-argument-values\">this section</a>\nof Python Documentation.\n\n\n### Task\nAdd parameters to the `hello()` function and set a default value for the `name` parameter.  \n\n<div class='hint'>Specify any default value for the <code>name</code> parameter.</div>\n",
+          "description_text" : "## Paramètres par défaut\n\nIl est possible de définir une fonction avec un nombre variable d'arguments. Il y a trois formes qui peuvent être combinés.\nLa forme la plus pratique est de définir une valeur par défaut pour l'un ou plusieurs des arguments. Cela permet de définir une \nfonction qui sera appelée avec moins d'arguments. Par exemple, vérifiez la première fonction dans l'éditeur de code.\nCette fonction peut être appelée de différentes manières :\n\n- en donnant que l'argument obligatoire : `a`: `multiply_by(3)`\n\n- en donnant l'un des arguments facultatifs : `multiply_by(3, 47)`, ou `multiply_by(3, c=47)`\n\n- ou en donnant tous les arguments : `multiply_by(3, 47, 0)`\n\nVous pouvez spécifier quel argument vous fournissez à votre fonction, tel que dans le troisième exemple ci-dessus avec `c=47`.\nSi vous ne spécifiez rien, les valeurs seront assignées selon l'ordre présent dans la déclaration de votre fonction.\nAttention, vous ne devez pas mettre d'espace entre le symbole `=` lors de la déclaration ou de l'appel.\n\n\n \nSi vous voulez en savoir plus sur le sujet voici <a href=\"https://docs.python.org/3/tutorial/controlflow.html#default-argument-values\">un lien</a>\ndans le documentation Python.\n\n\n### Task\nAjoutez un paramètre à la fonction `hello()`  et configurer une valeur par défaut pour le paramètre `name`.  \n\n<div class='hint'> Spécifiez n'importe quelle valeur pour le paramètre <code>name</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Default+parameters",
           "task_type" : "edu"
         },
         {
-          "id" : 1070926720,
+          "id" : 1669702265,
           "name" : "Keyword Arguments",
           "files" : {
             "keyword_args.py" : {
@@ -1973,13 +1969,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Keyword Arguments\n\nWe already hinted that functions can also be called using keyword arguments of the form `kwarg=value`. For \ninstance, the function `cat()`, which we defined for you,\naccepts one required argument (`food`) and three optional arguments (`state`, `action`, and `breed`). \nIt can be called in any of the following ways (you can try them all out):\n\n```python\ncat('chicken')                     # 1 positional argument\ncat(food='chicken')                # 1 keyword argument\ncat(food='fish', action='bite')    # 2 keyword arguments\ncat(action='bite', food='fish')    # 2 keyword arguments\ncat('beef', 'happy', 'hiss')       # 3 positional arguments\ncat('a hug', state='purrring')     # 1 positional, 1 keyword\n```\nIn a function call, keyword arguments must follow positional arguments. All the keyword \narguments passed must match one of the arguments accepted by the function (e.g., `book` is not a valid \nargument for the `cat` function), and their order is not important. This also includes non-optional \narguments (e.g., `cat(food='fish')` is valid too). No argument may receive a value more than once.\nAll the following calls would be invalid:\n\n```python\ncat()                              # required argument missing\ncat(food='fish', 'dead')           # positional argument after a keyword argument\ncat('veggies', food='nothing')     # duplicate value for the same argument\ncat(actor='Johnny Depp')           # unknown keyword argument\n```\n\n### Task\nIn the editor, complete the function call  with arguments so that it prints the following:\n```text\n-- This cat wouldn't growl if you gave it soup\n-- Lovely fur, the Sphinx\n-- It's still hungry!\n```\n\n<div class=\"hint\">For keyword arguments, use syntax such as <code>state='asleep'</code>.</div>\n<div class=\"hint\">The required argument <code>food</code> has to be in the first position, unless you supply it as a keyword argument.</div>",
+          "description_text" : "## Nom d'argument\n\nWe already hinted that functions can also be called using keyword arguments of the form `kwarg=value`. For \ninstance, the function `cat()`, which we defined for you,\naccepts one required argument (`food`) and three optional arguments (`state`, `action`, and `breed`). \nIt can be called in any of the following ways (you can try them all out):\n\n```python\ncat('chicken')                     # 1 positional argument\ncat(food='chicken')                # 1 keyword argument\ncat(food='fish', action='bite')    # 2 keyword arguments\ncat(action='bite', food='fish')    # 2 keyword arguments\ncat('beef', 'happy', 'hiss')       # 3 positional arguments\ncat('a hug', state='purrring')     # 1 positional, 1 keyword\n```\nIn a function call, keyword arguments must follow positional arguments. All the keyword \narguments passed must match one of the arguments accepted by the function (e.g., `book` is not a valid \nargument for the `cat` function), and their order is not important. This also includes non-optional \narguments (e.g., `cat(food='fish')` is valid too). No argument may receive a value more than once.\nAll the following calls would be invalid:\n\n```python\ncat()                              # required argument missing\ncat(food='fish', 'dead')           # positional argument after a keyword argument\ncat('veggies', food='nothing')     # duplicate value for the same argument\ncat(actor='Johnny Depp')           # unknown keyword argument\n```\n\n### Task\nIn the editor, complete the function call  with arguments so that it prints the following:\n```text\n-- This cat wouldn't growl if you gave it soup\n-- Lovely fur, the Sphinx\n-- It's still hungry!\n```\n\n<div class=\"hint\">For keyword arguments, use syntax such as <code>state='asleep'</code>.</div>\n<div class=\"hint\">The required argument <code>food</code> has to be in the first position, unless you supply it as a keyword argument.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Keyword+Arguments",
           "task_type" : "edu"
         },
         {
-          "id" : 204706840,
+          "id" : 245223273,
           "name" : "Args and kwargs",
           "files" : {
             "args_kwargs.py" : {
@@ -2016,11 +2012,10 @@
           },
           "description_text" : "## Args and kwargs\n\nWhen a final formal parameter of the form `**name` is present, it receives a dictionary \n(see [Data Structures — Dictionaries ](course://Structures de données/Dictionaries)) containing \nall keyword arguments except for those corresponding \nto a formal parameter. This may be combined with a formal parameter of the form `*name` which \nreceives a tuple containing any number of positional arguments beyond the formal parameter list \n(`*name` must occur before `**name`). For example, if we define a function like the one in the \ncode editor, it could be called as shown in call 1, which would print:\n```text\n-- Do you know how to get to the Library ?\n-- I'm sorry, I am not from here, no idea about the Library\nDo you at least have a cigar, sir?\nSure, help yourself.\n----------------------------------------\nlost_person : old banker\nother_guy : street clown\nscene : in a park\n```\nThis function can be called with an arbitrary number of arguments. These arguments will be wrapped \nup in a tuple (see [Tuples](course://Structures de données/Tuples)). Before the variable number of arguments, zero or \nmore normal arguments may occur; in our case there's one – `place`. Any formal parameters that occur \nafter the `*args` parameter are ‘keyword-only’ arguments, meaning that they can only be used as keywords \nrather than positional arguments. Another way to call this function is shown in call 2, and it will give \nus the same output.\n\n### Task\n\nIn the code editor, modify the code below the `cat()` function so that it prints \nthe following:\n```text\n-- This cat would eat if you gave it anything\n-- Lovely fur, the Maine Coon\n-- It's fat !\nIT IS TOO FAT.\nYOU ARE FEEDING YOUR CAT TOO MUCH.\n```\n<div class=\"hint\">Remember to unpack extra positional arguments with <code>*</code>.</div>\n\n<div class=\"hint\">Remember to unpack keyword arguments with <code>**</code>.</div>\n\n<div class=\"hint\">Do not forget to provide the value for the formal parameter <code>food</code>.</div>\n\n\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Fonctions+/+Args+and+Kwargs",
           "task_type" : "edu"
         },
         {
-          "id" : 30581564,
+          "id" : 919645441,
           "name" : "Recursion",
           "files" : {
             "recursion.py" : {
@@ -2052,11 +2047,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 1285709816,
+      "id" : 1688520523,
       "title" : "Modules et packages",
       "task_list" : [
         {
-          "id" : 2066001187,
+          "id" : 1063103453,
           "name" : "Import module",
           "files" : {
             "my_module.py" : {
@@ -2115,7 +2110,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1806132491,
+          "id" : 1608244696,
           "name" : "Built-in modules",
           "files" : {
             "builtin_modules.py" : {
@@ -2150,7 +2145,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2147016704,
+          "id" : 1825627015,
           "name" : "From import",
           "files" : {
             "my_module.py" : {
@@ -2203,7 +2198,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1114513050,
+          "id" : 935437658,
           "name" : "Packages",
           "files" : {
             "packages.py" : {
@@ -2286,7 +2281,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 478019137,
+          "id" : 1703998268,
           "name" : "Executing modules as scripts",
           "files" : {
             "task.py" : {
@@ -2349,11 +2344,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 222630959,
+      "id" : 199013689,
       "title" : "Lire et écrire dans un fichier",
       "task_list" : [
         {
-          "id" : 1952603788,
+          "id" : 239219899,
           "name" : "00 Ouverture de fichier",
           "files" : {
             "input.txt" : {
@@ -2400,13 +2395,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Ouverture d'un fichier\r\nPython intègre plusieurs fonctions pour l’ouverture, la lecture et l’écriture d’un fichier.\r\n\r\n`open()` permet l’ouverture d’un fichier. La plupart du temps on l’utilise avec deux arguments tel que :\r\n`open(nom_de_fichier, mode)`:\r\n\r\n```python\r\nf = open('mon_fichier.txt', 'w')\r\n```\r\n\r\nLe premier argument est une chaine de caractère contenant le nom de fichier. Le second argument est une autre chaine de caractère permettant \r\nde définir le mode d’ouverture tel que :\r\n\r\n`'r'`  : ouverture en lecture seul  \r\n`'w'` : ouverture en écriture (attention, si le fichier existe il sera écrasé)  \r\n`'a'`  : ouverture en mode addition (le texte ajouté le sera en fin de fichier)  \r\n`'r+'` : ouverture en mode lecture/écriture  \r\n\r\nIl est conseillé d’utiliser la méthode d’ouverture avec `with` afin d’automatiser la fermeture du fichier. Voici un exemple d’utilisation :\r\n\r\n```python\r\nwith open('mon_fichier.txt') as f:\r\n    read_data = f.read()\r\n\r\n# Nous pouvons vérifier que le fichier est bien fermé automatiquement\r\nf.closed\r\n```\r\n```text\r\nTrue\r\n```\r\n**Important**:  \r\n\r\nSi vous n’utilisez pas la méthode d’ouverture avec le terme ‘with’,  vous devrez utiliser ‘f.close()’ pour fermer le fichier et libéré la mémoire \r\net les ressources système. De plus, lorsque vous utiliser ‘f.close()’, vous n’aurez plus accès au contenu du fichier. \r\n\r\nDans votre éditeur, ouvrez le fichier ‘input1.txt’ en mode lecture avec la méthode ‘with’. Vérifier le nom utiliser pour le fichier \r\nsur les lignes suivantes et utiliser-le. A la fin, femer le fichier de sortie `outfile` préalablement ouvert.\r\n\r\nAprès l'execution de votre code, vérifier le fichier de sortie présent de la vue du cours à côté des autres fichiers.\r\n\r\n<div class=\"hint\">Utiliser l'argument <code>r</code> de la commande <code>open()</code>,\r\npour jouer un peu avec les fichiers!</div>\r\n",
+          "description_text" : "## Ouverture d'un fichier\nPython intègre plusieurs fonctions pour l’ouverture, la lecture et l’écriture d’un fichier.\n\n`open()` permet l’ouverture d’un fichier. La plupart du temps on l’utilise avec deux arguments tel que :\n`open(nom_de_fichier, mode)`:\n\n```python\nf = open('mon_fichier.txt', 'w')\n```\n\nLe premier argument est une chaine de caractère contenant le nom de fichier. Le second argument est une autre chaine de caractère permettant \nde définir le mode d’ouverture tel que :\n\n`'r'`  : ouverture en lecture seul  \n`'w'` : ouverture en écriture (attention, si le fichier existe il sera écrasé)  \n`'a'`  : ouverture en mode addition (le texte ajouté le sera en fin de fichier)  \n`'r+'` : ouverture en mode lecture/écriture  \n\nIl est conseillé d’utiliser la méthode d’ouverture avec `with` afin d’automatiser la fermeture du fichier. Voici un exemple d’utilisation :\n\n```python\nwith open('mon_fichier.txt') as f:\n    read_data = f.read()\n\n# Nous pouvons vérifier que le fichier est bien fermé automatiquement\nf.closed\n```\n```text\nTrue\n```\n**Important**:  \n\nSi vous n’utilisez pas la méthode d’ouverture avec le terme ‘with’,  vous devrez utiliser ‘f.close()’ pour fermer le fichier et libéré la mémoire \net les ressources système. De plus, lorsque vous utiliser ‘f.close()’, vous n’aurez plus accès au contenu du fichier. \n\nDans votre éditeur, ouvrez le fichier ‘input1.txt’ en mode lecture avec la méthode ‘with’. Vérifier le nom utiliser pour le fichier \nsur les lignes suivantes et utiliser-le. A la fin, femer le fichier de sortie `outfile` préalablement ouvert.\n\nAprès l'execution de votre code, vérifier le fichier de sortie présent de la vue du cours à côté des autres fichiers.\n\n<div class=\"hint\">Utiliser l'argument <code>r</code> de la commande <code>open()</code>,\npour jouer un peu avec les fichiers!</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Open+file",
           "task_type" : "edu"
         },
         {
-          "id" : 1179259988,
+          "id" : 873704284,
           "name" : "01 Lecture de fichier",
           "files" : {
             "input.txt" : {
@@ -2459,13 +2454,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## lecture de fichier\r\n\r\nPour lire un fichier, vous pouvez utiliser la commande `f.read(size)`, qui lira une certaine \r\nquantité de donnée et renvera une chaine de caractères. Lorsque la taille est omis ou négative, \r\nl'entier du fichier sera lu et retourner.\r\n\r\n```python\r\nwith open('somefile.txt') as f:\r\n    print(f.read())\r\n```\r\n```text\r\nHere's everything that's in the file.\\n\r\n```\r\n<i>**Note**: Il peut y avoir un problème si la taille du fichier fait deux fois la taille \r\nde la mémoire de votre ordinateur.</i>\r\n\r\n\r\n`f.readline()` lit une seul ligne du fichier; un caractère de nouvelle ligne (`\\n`) \r\nest laissé à la fin de la chaine. ce caractpre sera omi uniquement si vous êtes à la dernière ligne.\r\nSi `f.readline()` retourne une chaine vide, la fin du fichier a été atteint, alors qu'une ligne vide \r\nsera représentée par `\\n`, une chaine contenant uniquement le caractère de nouvelle line.\r\n\r\n```python\r\nf.readline()\r\n```\r\n```text\r\n'This is the first line of the file.\\n'\r\n```\r\n```python\r\nf.readline()\r\n```\r\n```text\r\n'Second line of the file\\n'\r\n```\r\n```python\r\nf.readline()\r\n```\r\n```text\r\n''\r\n``` \r\nFor reading lines from a file, you can loop over the file object. This is memory efficient, fast, and \r\nmakes the code simple:\r\n```python\r\nfor line in f:\r\n    print(line)\r\n```\r\n```text\r\nThis is the first line of the file.\r\nSecond line of the file\r\n```\r\n\r\nIf you want to read all the lines of a file in a list, you can also use `list(f)` or `f.readlines()`.\r\n\r\n\r\nFor more details, check out the section [Methods of File Objects](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects) in Python Tutorial.\r\n\r\n\r\nPrint the contents of \"input.txt\" to output by iterating over the lines of the file and printing each one.\r\nThen print only the first line of \"input1.txt\".\r\n\r\n<div class=\"hint\">Loop over the file object as in the example in the task description.</div>\r\n<div class='hint'>Use the <code>print</code> function.</div>\r\n<div class='hint'>Use the <code>readline()</code> method to print a single line.</div>\r\n",
+          "description_text" : "## lecture de fichier\n\nPour lire un fichier, vous pouvez utiliser la commande `f.read(size)`, qui lira une certaine \nquantité de donnée et renvera une chaine de caractères. Lorsque la taille est omis ou négative, \nl'entier du fichier sera lu et retourner.\n\n```python\nwith open('somefile.txt') as f:\n    print(f.read())\n```\n```text\nHere's everything that's in the file.\\n\n```\n<i>**Note**: Il peut y avoir un problème si la taille du fichier fait deux fois la taille \nde la mémoire de votre ordinateur.</i>\n\n\n`f.readline()` lit une seul ligne du fichier; un caractère de nouvelle ligne (`\\n`) \nest laissé à la fin de la chaine. ce caractpre sera omi uniquement si vous êtes à la dernière ligne.\nSi `f.readline()` retourne une chaine vide, la fin du fichier a été atteint, alors qu'une ligne vide \nsera représentée par `\\n`, une chaine contenant uniquement le caractère de nouvelle line.\n\n```python\nf.readline()\n```\n```text\n'This is the first line of the file.\\n'\n```\n```python\nf.readline()\n```\n```text\n'Second line of the file\\n'\n```\n```python\nf.readline()\n```\n```text\n''\n``` \nFor reading lines from a file, you can loop over the file object. This is memory efficient, fast, and \nmakes the code simple:\n```python\nfor line in f:\n    print(line)\n```\n```text\nThis is the first line of the file.\nSecond line of the file\n```\n\nIf you want to read all the lines of a file in a list, you can also use `list(f)` or `f.readlines()`.\n\n\nFor more details, check out the section [Methods of File Objects](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects) in Python Tutorial.\n\n\nPrint the contents of \"input.txt\" to output by iterating over the lines of the file and printing each one.\nThen print only the first line of \"input1.txt\".\n\n<div class=\"hint\">Loop over the file object as in the example in the task description.</div>\n<div class='hint'>Use the <code>print</code> function.</div>\n<div class='hint'>Use the <code>readline()</code> method to print a single line.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Read+file",
           "task_type" : "edu"
         },
         {
-          "id" : 901145898,
+          "id" : 1450747889,
           "name" : "02 Ecriture de fichier",
           "files" : {
             "output.txt" : {
@@ -2512,13 +2507,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Write to file\r\n\r\nAs we already mentioned, if you use `'w'` as the second argument in `open()`, the file opens for \r\nwriting only. A new empty file will be created. If another file with the same name already exists, it \r\nwill be erased. If you want to add some content to an existing file, you should use the `'a'` \r\n(append) modifier.  \r\n  \r\nAnother file object method, `f.write(string)`, writes the contents of a <i>string</i> to the file, returning the \r\nnumber of characters written.\r\n\r\n```python\r\nf.write('This is a test\\n')\r\n```\r\n```text\r\n15\r\n```\r\nOther types of objects in text mode need to be converted into a string first:\r\n```python\r\nvalue = ('the answer', 42)\r\ns = str(value)  # convert the tuple into string\r\nf.write(s)\r\n```\r\n```python\r\n18\r\n```\r\nWhere the specified text will be inserted in the file depends on the file mode (`'a'` vs `'w'`).\r\n\r\n`'a'`:  the text will be inserted at the end of the file.\r\n\r\n`'w'`: the file will be emptied before the text will be inserted at the beginning.\r\n\r\nIf you want to include a symbol such as a line break, into your string (to start from a new line),\r\nadd it with a `+`:\r\n```python\r\nf.write('\\n' + 'string,' + ' ' + 'another string')\r\n```\r\nThis will add a new line and write `'string, another string'`.\r\n\r\nIn the code editor, **append** one new line to `output.txt` with all elements from the `zoo` list separated by `' and '`. \r\nUse the <code>' and '.join(lst)</code> syntax to join the list elements into the required string. Afterwards, \r\nappend another line with the `number` to the same output file.\r\n\r\n<div class='hint'>Use the <code>'a'</code> modifier to append lines at the end of the file.</div>\r\n<div class='hint'>Use the <code>write()</code> method.</div>\r\n<div class='hint'>Convert <code>number</code> into a string before writing.</div>\r\n<div class=\"hint\">Add <code>\\n</code> at the beginning of each string to write so that it eds up a separate line.</div>\r\n\r\n\r\n\r\n## What's next?\r\n\r\nNow, once you have mastered the basics of Python, we bet that you’re wondering what to do next. \r\nWe recommend checking out [JetBrains Academy](https://hi.hyperskill.org?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task). \r\nHere are several reasons to try JetBrains Academy now:\r\n\r\n- At the moment, 37 Python projects and 348 topics are available for learning, and the number keeps growing.\r\n  Other programming languages, such as Kotlin and Java, are also available.\r\n- Projects of varying difficulty levels provide a flexible learning experience for all.\r\n- Comprehensive learning tracks are augmented with a detailed [Knowledge Map](https://hyperskill.org/knowledge-map?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\r\n- Learn anywhere: you can start learning on your tablet or mobile phone via a browser and continue on your \r\n  laptop or PC; you can even build the projects [right in your IDE](https://hyperskill.org/plugin#python?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\r\n\r\nJoin JetBrains Academy [here](https://hyperskill.org/onboarding?track=python&utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task) and try it yourself!\r\n",
+          "description_text" : "## Write to file\n\nAs we already mentioned, if you use `'w'` as the second argument in `open()`, the file opens for \nwriting only. A new empty file will be created. If another file with the same name already exists, it \nwill be erased. If you want to add some content to an existing file, you should use the `'a'` \n(append) modifier.  \n  \nAnother file object method, `f.write(string)`, writes the contents of a <i>string</i> to the file, returning the \nnumber of characters written.\n\n```python\nf.write('This is a test\\n')\n```\n```text\n15\n```\nOther types of objects in text mode need to be converted into a string first:\n```python\nvalue = ('the answer', 42)\ns = str(value)  # convert the tuple into string\nf.write(s)\n```\n```python\n18\n```\nWhere the specified text will be inserted in the file depends on the file mode (`'a'` vs `'w'`).\n\n`'a'`:  the text will be inserted at the end of the file.\n\n`'w'`: the file will be emptied before the text will be inserted at the beginning.\n\nIf you want to include a symbol such as a line break, into your string (to start from a new line),\nadd it with a `+`:\n```python\nf.write('\\n' + 'string,' + ' ' + 'another string')\n```\nThis will add a new line and write `'string, another string'`.\n\nIn the code editor, **append** one new line to `output.txt` with all elements from the `zoo` list separated by `' and '`. \nUse the <code>' and '.join(lst)</code> syntax to join the list elements into the required string. Afterwards, \nappend another line with the `number` to the same output file.\n\n<div class='hint'>Use the <code>'a'</code> modifier to append lines at the end of the file.</div>\n<div class='hint'>Use the <code>write()</code> method.</div>\n<div class='hint'>Convert <code>number</code> into a string before writing.</div>\n<div class=\"hint\">Add <code>\\n</code> at the beginning of each string to write so that it eds up a separate line.</div>\n\n\n\n## What's next?\n\nNow, once you have mastered the basics of Python, we bet that you’re wondering what to do next. \nWe recommend checking out [JetBrains Academy](https://hi.hyperskill.org?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task). \nHere are several reasons to try JetBrains Academy now:\n\n- At the moment, 37 Python projects and 348 topics are available for learning, and the number keeps growing.\n  Other programming languages, such as Kotlin and Java, are also available.\n- Projects of varying difficulty levels provide a flexible learning experience for all.\n- Comprehensive learning tracks are augmented with a detailed [Knowledge Map](https://hyperskill.org/knowledge-map?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\n- Learn anywhere: you can start learning on your tablet or mobile phone via a browser and continue on your \n  laptop or PC; you can even build the projects [right in your IDE](https://hyperskill.org/plugin#python?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task).\n\nJoin JetBrains Academy [here](https://hyperskill.org/onboarding?track=python&utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=last-task) and try it yourself!\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Write+to+file",
           "task_type" : "edu"
         },
         {
-          "id" : 1798676987,
+          "id" : 337951978,
           "name" : "03 Et après",
           "files" : {
             "main.py" : {
@@ -2528,7 +2523,7 @@
               "text" : "jHkRbjGYl4LUayu8aC+eDb6AToluD+nKtWSsUfz8mjhutIjonllV/S3o/303QMEDOEzHSTjSXJ7k6Q87wNJF19pn0KZ1gqewqfXLUbxnCZLyn/Z1wfWScZYhqpJFu3Tz6VmvjXAjKsNqPU5JKegEZsxPV7NfY0Hv7eVXzmgJqbD3/H/pkQKIUWTc4c1Dp4yciauyguhx5+JKohiehy8cCaC4MhdzIMhvVNJUVUK4D5g/7jmdcyyyBrzg2Xqa2VT3EYXw6Lf8IBRfyp9qgn6A8vezBI0AuDFv7M4oZU8XHn1CEklOsEpX2Vwr7IYUWL07DrFjEGNgGu4x9PG7b+ugRFusSdbPRRqdmkhbBYE/Bks70f5K8ATCyxMextJUK2U5lRkve0or+yDzvfzuheHaIs0G8MeTtIl/6l2F0sZ+L3rLi3YpLltv0RSMvJ8Ib16TGdVWs71dMjhdJ2soFIvbg877DLCJBC1bdECHOs7L6SY9cOITBePus5ISGewQmd1Arw2fLCF1A/eQeSjT51FJeyAEYTxPEOcseHyYM3k/u+I+RiF6DJlHnAal9+IuHVg0jCB1Yiz4qV81fVypfwUfhWZT0lkTgXyO6/S1HZrF6f4WqMeC76IXgpdMpZo6sEZEs+f5B2J6DCsl5uacbk4Jwc7Pinp0UgwDauiYSH7g2QdPM+CmGlBPERF2RDYzCCk+VFBO2QpsFrlDlXAMRhl0NQeUl/HSHvOeHrpkVdyAXKnsywKtbuuGTC24Q8gMzIgZ4v0ceYgDTLDm8RmmttbQV9tCvAbx5JkNlrph8iWQr3n0DnUGApjVUKOuy8RPcfnjm8k7Vn6pr9MRFxZb6q8aAc0G4RVzegQbNpS++y5IbTZZyYHVGws+GtRLum1ISeHrzhe2PGcepy6CNXiLueLU6drgPx/Iqyxxx75VZ6n8KxPyDUirYpq4dI0AAw7n48X8"
             }
           },
-          "description_text" : "Congratulations, you made it to the end of the course! We hope you enjoyed it.\r\n\r\nIf you would like to leave general feedback – write us a review on the course’s Marketplace [page](https://plugins.jetbrains.com/plugin/16630-introduction-to-python/reviews).\r\nIf you want to contribute, feel free to create a pull request or an issue in the course’s [GitHub repo](https://github.com/jetbrains-academy/introduction_to_python).\r\n\r\n### What next?\r\n\r\nNow that you’ve explored the basics of Python programming, you can dive deeper and polish your new skills! Here are some options for you:\r\n- Learn about the most widely used Python library with our [course on NumPy](https://plugins.jetbrains.com/plugin/18302-python-libraries--numpy).\r\n- Find out how to build an [AMazing](https://plugins.jetbrains.com/plugin/17519-amazing) maze with Python.\r\n- Discover the basics of [Machine Learning](https://plugins.jetbrains.com/plugin/18392-machine-learning-101).\r\n- Check out the projects in the [Python Core](https://hyperskill.org/tracks/2) or [Python for Beginners](https://hyperskill.org/tracks/6) track at JetBrains Academy.\r\n\r\nStay tuned for new courses and updates!\r\n",
+          "description_text" : "Congratulations, you made it to the end of the course! We hope you enjoyed it.\n\nIf you would like to leave general feedback – write us a review on the course’s Marketplace [page](https://plugins.jetbrains.com/plugin/16630-introduction-to-python/reviews).\nIf you want to contribute, feel free to create a pull request or an issue in the course’s [GitHub repo](https://github.com/jetbrains-academy/introduction_to_python).\n\n### What next?\n\nNow that you’ve explored the basics of Python programming, you can dive deeper and polish your new skills! Here are some options for you:\n- Learn about the most widely used Python library with our [course on NumPy](https://plugins.jetbrains.com/plugin/18302-python-libraries--numpy).\n- Find out how to build an [AMazing](https://plugins.jetbrains.com/plugin/17519-amazing) maze with Python.\n- Discover the basics of [Machine Learning](https://plugins.jetbrains.com/plugin/18392-machine-learning-101).\n- Check out the projects in the [Python Core](https://hyperskill.org/tracks/2) or [Python for Beginners](https://hyperskill.org/tracks/6) track at JetBrains Academy.\n\nStay tuned for new courses and updates!\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+What+next",
           "task_type" : "theory"
@@ -2537,11 +2532,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 477597187,
+      "id" : 1760429161,
       "title" : "Classes et objets",
       "task_list" : [
         {
-          "id" : 465258855,
+          "id" : 582792789,
           "name" : "Definition",
           "files" : {
             "class_definition.py" : {
@@ -2582,7 +2577,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 497213455,
+          "id" : 837343964,
           "name" : "Variable access",
           "files" : {
             "access_variable.py" : {
@@ -2623,7 +2618,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1541320761,
+          "id" : 1766375,
           "name" : "Update variable",
           "custom_name" : "Update variable",
           "files" : {
@@ -2677,7 +2672,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 2115969793,
+          "id" : 1854012320,
           "name" : "The self parameter",
           "files" : {
             "self_parameter.py" : {
@@ -2718,7 +2713,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 1060027860,
+          "id" : 692647483,
           "name" : "Special __init__ method",
           "files" : {
             "init_method.py" : {
@@ -2753,7 +2748,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 889618598,
+          "id" : 1577187316,
           "name" : "__str__ vs __repr__",
           "files" : {
             "str_and_repr.py" : {
@@ -2794,7 +2789,7 @@
           "task_type" : "edu"
         },
         {
-          "id" : 460828999,
+          "id" : 156480024,
           "name" : "Class and Instance Variables",
           "files" : {
             "class_instance_variables.py" : {
@@ -2844,11 +2839,11 @@
       "type" : "lesson"
     },
     {
-      "id" : 1566325733,
+      "id" : 1469462285,
       "title" : "Pendu",
       "task_list" : [
         {
-          "id" : 1264876075,
+          "id" : 108650081,
           "name" : "Le jeu",
           "files" : {
             "task.py" : {
@@ -2895,7 +2890,7 @@
       "name" : "repartition.md",
       "placeholders" : [ ],
       "is_visible" : true,
-      "text" : "vyl8lWjGHnSUnPUS9b2pKWdSzDgOG8p+yyU960tR21lgwy/ALKDeIjCQjpOPtQ3GO75m6YGGV0B3qAaH3JMNU4t6NpTCXVnk1uQmkIvBuPvX9kaoP9eidVoSafZgQ1A6owRuDy60huYyf1Ja9vrXMObHV3V4NEKyxNongdCXyRtUhNwB1nrxOmbksaPiA5OA2GLlreaQLVDVSFy9C8ffFMjnrHwlEiJRIdxgqBlJriS8yxiJWHfWM4DLGzb2vVN+tcQDW8LpWkLhSAOjjSM3qQEJC7v+K4mCy47oxB+UVjM2Vq9w97saLQb3+jyZKSdK0dHRRYCP2hIGNTSAhImKGwa5yJqvMuoDURp5/xq/1CJEbSz5qMu7NcK/h400gN9tht9y6eWomgVf53ng1E1KPltAGQjkT9ZBkDBobieP3x4XnDH7Ks+W6dE8Hnn/Bpoy6iM4CMXoo/h1cvHbXR9nkQ=="
+      "text" : "vyl8lWjGHnSUnPUS9b2pKWdSzDgOG8p+yyU960tR21k7lC6Yszd82Q0nxsX4PCElYmgw+DWeN9B5TOQZtvjR7OrnbKZKMjPwPXPp1vSCbNsnrZ0EXdSyYBqX8CETnFBPciGIjgM+5ZF5vmsFe7+ikeaW/YCawkV74pqXm9rhlLi9qiCaejyNPMwIXusuUSrLtJSoM0bR3X+CauS86tDEqB15I+LF9JvrDQDPFn3DvdowuQPVghLWaME0nYSoZcK3ZgYo/GNJbxkcUTid5Inq2m9oI+M+0RbYIgFsfGnF/WhEe2gFmg0+PWgcDtdeasI5WDpwXbFCnsWKRNVuYkcptWc29CjMbYW8rs+r9l0hSG+iYgEmjWECmJgbd5EY55F2e8p760a1E6MyE96WB2IR0vpDilS51wbtBju3IJOJwOtTPNpSdfVpnNH3sZpYymUbywgn8D/sw9n8JuF8iZUnKQ=="
     },
     {
       "name" : "Modules et packages/__init__.py",

@@ -1,26 +1,27 @@
-## Default parameters
+## Paramètres par défaut
 
-It is also possible to define functions with a variable number of arguments. There are 
-three forms, which can be combined. The most useful form is to specify a default value 
-for one or more arguments. This creates a function that can be called with fewer 
-arguments than it is defined with. For example, check out the first function in the code editor.
-This function can be called in several ways:
+Il est possible de définir une fonction avec un nombre variable d'arguments. Il y a trois formes qui peuvent être combinés.
+La forme la plus pratique est de définir une valeur par défaut pour l'un ou plusieurs des arguments. Cela permet de définir une 
+fonction qui sera appelée avec moins d'arguments. Par exemple, vérifiez la première fonction dans l'éditeur de code.
+Cette fonction peut être appelée de différentes manières :
 
-- giving only the mandatory argument `a`: `multiply_by(3)`
+- en donnant que l'argument obligatoire : `a`: `multiply_by(3)`
 
-- giving one of the optional arguments: `multiply_by(3, 47)`, or `multiply_by(3, c=47)`
+- en donnant l'un des arguments facultatifs : `multiply_by(3, 47)`, ou `multiply_by(3, c=47)`
 
-- or even giving all arguments: `multiply_by(3, 47, 0)`
+- ou en donnant tous les arguments : `multiply_by(3, 47, 0)`
 
-You can specify which argument you are providing in the function call, just like we did in the third case
-with `c=47`. If you do not specify that, values will be assigned according to their order.
-Do not put spaces around the `=` symbol in function calls and definitions.
+Vous pouvez spécifier quel argument vous fournissez à votre fonction, tel que dans le troisième exemple ci-dessus avec `c=47`.
+Si vous ne spécifiez rien, les valeurs seront assignées selon l'ordre présent dans la déclaration de votre fonction.
+Attention, vous ne devez pas mettre d'espace entre le symbole `=` lors de la déclaration ou de l'appel.
+
+
  
-Explore this topic further by reading <a href="https://docs.python.org/3/tutorial/controlflow.html#default-argument-values">this section</a>
-of Python Documentation.
+Si vous voulez en savoir plus sur le sujet voici <a href="https://docs.python.org/3/tutorial/controlflow.html#default-argument-values">un lien</a>
+dans le documentation Python.
 
 
 ### Task
-Add parameters to the `hello()` function and set a default value for the `name` parameter.  
+Ajoutez un paramètre à la fonction `hello()`  et configurer une valeur par défaut pour le paramètre `name`.  
 
-<div class='hint'>Specify any default value for the <code>name</code> parameter.</div>
+<div class='hint'> Spécifiez n'importe quelle valeur pour le paramètre <code>name</code>.</div>

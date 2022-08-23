@@ -1,25 +1,23 @@
-## Return value
+## La valeur de Return 
 
-Functions may return a value to the caller, using the keyword `return` . You can use the 
-returned value to assign it to a variable or just print it out. In fact, even functions 
-without a `return` statement do return a value. This value is 
-called `None` (it’s a built-in name). Writing the value `None` is normally suppressed by 
-the interpreter, but if you really want to see it, you can use `print(some_func())`.
+Les fonctions peuvent retourner une valeur à celui qui l'a appelé, en utilisant le mot clé `return` . 
+Vous pouvez utiliser la valeur retournée en l'assignant à une variable ou simplement en l'imprimant. En fait, 
+une fonction qui n'emploi pas le mot `return` renvoi une valeur. Cette valeur est appelée  `None` (C'est un nom interne à python).
+Écrire la valeur `None` est normalement supprimé par l'interpréteur python, si vous voulez le voir, vous pouvez appeler
+la fonction comme tel : `print(some_func())`.
 
-><i>The first statement of the function body can optionally be a string literal; this string 
-literal is the function’s documentation string, or docstring (more about docstrings can 
-be found in the section <a href="https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings">Documentation Strings</a>
-in Python Documentation). It’s good practice to include docstrings in the code that you write.</i>
-  
-In the Fibonacci sequence, the first two numbers are `1` and `1`, and each subsequent 
-number is the sum of the previous two. 
+><i>La première déclaration d'une fonction peut être une chaine de caractères; cette chaine sert à documenter votre fonction.   
+On l'appel docstring (vous trouverez plus d'information sur docstrings dans la section :
+<a href="https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings">Documentation Strings</a>
+de la documentation Python). C'est une bonne pratique d'inclure un docstrings dans votre code.</i>
+
+Dans la suite de Fibonacci, les deux premiers nombres sont `1` et `1`, chaque séquence suivante est la somme des deux précédents.
 
 ### Task
-Write a function that returns a list of numbers 
-of the Fibonacci sequence up to `n` .  
+Écrire une fonction qui retourne la liste des nombres de la suite de Fibonacci jusqu'à `n` .  
 
-<div class='hint'>Initialize <code>b</code> with 1.</div>
-<div class='hint'>Update <code>b</code> with <code>a + b</code>.</div>
-<div class='hint'>Update <code>a</code> with <code>tmp_var</code>.</div>
+<div class='hint'>Initialise <code>b</code> avec 1.</div>
+<div class='hint'>Mettez à jour <code>b</code> avec <code>a + b</code>.</div>
+<div class='hint'>Mettez à jour <code>a</code> avec <code>tmp_var</code>.</div>
 
 

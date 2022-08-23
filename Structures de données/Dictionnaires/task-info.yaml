@@ -1,0 +1,18 @@
+type: edu
+files:
+- name: dicts.py
+  visible: true
+  placeholders:
+  - offset: 345
+    length: 49
+    placeholder_text: '# Ajoutez le nombre de Jared au carnet de contact'
+  - offset: 396
+    length: 52
+    placeholder_text: '# Supprimez le numéro de Gerard du carnet de contact'
+  - offset: 474
+    length: 3
+    placeholder_text: ???
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

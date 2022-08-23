@@ -1,0 +1,15 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 55
+    length: 43
+    placeholder_text: '''Affichez 9 à partir de la liste imbriquée'''
+  - offset: 106
+    length: 44
+    placeholder_text: '''Affichez 10 à partir de la liste imbriquée'''
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

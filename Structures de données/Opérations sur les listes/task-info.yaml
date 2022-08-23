@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: list_operations.py
+  visible: true
+  placeholders:
+  - offset: 279
+    length: 38
+    placeholder_text: '# Remplacez "dino" par "dinosaur" ici'
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

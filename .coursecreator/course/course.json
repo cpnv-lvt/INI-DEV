@@ -282,20 +282,20 @@
         },
         {
           "id" : 966475603,
-          "name" : "Variable types",
+          "name" : "Types de variable",
           "files" : {
             "variable_type.py" : {
               "name" : "variable_type.py",
               "placeholders" : [
                 {
-                  "offset" : 93,
+                  "offset" : 99,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "YoOJiSbqbvZVuvvxZHm4glvjYH8+2/85XfTT2CADIbSHMcaowC5ZRNG3iwVBZ04WKVTy2PlfOSKVDlYN4H54SGnSpseCW9jvWnR9DREuoHJT+G9bTMeP+jAYQmW2OYXT6uRSGZ877NoKT4n1vXGfsw=="
+              "text" : "rTkilHyrkPdH2HrP/U8wyG9+vDulUIkbGPgROxLXoWkUHdEZCtLq/7iRyFBCZWmPi8g7CEqkjLCJ5P+kl6U83bc1zR/geAR4SDztu7zWM0VyOlHfaFkq/LzXaLFE3js/ErpezRjUQqmtJ44k9AmT+A=="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -304,27 +304,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Variable types\n\nAll data in a Python program is represented by objects or by relations between \nobjects. Every object has an identity, a type, and a value. An object’s identity \nnever changes once it has been created; you may think of it as the object’s \naddress in memory.\n\nAn object’s `type` determines the operations that it supports (e.g., \n“does it have a length?”) and defines the possible values for objects of \nthat type. The `type()` function returns an object’s type (which is an object itself). \nLike its identity, an object’s type is also unchangeable.\n\nThe value of some objects can change. Objects whose value \ncan change are <i>mutable</i>; objects whose value is unchangeable once \nthey are created are called <i>immutable</i>.\n\nIn Python, there are two main types of numbers: integers and floats. The most important \ndifference between them is that a `float` is a number that has a decimal point, \nand an `int` is a number without a decimal point.  \n\nFor more information on this topic, refer to the \"<a href=\"https://docs.python.org/3/reference/datamodel.html#objects-values-and-types\">Objects, values and types</a>\"\nand \"<a href=\"https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy\">The standard type hierarchy</a>\" sections in Python Documentation.\n\n### Task\nPrint the type of the variable `float_number`.  \n\n<div class=\"hint\">\nCheck out how we determined the type of <code>number</code> on line 2 and do the same with <code>float_number</code>.</div>\n",
+          "description_text" : "## Types de variable\n\nToutes les données dans un programme en python sont représentées par des objets ou des relations entre des objets.\nChaque objet a une identité, un type et une valeur.\nL'identité d'un objet ne changera jamais après sa création, nous pouvons la considérer comme son adresse dans la mémoire.\n\nLe `type` d'un objet détermine les opérations qu'il va supporter (p.e. \"Est-ce qu'il a une longueur définie\")\net va également définir les valeurs possible pour ce type d'objet.\nLa fonction `type()` retourne le type de l'objet (le type étant un objet lui-même).\nTout comme son identité, le type d'un objet ne pourra pas changer après sa création.\n\nLa valeur de certains objets peut changer. Les objets pour lesquels la valeur peut être modifiée sont <i>variables</i>;\nLes objets dont la veleur ne peut être changée sont <i>immuables</i>, cela signifie que leur valeur est constante.\n\nEn Python, il y a deux types principaux pour les nombres: integers et floats.\nLa plus grande différence entre eux est qu'un `float` est un nombre décimal (à virgule),\nalors qu'un `int` est un nombre entier (sans virgule).\n\nPour plius d'informations sur le sujet, aller dans les sections \"<a href=\"https://docs.python.org/3/reference/datamodel.html#objects-values-and-types\">Objects, values and types</a>\"\net \"<a href=\"https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy\">The standard type hierarchy</a>\"\ndans la documentation Python.\n\n### Tâche\nAffichez le type de la variable `float_number`.\n\n<div class=\"hint\">\nRegardez comment nous déterminons le type de la variable <code>number</code> à la ligne 2 et faîtes la même chose avec <code>float_number</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Variable+Types",
           "task_type" : "edu"
         },
         {
           "id" : 1939504621,
-          "name" : "Type conversion",
+          "name" : "Conversion de type",
           "files" : {
             "type_cast.py" : {
               "name" : "type_cast.py",
               "placeholders" : [
                 {
-                  "offset" : 223,
-                  "length" : 24,
-                  "possible_answer" : "B/BP6+bKUiC39Doggaag/z0u7urhsEwEaq3mvctUR1s=",
-                  "placeholder_text" : "\"convert it to int here\""
+                  "offset" : 233,
+                  "length" : 28,
+                  "possible_answer" : "jvx4YHhN8lGF17/FFxyP/ud8R7PoStiCJMMlPGD0e/4=",
+                  "placeholder_text" : "\"convertissez le en int ici\""
                 }
               ],
               "is_visible" : true,
-              "text" : "YoOJiSbqbvZVuvvxZHm4glvjYH8+2/85XfTT2CADIbSHMcaowC5ZRNG3iwVBZ04WKVTy2PlfOSKVDlYN4H54SGnSpseCW9jvWnR9DREuoHLxqyx9IMl8zzefMuaeXjiBslVBPcTHDAPeZBN+JCrTBNuy7X/fD1mTRxTovDaSJr6E91FtEVyTh0P77ATxJWuRrenuCWdKxH4gerrGUimI9cCvZyt97J+5JFkHhqQcTtPtQoFmYLU9Zf59py3OnH3RPQJwyevsoAEZHddFZgGgLIN1hBjB1Wpqra3Bk0FA+y+EKw+rgZBCmQ0rpzTzAPXlL5AL/UYrojnxeo1p1S5PknYq/IOI6N3/h8EAD7Lry5aDD7p2aLEQgarq/wZM/eorMieJ6zdDAIX5NLSUKlF0XhYV3QD803sjcOEXkmOOIM+PC0vZsNms/ZqN58gQZvPYVOiBsvnk71X/dcw2WPl03ighK+rpgEMsOC854FAQeObeWgIyGCf63Td+CpOjqXBs4Og1LzrpMFpID7VtL9b/Sw=="
+              "text" : "rTkilHyrkPdH2HrP/U8wyG9+vDulUIkbGPgROxLXoWkUHdEZCtLq/7iRyFBCZWmPi8g7CEqkjLCJ5P+kl6U83bc1zR/geAR4SDztu7zWM0UyvXIagOQDqnm/sdHEKLaIbht3eXeJ+dZ5LrEE04MFt92m2gOv5wCr/mTBYvMOSYX/D5x/jPY/BaSTO38G4jcAbN8Iu+yAu92wkB+lmMPxs8E3e+a8/0eHQZyS0/gdbQDiXITAdT9jMq4zHqODgN7DVoBa7IMXV4spK8v2bvMoCe6TzDamg09izD6PobHg34C4yyxsi9eVtmewOOvB64Qnm1OtxUdSq2Y2s/xA4vrf2j0p3Jt2kLrpnAY0Lz3ghWBUVd5UW8NAYytsoYtp75JHMI70g9H8wpWIXF7rzkCt9r2BALU0N9afFdiH2PMs7RpoiO0QoT+26PvEtSUkZTzDxtTGzYal19XodHgKY5H6LIqmGUrqCK94CH7rSn6Pz1j4X34sf15P4oc1EkVMd+ecR57SJVy9SMJ5VQuVIwqQnz1d9P3FEKD0+EUbUbtdAFM="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -333,63 +332,62 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Type conversion\n\nThere are several built-in functions that let you convert one data type into another. \nThese functions return a new object representing the converted value. `int(x)` \nconverts `x` into an integer. `float(x)` converts `x` into a floating-point number. `str(x)` \nconverts object `x` into a string representation.  \n### Task\nConvert `float_number` into an integer.  \n\n<div class=\"hint\">Use the <code>int()</code> function.</div>\n",
+          "description_text" : "## Convertion de type\n\nIl y a différentes fonctions natives (déjà inclues dans le code) qui vous permette de convertir un type dans un autre.\nCes fonctions retournent un nouvel objet représentant la valeur convertie.\n`int(x)` converti `x` en un integer (nombre entier). `float(x)` converti `x` en un float (nombre décimal).\n`str(x)` converti `x` en une string (chaîne de caractères).\n\n### Tâche\nConvertissez `float_number` en un integer.\n\n<div class=\"hint\">Utilisez la fonction <code>int()</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Type+Conversion",
           "task_type" : "edu"
         },
         {
           "id" : 652414762,
-          "name" : "Arithmetic operators",
+          "name" : "Opérateurs arithmétiques",
           "files" : {
             "arithmetic_operators.py" : {
               "name" : "arithmetic_operators.py",
               "placeholders" : [
                 {
-                  "offset" : 54,
-                  "length" : 26,
-                  "possible_answer" : "2MY44YahlQ68W6AKBOHo52aPWWkV+JfMCh1rWJ0rTRM=",
-                  "placeholder_text" : "# divide the number by two"
+                  "offset" : 49,
+                  "length" : 28,
+                  "possible_answer" : "lfJ4ULRkz3oZIdSna46/2ZiNuvV+pyvPGDCOQdhijJA=",
+                  "placeholder_text" : "# divisez le nombre par deux"
                 },
                 {
-                  "offset" : 103,
-                  "length" : 55,
-                  "possible_answer" : "9taUozasQLsuKQff5ufEXrul8eavMnrTi13815KF08tfIg8BCGg8ZnVUKksno9ND/W2DHjQuhZ0MeFbWvCEXGw==",
-                  "placeholder_text" : "# get the argument of the division of the number by two"
+                  "offset" : 100,
+                  "length" : 44,
+                  "possible_answer" : "u+zOxxEFKtpFTG7nKVLqZ3ceT5WqCmegbvkzxqil51xuL5tbxaZvOTKAP20yPcHs",
+                  "placeholder_text" : "# récupérez le reste de la division par deux"
                 },
                 {
-                  "offset" : 184,
-                  "length" : 35,
-                  "possible_answer" : "sju1MZ3NiSs5JDCc+wMVqhcfcETUaOztv5u7pcXuBpPV8HUqsATNdXqCWWz9tdCF",
-                  "placeholder_text" : "# multiply the division result by 2"
+                  "offset" : 170,
+                  "length" : 48,
+                  "possible_answer" : "CpLiywpnAxqJRcrTHr/Ns/hE/6CkeZDdCQ1ucRFXHf5Iddd9LfhcM6TL5UlorbSCrGWlDC5nHs5ASef3ZSECuw==",
+                  "placeholder_text" : "# multipliez le résultat de la division par deux"
                 },
                 {
-                  "offset" : 239,
-                  "length" : 57,
-                  "possible_answer" : "7G5rMhYQZEeNJCE/Y68cOtKZiMy1CKFbUljebvR/YvSAJ1kgf9NufOIxzYUojvrPqQ6joKunJfoder6sh11qsw==",
-                  "placeholder_text" : "# add the division remainder to the multiplication result"
+                  "offset" : 238,
+                  "length" : 66,
+                  "possible_answer" : "zB9Xl6ANGEFIdDmSb4uSKhMjxfAMyECNUhbWTgV0Fpk2vA8uaOag8OL5LEbKrcLhjAyoFz57A+Du9qRBLmSCzvwB/IN/xDzUGSLz3NrlzhI=",
+                  "placeholder_text" : "# ajouter le reste de la division au résultat de la multiplication"
                 },
                 {
-                  "offset" : 319,
-                  "length" : 60,
-                  "possible_answer" : "sGWohPIxYcc6XUIak/yhGvMlaHedfAEyofWUHZyTvK/XH0qrkDorERa5acKacBooNtddHU+IdvUKJsjOclxXxQ==",
-                  "placeholder_text" : "# subtract the multiplication result from the initial number"
+                  "offset" : 327,
+                  "length" : 64,
+                  "possible_answer" : "oRyz8QI/WhEjSAY3YInNhpUaD7rO0mNiVYSB3w5FR345b85IXXMf++Z5Trlu1K4NgeZ+8ke15U6/LuIr0XZ8KW1kQWxUHU825p5HigUZtN4=",
+                  "placeholder_text" : "# soustrayez le résultat de la multiplication au nombre original"
                 },
                 {
-                  "offset" : 396,
-                  "length" : 41,
-                  "possible_answer" : "SsD8eLqHRseXdCaOaDnw0wyQLrKiaQncSgoaY0r7+MnFJUd3hh7u7vPWUmonHWgH",
-                  "placeholder_text" : "# perform a floor division of number by 2"
-                },
-                {
-                  "offset" : 454,
+                  "offset" : 408,
                   "length" : 51,
-                  "possible_answer" : "OC0/GMOIMB7XgnAei954Ug1aBNvxfD2ABKjmRz/jTjcAqDCrZKQs1IIysxaBOQFv592GuVkRvRyXMU26tOvnDQ==",
-                  "placeholder_text" : "# raise the multiplication result to the power of 3"
+                  "possible_answer" : "IR6PHWsYzljqHV8kviMLnQ7NB69NfGTor0BumfzJzcET4nmww+B4a0ehhuM3nHUM3qBjWojHplhQVCcASF03Ew==",
+                  "placeholder_text" : "# Effectuez une division entière du nombre par deux"
+                },
+                {
+                  "offset" : 476,
+                  "length" : 61,
+                  "possible_answer" : "xBtZwA+nT7j7fviA07duAnLPeC+FiH2RITeyr26L6HwbBL4gh6kZAS5SkgkgdsssIbETzzwJkijZ8JjzfrTVyQ==",
+                  "placeholder_text" : "# Augmentez le résultat de la multiplication à la puissance 3"
                 }
               ],
               "is_visible" : true,
-              "text" : "hfbkELl8Xo1LId/aahgBqBoB6nAH3udqvuXjgK/DTg4Dga+JiEhlKs5MgAo38Or+iD4+pDHkXDl/qmk+q0a1nJIKIhRlw7XyXOxDsUdZOTazgbGxArPfGGj3iJawHVCOGN5EOcjbxtGIHfZgnvbB8sPkBMeMa2w9ZSvYU2WN6pFixj7eSoHOzjkZBBUK1d8/VbUTBIVTGr42MIHKj0mBVL+BiiI9qITp0yOtBrNMF3Mcb/mXRVnCd3lQLuVQTjSYd9M2Y0qJKDH/heKVaqL0ZV6Tu1/ziqJDosRz+YSPopTZsMTSTJNuBTbmfpRoyrRhyHmnxE3DU5haHmPhHE6CiKZjp2tcDnXUUo5ban/7HIdcUh3twqLVt6dCkEpJisD0JJ6fIWZI5ZKwZdfLn4uGrRqSB5RfTdIQXNCJ/YI6fN3lYZ00k/1m3HEKLOjz5Se2G3tTATLGtNXTgViqaBO62leUvevXeaScoOKXAtxB103RQ2vFPurfPqShB9LF3Gp6t0dJInz7Oy8ejkCUDCZ4uOu8Z9iVxMoY6ggn9PkW+doFF/E5jKZceMUZ6cQpNED9y3cuSsWbqotxVdo/sjuPc2kw9j+rrNw5tjzgZRpSpE6HXtGg4pbYe/YJgY0cZOTxm7t+E032fYRdWbIj96Vbkm1mCdinYHP6uvQLFW7q8aZw6yy8Mn9uz1O4E76WHS8E8uymNTDHg+SfP0fQVmGhqiBw9GH/Xk54iqxrMu4M1gA="
+              "text" : "n+QBBQ4GkX2b/ZxfRMFuBbR8zxXCNMuaayFp6bxLWMBiDM7LS/iIATQHHQ5noCnf+n8+E0LyiX4uQJp7Udpm8JrjRrrYwur3+iBq8cAHKqOYhbkjcUcv35mfS8Ib+DwMPwZnA09m+merqNO2zOi4/NpOukzpNkNPKFXrespnQUID6thVH0x1yYhtiGR64x4aINgYgFB32nTz0pwpt+h7xWGsIUAsTrHpiaU1WgeaFz3x+TDQSsfMSAiFYT4nAy5qM7g7Hf6i49ervM/ldKLYbtOW8voJ5mSfqneOQehMw+um485EjQmKc1q0J79//EMtC9HKDJGkneq/IizlEw02paBCpTw1AkulgotPBU2HVN2bGG6BiJ2WxZo18SmuX05ArZrOMRFL+GdFapxs17N2swj3g6i+swBQP+Vj3OSkNLtFq5ltsRtQdPs54d6tmEjaQFLcxifiJYGu6FH8M2BjAPugaDz1PFWPEI4NAwEVt1gNlTGvpH4RR0/aMVCGNrS/d4qVEsNlvOmzoJEyu/8QX1tN0WgFXnJ8QMQQF1TNgvkCsii5z9QKIxpOUjlPUS/YbX26pqBznygiz87T4KOTaSW0jjYkcZK8qH8vEovIFkk5Vn8ZAo9EvHuOdwVxhl7DklMczJDRzToXatQLFLFuacoe0E/M8/f0ALIaH0UpPwri56G4Do0srLhBChlBrVfuZ+JqE1e/JaErIZcLCfZv8N5HULl3YDjAM2J5PGBE5CIDv6jtNnz/P1dcJel1aVRgkSmBOUPQ34MXzFRLTgW4dR1Hf42i0hFztJx8f9Y1jf8="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -398,14 +396,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Arithmetic operators\n\nJust as in any other programming language, the addition ( `+` ), subtraction ( `-` ), \nmultiplication ( `*` ), and division ( `/` ) operators can be used with numbers. In \naddition, Python has the power ( `**` ),  modulo ( `%` ), and floor division ( `//` ) operators.\n\n- The `*` (multiplication) operator yields the product of its arguments. The arguments must \neither both be numbers, or one argument must be an integer and the other – a sequence.\n  \n- The `/` (division) and `//` (floor division) operators yield the quotient of their arguments. \n  Division of integers yields a float, while floor division of integers results in an integer.\n  \n- The `%` (modulo) operator yields the remainder of the division of the first argument by the second.\n\n- The `+` (addition) operator yields the sum of its arguments. The arguments must either both \n  be numbers or both be sequences of the same type.\n  \n- The `-` (subtraction) operator yields the difference of its arguments.\n\nThe binary arithmetic operations have the conventional priority levels. Note that \nsome of these operations also apply to certain non-numeric types.\n\nYou can read more on this topic <a href=\"https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations\">here</a>.\n### Task\n - Divide the value stored in `number` by `2`.\n - Calculate a remainder of such a division.\n - Multiply the division result by `2`.\n - Add the division remainder to the multiplication result.\n - Subtract the multiplication result from the number.\n - Perform a floor division of `number` by 2.\n - Raise the `multiplication_result` to the power of 3\n\n<div class='hint'>First, use the <code>/</code> operator.</div>\n<div class='hint'>Then use the <code>%</code> operator.</div>\n\n<div class='hint'>Then use the <code>*</code> operator.</div>\n\n<div class='hint'>Then use the <code>+</code> operator.</div>\n\n<div class='hint'>Then use the <code>-</code> operator.</div>\n",
+          "description_text" : "## Opérateurs arithmétiques\n\nComme dans pratiquement tous les langages de programmation, Les opérateurs d'addition ( `+` ),\nde soustraction ( `-` ), de multiplication ( `*` ) et de division ( `/` ) peuvent être utilisés avec des nombres.\nDe plus, Python propose d'autres opérateurs : La puissance ( `**` ), le modulo ( `%` ) et la division entière ( `//` ).\n\n- L'opérateur `*` (multiplication) fait le produit de ses arguments. Les arguments doivent être tous les deux des nombres, \nou l'un doit être un integer et l'autre une séquence.\n  \n- L'opérateur `/` (division) et `//` (division entière) fait le quotient de ses arguments. \n  La simple division d'integers donnera un float alors qu'une division entière d'integers donnera un integer.\n  \n- L'opérateur `%` (modulo) fourni le reste de la division du premier argument par le deuxième.\n\n- L'opérateur `+` (addition) fait la somme de ses arguments. \n  les arguments doivent être les deux des nombres ou les deux des séquences du même type.\n  \n- L'opérateur `-` (subtraction) fait la différence de ses arguments.\n\nLes opérations arithmétique binaire ont les mêmes ordres de priorités qu'en mathématique.\nÀ noter que certaines de ces opérations peuvent aussi s'appliquer sur certains types non-numériques.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations\">ici</a>.\n### Tâche\n - Divisez la valeur de `number` par `2`.\n - Calculez le reste de cette division.\n - Multipliez le résultat de la division par `2`.\n - Ajoutez le reste de la division au résultat de la multiplication.\n - Soustrayez le résultat de la multiplication au nombre.\n - Effectuez une division entière de `number` par 2.\n - Augmentez `multiplication_result` à la puissance 3.\n\n<div class='hint'>En premier, utilisez l'opérateur <code>/</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>%</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>*</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>+</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>-</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>//</code>.</div>\n<div class='hint'>Puis, l'opérateur <code>**</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Arithmetic+Operators",
           "task_type" : "edu"
         },
         {
           "id" : 1439031785,
-          "name" : "Assignments",
+          "name" : "Affectation augmentée",
           "files" : {
             "assignments.py" : {
               "name" : "assignments.py",
@@ -427,14 +424,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Assignments\n\nAn augmented assignment is a single statement combining a binary operation and an \nassignment statement, such as `+=`, `-=`, etc.  \n\nAn augmented assignment expression like `x += 1` can be rewritten as `x = x + 1` to achieve a similar effect.\nYou can read more about this <a href=\"https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements\">here</a>.\n### Task\nUse an augmented assignment to add `5` to `number` and update the variable.  \n\n<div class='hint'>Use the <code>+=</code> operator.</div>\n",
+          "description_text" : "## Affectation augmentée\n\nUne affectation augmentée est une instruction unique combinant une opération binaire et une instruction d'affectation,\ntelle que `+=`, `-=`, etc.\nCela nous permet de modifier la valeur d'un objet en lui effectuant directement une opération arithmétique.\n\nUne affectation augmentée comme `x += 1` peut être réécrite comme `x = x + 1` pour arriver au même résultat.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements\">ici</a>.\n### Tâche\nFaîtes une affectation augmentée pour ajouter `5` à la variable `number`. \n\n<div class='hint'>Utilisez l'opérateur <code>+=</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Assignments",
           "task_type" : "edu"
         },
         {
           "id" : 893664677,
-          "name" : "Boolean operators",
+          "name" : "Opérateur booléen",
           "files" : {
             "boolean_operators.py" : {
               "name" : "boolean_operators.py",
@@ -447,19 +443,19 @@
                 },
                 {
                   "offset" : 100,
-                  "length" : 41,
-                  "possible_answer" : "7wFXHvC1OCsqMdIbsjttye/30lrTQA4a8PPXLx6TDPxKM3BBOxXQTG++AEcIYutC",
-                  "placeholder_text" : "# a boolean value for truthful statements"
+                  "length" : 55,
+                  "possible_answer" : "Qat4bvfoX/LcAcbeumba6vg+9cYUkbja+zNMUGZorAPGItYZ5qmWpBAeRkAERm2utfEbYKBigC71K3B+uJo4mQ==",
+                  "placeholder_text" : "# une valeur booléenne pour les déclarations véridiques"
                 },
                 {
-                  "offset" : 197,
-                  "length" : 48,
-                  "possible_answer" : "7wFXHvC1OCsqMdIbsjttyUdsXdfB2X6ZwiihrELd822ZS9A6ZMjcOGhDTWNt0vnQd3Gv1pK1HL0En92xq38RsQ==",
-                  "placeholder_text" : "# a boolean value for not so truthful statements"
+                  "offset" : 211,
+                  "length" : 62,
+                  "possible_answer" : "Qat4bvfoX/LcAcbeumba6vg+9cYUkbja+zNMUGZorANVkMsrC2HUnHuw513UsgIKqdjzayYFcG/WnWbDWJ1pFKwocFPBlGtc4hPcwRJ8KWs=",
+                  "placeholder_text" : "# une valeur booléenne pour les déclarations pas si véridiques"
                 }
               ],
               "is_visible" : true,
-              "text" : "rwkLQHficzFtlCEYAIgJC6iE5yzExEMF7jK6026cwJKVE4i6yJsnJGqLom5V7BIJyxcYOEPkVZy0qVIlbY+hSzyTMTcwb3m6ofREzV6h2T57Sj1tlEUW9Xk3lBc3sFH1gpFlMo8ExGCyI7uI8vgGKCKvBZDkcuz9xvAcHiWZQOq+RL4hjugvaG24cB1zqA30HdiBoGJmfgGTYB+v8u+iaU17EsUncUuen4oMkmrQ9KEspbZHqaSPULBssgDrqQIEbBzgrmtdNZpDVeRsnHr4rPOV2JC5ginPLF7cCXajwODyDy/kOxhBOH0X75mePbrYgamRQDB/Z+9f3M9llfuIya+wsr3lfq410eJZt2J5czErcdshXfxVzU/nQ7jQrya1"
+              "text" : "rwkLQHficzFtlCEYAIgJC6iE5yzExEMF7jK6026cwJKVE4i6yJsnJGqLom5V7BIJyxcYOEPkVZy0qVIlbY+hSzyTMTcwb3m6ofREzV6h2T57Sj1tlEUW9Xk3lBc3sFH1Ra3HGUBe/WIZJP2zgYCqJYMRuQxy7RpO5x2DMM8GbNtTZnbZI8igiSgqiRiq0qQU3AXy1e9lrxBqfou27MeanpD6rSVvquu7CsT6RuGnPsjqvSzOokez0GC6xBxLm12hbn7XDewcBvlATMFWXE28eM7edwCNzR1JlWP68iuEXYRdIpuY9RwSpK/WwimekjuvPBl6iXQFbxuFJpg4kW5++YTirpY2fIuim3occuUOL4wCOyTCqKX53QLA1M5tgkBZ/GZbNpsqRTAOM7x2PDV9prnaExikPcybh0MdhmcR2go="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -468,57 +464,56 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Boolean operators\n\nBoolean is a type of value that can only be `True` or `False`. The `==` (equality) operator \ncompares two variables and checks whether they are equal.  \n\n### Task\n - Check whether the variable `two` is equal to `three`.\n - Check if the variable `is_equal` has a deceiving name.\n - Check if the variable `is_false` does indeed contain a lie.\n\n\n<div class='hint'>Use the <code>==</code> operator.</div>\n\n<div class='hint'>Use the <code>True</code> value.</div>\n\n<div class='hint'>Use the <code>False</code> value.</div>\n",
+          "description_text" : "## Opérateur booléen\n\nLe booléen est un type de valeur qui ne peut être que `True` (Vrai) ou `False` (Faux).\nL'opérateur `==` (égalité) compare deux variables et vérifie si elles sont égales.\n\n### Tâche\n - Vérifiez si la variable `two` est égale à la variable `three`.\n - Vérifiez si la variable `is_equal` a un nom trompeur.\n - Vérifiez si la variable `is_false` contient effectivement un mensonge.\n\n\n<div class='hint'>Utilisez l'opérateur <code>==</code>.</div>\n\n<div class='hint'>Utilisez la valeur <code>True</code>.</div>\n\n<div class='hint'>Utilisez la valeur <code>False</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Boolean+Operators",
           "task_type" : "edu"
         },
         {
           "id" : 353459189,
-          "name" : "Comparison operators",
+          "name" : "Opérateurs de comparaison",
           "files" : {
             "comparison_operators.py" : {
               "name" : "comparison_operators.py",
               "placeholders" : [
                 {
-                  "offset" : 213,
+                  "offset" : 313,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 367,
+                  "offset" : 477,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 522,
+                  "offset" : 643,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 530,
+                  "offset" : 651,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 711,
+                  "offset" : 841,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 },
                 {
-                  "offset" : 862,
+                  "offset" : 1004,
                   "length" : 1,
                   "possible_answer" : "r0fiGc4Ru7P4nrsHLm+xBQ==",
                   "placeholder_text" : "?"
                 }
               ],
               "is_visible" : true,
-              "text" : "5ND7RewyazfDEHM4lyuzJzIfoECsX8fCLBs1jK8P+fwNkgEPj4Bzx2xhcPReSQjnWMKzWYnK9Ed7jHUBpj9WMb53PpQbGWdrQYEsNkS2KxKeiEifsZxgnhgACMv1+6RlkE4J70lckP3FwoI8TGVWI6MhhAWUIhz/ugtamTovWcbMuCzplNtl37RT36ERXM79Lvuk6ZTih75E3OjR5ZexL+FfOxbq0/bpu7Sv+tkSzP9znHa3Yx9eFDTNnEqpc+s1sxBBWYCszvVt41So1/56LktilPpoVNUwrZVmhD493wnZEXeKzPHNSVvU8Ma+es4VZ8nQOzK661oVTpZp3Nr5jNEEUvdhYWOz7sPR5BDS+dvlB89AHevbNt/5FDeMHVcmIu2lqE55hBPDEZw35vD6/9hUsLhDiFVMgjXt9l8gpuPy5rSyIuC8DByO21O/vlQGhS/VeiBZ6lbdI+xmyGAVvGZR9sMI20/n6GKQ0ZTynZ3p16hCYcOV+7fSlvnhXeXb1NmPnRv2m1LvDnKCXrM41awlhYYNAn4bQhqKM/tSEVoyLtET3Di7mIJOhEq9pWSizTW7Nev+cho4l2BH5+rlQi1B4/BzIcEIGge1Mp8h23zXe1Dqfksml9oHvYxqp/d1o+K0Kj+Ftw6kfed1Xq0n9+7VStds7buTlWZNdDa4Z0C1UIDPVZbNr2BBVJw+kgI6FbWDKiTpdh05I9RW1mcXan669ves7iwhnyclXuhD+E/aapBvgQW0m61nXrcN3pKBh8wr0VPddIFtS40Lwb40CzYuLLq0xAtQQy8ET4VkW7GBI5NPaNaQE+CBdKQTNAMg6gRprGmWJbivf+rtXgSZDcfoIvOhru14cafIBH4WHKwRDAwqRHq0rcrxd0ToNMzmqWOqWl1S9Xt0IFeAdU0hqMAZIt0mQT6ZaZ8tV12Yc/HwyqpxdCNJw6k3iOzJfq7dA4KCHuFHwT+uASoH9FNeyCYYLM2DKA3ECNREfhoYLp5NH4nTxMu5niVh4tId7F2Jofzg9Il+SI0Q2Ojkt9x7w7hYQglA9OIOdNlzbXJScCuhCmRdI55AUyma1ZwKrdZChNevyl/XO1qkKyCp9DI5Kdd358iEMtzrdzKoGZ2W3OJPYrWTy7vCFX87BFQYhauwqdec+cN0qHNDA+W6miB3jWtTyAf3+8wFVM1Lcxsigl6qjzgLEvlD8UO4ELSkWual8RDNwvlLQ9DrjYtWz2UMvfOpiiwV5cC14Ik50WCaJO51n8//ikoLXQ8H2ywK8P4Xy8E0RnHve8om3SwnGYFsbU/sAKl9UvvBdkaWkncAfaWSWgB8pcU5afhT+4WzxBNO"
+              "text" : "5ND7RewyazfDEHM4lyuzJ1JnWx6hWXSLPye9P2f8OlC6BO//ahD23Ut0bhhKEDY6GtTAokdoz2ErA1vV+ddn1tUht3vu+uV9V27MteKJ9ngyUrc8kb3riJNQ7/TnZMx36FtdlCsUAJFG9iDA4hB+T0WnnxJfgpQYHX94nCk8fOqrPOpORsFBpb3lTfXh7H86T40V/trPK6RwPjcSI0lJYRZjzGNDkxqtxH2NG8v2xu20tjF8syq3WzYoE2B312/dbSBFq/VdxS5UU0cdbrChWyO5KwTIhQ/juNGDyL81T/HFLVSIRDr3OBge6LW7xHOMD2OfPCvsI9U7UY9bWyceyewjZHswy3yTcS5WCEvGqr5Q/xg1gSHJ2fKEwG4VlJmScYqCKayCaLPfl6kqo6V1DQRGv7comAk7DMu43mHYmwmTwxOedanT3xeodPHNi9pgWTViNgYr2I45uxAkcKUMp88SQZbBkZRCTS+WFMeQk9pb+aYhnDX/Up1gsTFxTG4FhDg5GRFcTLQ8qNLqjE+5m+IQu3nnZOJCMVca6clEexPFClqXKIKlEtZoEgaD7HLng2HXmSxi84N0f6BxtjQ1gP4mLk/FMQftmUtyMY2UOPuAFao9TMYbKVOrcqfqd+xjs0Z3YAcCz976PIabMU+YJo2SUW9744lu3rKtrg1qG3AHyA4B6fgwJ2gJ8/494anx76LEDIOkZU1lDTN+uB6QWvk3Z9QCCKIAnG5b7jHZ2DXwKUt9M+yDZfYvcCaz4KMDSos1H3foczsTZFu8DcmAUsdNNwhVHjclfLa18gKdNeBrv33XIVL4ZhKrIooKeKTfVhzXiuomBUbpxN1wArqXg4UQBXZIL140YtI20C4hBumpX4WtABTT6FVRoU20vzn3hnWudH2YNE0n9YARMmhKObQF9Jt+ekIa44FwLv/GVCZYOTn1zY0q1NdmtBadX7dJHbPtILvQ35iz4TZJl9waMud8OCkN/Eq21A2bsoQfsH/lzeSVUQXi0yeIEZvvUlfOL4+8WFqxcWFbukwTWrPUULJMWO4p2uVVApLV9Tq8PPxWhNNUlRbsWK7FY16rTnB50tSFuryRkFU5eHtZQgWBDiTDdej7pz0P0js2cn+C80WZQl2vUGrnT9UAK94ey71u20RVL7jMbnxolbX6EZ81FSTdAc2hnsgC/nYY9NoD6s1KZUftGYY0K1sT8bgg42l9xBOlTeQU7tu9uiasDVjL3oz9mjsTOqCPQqAc9iL3hWFv1KYDxwp1Lqv1oarjKVBDgBCepWvdffLok3GqTtKA3x4R7yDmRm/f5LzwugwZyISw8kij7uNYlY4Pooc7GTE/DGEm68Lb0Nxs8hMg2+ai9MCFBcyIj/rcfS81r+fI1kKjq+CmKeEuidtSJUZ+7VhJo7I1wM4vnZJBMKvM/xCscaHoyke5qBxMZ1tcQI/rLwQ="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -527,9 +522,8 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Comparison operators\n\nPython has many types of comparison operators, including: \n- `<` less than\n  \n- `>` greater than \n  \n- `==` equal \n  \n- `>=` greater or equal\n  \n- `<=` less or equal\n  \n- `!=` not equal\n\nThe operators  compare the values of two objects. The objects do not need \nto have the same type.\n\n\nAll comparison operations in Python have the same priority, which is lower than\nthat of any arithmetic, shifting or bitwise operation. Comparisons yield boolean \nvalues: either `True` or `False`. Comparisons can be chained arbitrarily, and \nexpressions like `a < b < c` have the \nconventional mathematical meaning. Read more on comparisons <a href=\"https://docs.python.org/3/reference/expressions.html#comparisons\">here</a>.\n### Task\n - Check whether the value of the variable `three` is strictly greater than the value of \nthe variable `two`.\n - Check whether the value of the variable `one` is strictly smaller than the value of\n   the variable `three`.\n - Check whether the value of the variable `three` is strictly greater than both the value of\n   the variable `two` and the value of the variable `one`.\n - Check if the variable `one` is not equal to the variable `two`.\n - Check if the variable `three` equals itself.\n\n<div class='hint'>Use the <code>></code> operator.</div>\n<div class='hint'>Use the <code><</code> operator.</div>\n<div class='hint'>Use both the <code>></code> and the <code><</code> operators.</div>\n<div class='hint'>Use the <code>!=</code> operator.</div>\n<div class='hint'>Use the <code>==</code> operator.</div>\n",
+          "description_text" : "## Opérateurs de comparaison\n\nPython a plusieurs opérateurs de comparaison, incluant : \n- `<` plus petit que\n  \n- `>` plus grand que\n  \n- `==` égal à\n  \n- `>=` plus grand ou égal à\n  \n- `<=` plus petit ou égal à\n  \n- `!=` différent de\n\nLes opérateurs comparent les valeurs de deux objets. Les objets n'ont pas besoin d'avoir le même type.\n\nEn Python, tous les opérateurs de comparaison ont la même priorité,\nqui est inférieure à celle de tous les opérateurs arithmétiques, de décalage ou les opérations de bit.\nLes comparaisons fournissent une valeur booléenne, soit `True` ou `False`.\nLes comparaisons peuvent être enchaînées arbitrairement et les expressions `a < b < c` ont la même signification qu'en mathématiques.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/expressions.html#comparisons\">ici</a>.\n\n### Tâche\n - Vérifiez si la valeur de la variable `three` est plus grande que la valeur de la variable `two`.\n - Vérifiez si la valeur de la variable `one` est plus petite que la valeur de la variable `three`.\n - Vérifiez si la valeur de la variable `three` est plus grande que la valeur de la variable `two` et que la valeur de la variable `one`.\n - Vérifier si la variable `one` est différente de la variable `two`.\n - Vérifier si la variable `three` est égale à elle-même.\n\n<div class='hint'>Utilisez l'opérateur <code>></code>.</div>\n<div class='hint'>Utilisez l'opérateur <code><</code>.</div>\n<div class='hint'>Utilisez l'opérateur <code>></code> et l'opérateur <code><</code>.</div>\n<div class='hint'>Utilisez l'opérateur <code>!=</code>.</div>\n<div class='hint'>Utilisez l'opérateur <code>==</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Comparison+Operators",
           "task_type" : "edu"
         }
       ],
@@ -541,7 +535,7 @@
       "task_list" : [
         {
           "id" : 1359342084,
-          "name" : "Concatenation",
+          "name" : "Concaténation",
           "files" : {
             "concatenation.py" : {
               "name" : "concatenation.py",
@@ -554,7 +548,7 @@
                 }
               ],
               "is_visible" : true,
-              "text" : "otZRUEKE55Dz9FFFnu8mEnTVkn+OpKUvLGNUApt70K5K/JBJ0dy4FtZfhYvXrZDPvWGLTl4NI41XzDv4XqmGU/+uaOsnwYe3FocLkoWApqkoVdko0uqV5rDdbQONng3ZWizpjPs03gSWLfeUWE/a1lmNHT0CVflh+QyyE2vIvgc="
+              "text" : "otZRUEKE55Dz9FFFnu8mEnTVkn+OpKUvLGNUApt70K5K/JBJ0dy4FtZfhYvXrZDPtzAdwb870dY16rJQ2X4HSCiuIPmzLi+IdnGjEu+dixc64ZjKzd4w1A7w/hSb9DS3SI5wENYhf3HmGLTS3Tu0xul976gBQxymoUQPPbNyk8M="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -569,14 +563,14 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Concatenation\n\nRemember that some arithmetic operations can also apply to non-numeric types?\nCombining two strings using the `+` symbol is called concatenation.  \n  \nUse the `hello` and `world` variables to get a string `\"Hello World\"`.  \n\n<div class='hint'>Use chained concatenation and a single-space string <code>\" \"</code>.</div>\n",
+          "description_text" : "## Concaténation\n\nVous souvenez-vous que certaines opérations arithmétiques peuvent aussi s'appliquer à des types non-numériques ?\nCombiner deux chaînes de caractères en utilisation le symbole `+` est appelé <i>concaténation</i>.\n\n### Tâche\nUtilisez les variables `hello` et `world` pour obtenir la chaîne de caractères `\"Hello World\"`.\n\n<div class='hint'>Utilisez une concaténation enchaînée avec un espace sous forme de string <code>\" \"</code>.</div>\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+Concatenation",
           "task_type" : "edu"
         },
         {
           "id" : 1169710228,
-          "name" : "String multiplication",
+          "name" : "Multiplication de string",
           "files" : {
             "string_multiplication.py" : {
               "name" : "string_multiplication.py",
@@ -604,27 +598,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String multiplication\n\nPython also supports string-by-number multiplication (but not the other way around!).  \n  \nUse `not_yet_food` variable to get a food name stored in `food` \nvariable. \n\n<div class=\"hint\">\n\n`\"cous\"` repeated `2` times gives you `\"couscous\"`.\n</div>\n\n<div class='hint'>Use multiplication.</div>\n",
+          "description_text" : "## Multiplication de string\n\nPython supporte également la multiplication de chaîne de caractères par des nombres (mais pas dans l'autre sens !).\n\n### Tâche  \nUtilisez la variable `not_yet_food` afin d'obtenir le nom d'une nourriture dans la variable `food`.\n\n<div class=\"hint\">\n\nRépétez `\"cous\"` `2` fois vous fournira `\"couscous\"`.\n</div>\n\n<div class='hint'>Utilisez la multiplication.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Multiplication",
           "task_type" : "edu"
         },
         {
           "id" : 1525246245,
-          "name" : "String indexing",
+          "name" : "Indexation de string",
           "files" : {
             "string_indexing.py" : {
               "name" : "string_indexing.py",
               "placeholders" : [
                 {
-                  "offset" : 101,
+                  "offset" : 110,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "dBconN1efF941wppzTZUVjU2wV+vWkSXrxw+HG39S8RpbhOoQOz2Y2rgBgmhueTPCC1GPi7TGd93qyIuN/+NDo98KPOTgSfW9mBpA4mDnOK9PyLTkFAi4Tm00nJmTbNNO6wMYqg+pkhUwm8nxlGgiC3ZOwF6KxJhdJ1HxEidHjU="
+              "text" : "dBconN1efF941wppzTZUViEcQ2YhGPxPfFGunXT6Jtfp4hD5GdbjLll86uRD5cFhGJnxi8HJMcWUhlWZVDrF4mSEWuPzYTmwe3jGZ9YDzHQMor/OK6uZjKHew224riWGt5UfmnzwgvOJPLck2XtM5Tuo5Saxlw1APu8cC40EUWK84n2pv6IUzlCooR3Z0ZxD"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -639,14 +632,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String indexing\n\nYou can access a character in a string if you know its position. For example, \n`str[index]` will yield the character at position `index` in the string `str`.\nNote that string indexing always starts at `0`. `index` raises `ValueError` \nwhen `x` is not found in the string.\n\nIndices may also be negative numbers if you need to start counting from the right \n(i.e., from the end of your string). \nNote that since `-0` is the same as `0` , negative indices start from `-1`.  \n  \nUse the index operator to get the letter `\"P\"` from `\"Python\"` .  \n\n<div class=\"hint\">Note that indices start with 0.</div>\n",
+          "description_text" : "## Indexation de string\n\nVoua pouvez accéder à un caractère d'une string si vous connaissez sa position.\nPar exemple, `str[index]` vous fournira le caractère à la position `index` dans la string `str`.\nNotez que l'indexation commence toujours par `0`.\nUne erreur `ValueError` sera levée s'il n'y a pas de caractère à l'index fourni.\n\nLes index peuvent également être des nombres négatifs si vous voulez comptez depuis la droite (donc depuis la fin de votre string).\nNotez que comme `-0` est égal à `0`, les index négatifs commence à partir de `-1`.\n\n### Tâche\nUtilisez l'indexation pour récupérer la lettre `'P'` à partir de `\"Python\"`.\n\n<div class=\"hint\">Pour rappel, les index commencent à partir de 0.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Indexing",
           "task_type" : "edu"
         },
         {
           "id" : 1564093142,
-          "name" : "String negative indexing",
+          "name" : "Indexation négative de string",
           "files" : {
             "negative_indexing.py" : {
               "name" : "negative_indexing.py",
@@ -674,27 +666,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String negative indexing\n\nAs we said, you can use negative indices to count characters ‘backwards’ starting\nfrom the end of a string.  \n  \nUse a negative index to get the `'!'` sign from `long_string`.   \n\n<div class='hint'>Use a negative index.</div>\n",
+          "description_text" : "## Indexation négative de string\n\nComme dis précédemment, vous pouvez utilisez des index négatifs pour compter \"à l'envers\",\ncommençant ainsi à partir de la fin d'une string.\n\n### Tâche\nUtilisez un index négatif afin de récupérer le caractère `'!'` de la variable `long_string`.\n\n<div class='hint'>Utilisez un index négatif.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Negative+Indexing",
           "task_type" : "edu"
         },
         {
           "id" : 588361407,
-          "name" : "String slicing",
+          "name" : "Découpage de string",
           "files" : {
             "slicing.py" : {
               "name" : "slicing.py",
               "placeholders" : [
                 {
-                  "offset" : 165,
+                  "offset" : 178,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "65qTBzJxhsJNiRt1kC+yDDM3NSr6KLYPAO/hMyrVUT4q64o7earLuG1gezDJWf8BxYZy+quTy0c7cHbip+WFwJkED076kpvC+Bp4uLnSO7uXZSzXelADrOUsm9XrXwQQ6xgBwYQ+Y8RUeiQtiule1Ya9lVM4uEqS+2KvkH9cg2NXwxVCPoVBYoJe/a1fBiNuZNpNShG57RewWRKav/jvWj8aa0BDky6QKJMiGgLOaekhWrJJKN+9nMS8FqTClBNv"
+              "text" : "65qTBzJxhsJNiRt1kC+yDDM3NSr6KLYPAO/hMyrVUT6NO9RzufvicpE5XVZwPnahy1fxamePcWRih3h7WHQODPLx3BKKqgyO4WMRlNNJqnhPcLp5IHEGWc8QPlgMj2Ynda3QHCECDXIjwIXwnfAGqKqpXtc/uBQHSUVPH0/6xwZNCvkffNaio84p+YDVfFyVBLZHUrwyFXSrZd2LRZvRq+0VDKs+ETUdFv/y5+dymsS+8yFq8S3gWg96G4a3CfQA/tk0FYdsRsmHeXleO7j0bw=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -709,27 +700,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Slicing\n\nSlicing is used to extract multiple characters (a substring) from a string. \nIts syntax is similar to that of indexing, but instead of just one index you use \ntwo indices (numbers) separated by a colon, e.g., `str[ind1:ind2]`. These two \nindices correspond to the start and the end of the substring. Note that the symbol \nwith the index `ind1` will be included, while the symbol with the index `ind2` – won't.\n\nHere's a visual on how slicing works in Python:\n\n```text\n+---+---+---+---+---+---+\n| P | y | t | h | o | n |\n+---+---+---+---+---+---+\n0   1   2   3   4   5   6\n-6  -5  -4  -3  -2  -1\n```\n\n##### Example\n<pre><code>\nstr[start:end] # items start through end-1\nstr[start:]    # items start through the rest of the array\nstr[:end]      # items from the beginning through end-1\nstr[:]         # a copy of the whole array\n</code></pre>\n\nUse slicing to get `\"Python\"` from the `monty_python` variable.  \n\n<div class='hint'>You can leave one of the indices empty.</div>\n",
+          "description_text" : "## Découpage\n\nLe découpage est utilisé pour extraire plusieurs caractères (une substring) d'une string.\nLa syntaxe est similaire à l'indexation, mais au lieu d'un seul index, vous utiliserez deux index (nombres) séparés par `:`,\npar exemple, `str[ind1:ind2]`.\n\nCes deux index correspondent au début et à la fin de la substring.\n\nVoici un visuel de comment fonctionne le découpage en Python :\n\n```text\n +---+---+---+---+---+---+\n | P | y | t | h | o | n |\n +---+---+---+---+---+---+\n 0   1   2   3   4   5   6\n-6  -5  -4  -3  -2  -1\n```\n\n##### Exemple\n<pre><code>\nstr[start:end] # Commence par start jusqu'à end - 1\nstr[start:]    # Commence par start jusqu'à la fin\nstr[:end]      # Commence par le début jusqu'à end - 1\nstr[:]         # Une copie de la chaîne de caractères entière\n</code></pre>\n\n### Tâche\nUtilisez le découpage pour récupérer `\"Python\"` de la variable `monty_python`.  \n\n<div class='hint'>Vous pouvez laisser un des deux index vides.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Slicing",
           "task_type" : "edu"
         },
         {
           "id" : 617224885,
-          "name" : "In operator",
+          "name" : "Opérateur in",
           "files" : {
             "in_operator.py" : {
               "name" : "in_operator.py",
               "placeholders" : [
                 {
-                  "offset" : 99,
+                  "offset" : 106,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "KjIAdzQQOKu5VP5oa5uhSwi7NXrfRdidgKrlXk9dUkupAIdPNRWdXOdYMjysNGUdjvcdrGoLFUakGyl+HnAUSzc0HCxQZiAsU6Vk6vGttXdBCsjRdAeXUyXGDS7GkRO6jdTkvYhPI2PXeSerBqARHFNnGJSgPS7IO/lMU9HRR5c="
+              "text" : "KjIAdzQQOKu5VP5oa5uhS4g55MchnmanawAKtNYhpurjVauvou0VtbTN4Wxzy9/MWfgcL9Zcvui3yE2PyJ3WYPwk5ht2MtFE3BPbZtqkqUZNZ3hMu11HTieMnXq43F7FFZdP3EuuMzV9fUwyggwZ5ZrYTB+CuBt9urs5It68CjrTD8BXuyyh3vu0kv/Zbc9P"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -744,33 +734,32 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## In operator\n\nIf you want to check whether a string contains a specific letter or a substring, \nyou can use the `in` keyword.  \n  \nCheck if there is `\"ice\"` in `\"ice cream\"` and assign the result to the variable `contains`.  \n\n<div class=\"hint\">Use the <code>in</code> operator.</div>\n",
+          "description_text" : "## Opérateur in\n\nSi vous voulez vérifier si une string contient une lettre spécifique ou une substring,\nvous pouvez utiliser l'opérateur `in`.\n\n### Tâche\nVérifiez s'il y a `\"ice\"` dans `\"ice cream\"` et affectez le résultat à la variable `contains`.  \n\n<div class=\"hint\">Utilisez l'opérateur <code>in</code>.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+In+Operator",
           "task_type" : "edu"
         },
         {
           "id" : 905707336,
-          "name" : "String length",
+          "name" : "Longueur de string",
           "files" : {
             "len_function.py" : {
               "name" : "len_function.py",
               "placeholders" : [
                 {
-                  "offset" : 121,
+                  "offset" : 174,
                   "length" : 5,
                   "possible_answer" : "ZD0sLMW8ILY96c4jzNEvlA==",
                   "placeholder_text" : "\"???\""
                 },
                 {
-                  "offset" : 185,
+                  "offset" : 228,
                   "length" : 5,
                   "possible_answer" : "ZD0sLMW8ILY96c4jzNEvlA==",
                   "placeholder_text" : "\"???\""
                 }
               ],
               "is_visible" : true,
-              "text" : "BsnJC/FWTh0puhQakpHCyFn4LDDTR9OqykbSmp7nTdzZJqPBav31O3xQ7igZNmeo5ew02aEuhQo2OrMK+LkqUsQ5My81ox73Uv0BeaxCqWSTJQ4c7LHCfzkniXUD6MoMb6tlPGvZgIsWTYSQ89Kr9FAgygvTqwTOajSkXTrqhyxapgbiBqACy4EAbYi2vTD4iww8tWExDCR0B6J9yPJQbjmuDKpQV+4f5I8cmYu6JdYWIgNFasdOE9BhMI+RS/8fHvo3WZtlTVAO8tVY1948m3FCm+Bg7wA5BBB74c2gDIg3zGUEClis5t4ULxCojuMpORrA9Njk1rmvy8D1aP/IqQ=="
+              "text" : "BsnJC/FWTh0puhQakpHCyFn4LDDTR9OqykbSmp7nTdzZJqPBav31O3xQ7igZNmeo5ew02aEuhQo2OrMK+LkqUsQ5My81ox73Uv0BeaxCqWSTJQ4c7LHCfzkniXUD6MoMXPQJok4dGr0NuHsWhhcC1kVcHWQXO+Uoal4iik9kJARMSSQSbfGXAuZrIPYcBKCLt0OjOVUOOAFc4+j82UWpG20CAekq8LvzKmuACBYd2pvPa3qU38fRsv2QQAvahbvxo6TaLA1jswdRc1mCpPgAcuDxgtHFqYWrhhAMbz1z2j7CoLg8LYtg6QHN5hLiXBYyPzd6gEHryj2VEVC6BNN7SLc8u4ydGYfG5sMphfw1T+w="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -785,14 +774,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String length\n\nThe `len()` method is used to count how many characters a string contains.  \n  \nGet the first half of the string stored in the variable `phrase`.  \nNote: when getting the index, remember about type conversion.  \n\n<div class='hint'>You need to obtain a slice of the string from its start  \nto the middle point.</div>\n\n<div class='hint'>Get the middle index by dividing the string length by 2. The \ndivision result needs to be an integer.</div>\n",
+          "description_text" : "## Longueur d'une string\n\nLa méthode `len()` est utilisée pour compter combien de caractères sont contenus dans une string.\n\n### Tâche\nRécupérer la première moitié de la string stoquée dans la variable `phrase`.\n\nNote : quand vous récupérerez l'index, n'oubliez pas la conversion de type.  \n\n<div class='hint'>Vous devez faire le découpage du début jusqu'au milieu de la phrase.</div>\n\n<div class='hint'>\nRécupérez l'index du centre en divisant la longueur de la string par 2. Le résultat de la division doit être un integer.\n</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Length",
           "task_type" : "edu"
         },
         {
           "id" : 966467515,
-          "name" : "Character escaping",
+          "name" : "Echappement de caractère",
           "files" : {
             "character_escaping.py" : {
               "name" : "character_escaping.py",
@@ -820,27 +808,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Character escaping\n\nBackslash is used to escape special symbols, such as single or double quotation marks, \nfor example, `\"It\\'s me\"` or `\"She said \\\"Hello\\\"\"`. If you need to actually type the <code>\\\\</code>\ncharacter as part of your string, you will need to escape it too. For example, here's how \nyou print a single backslash:\n\n```python\nprint('\\\\')\n```\n\nThe special symbol `'\\n'` is used to add a line break to a string, while `'\\t'` means tabulation.\n\nQuotes have special meanings, and they can be escaped with a backslash too. \nIf you need to print quotes inside a string, use a different kind of quotes: single quotation \nmarks may be used in a double-quoted string without escaping, and vice versa. Also, as a side note, it is a good \nidea to pick your favorite kind of quotes and use them consistently.\n\nYou can learn more about escaping from <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals\">this section</a> of Python Documentation.  \n\nPrint out the following text using one string:  \n```text\nThe name of this ice cream is \"Sweet'n'Tasty\"  \n```\n\n\n<div class='hint'>Use the backslash to escape quotes.</div>\n",
+          "description_text" : "## Echappement de caractère\n\nLe backslash est utilisé pour échapper les symboles spéciaux, tels qu'un apostrophe ou un guillemet,\npar exemple, `\"It\\'s me\"` ou `\"She said \\\"Hello\\\"\"`. \n\nSi vous voulez effectivement écrire le caractère <code>\\\\</code> dans une chaîne de caractère,\nvous devrez l'échapper également. Par exemple, voici comment afficher un backslash :\n\n```python\nprint('\\\\')\n```\n\nLe symbole spécial `'\\n'` est utilisé pour ajouter un retour à la ligne dans une string, \nalors que `'\\t'` sert pour une tabulation.\n\nLes caractères de citation ont une signification spéciale dans le code et peuvent donc être échappés également avec un backslash.\nSi vous voulez mettre un des deux dans une string, vous pouvez aussi utiliser l'autre pour englober la chaîne de caractère,\nsans besoin de caractère d'échappement.\nUn apostrophe n'a pas besoin d'être échapper dans une string entourée de guillemets et inversement.\nD'ailleurs, nous vous conseillons de choisir votre préféré entre l'apostrophe et le guillemet et d'utiliser,\nde manière constante, votre choix.\n\nVous pouvez en apprendre plus sur le sujet <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals\">ici</a>.  \n\n### Tâche\nAffichez le texte suivi en utilisant une seule string :\n```text\nThe name of this ice cream is \"Sweet'n'Tasty\"  \n```\n\n\n<div class='hint'>Utilisez le backslash pour échapper les caractères de citation.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+Character+Escaping",
           "task_type" : "edu"
         },
         {
           "id" : 399587937,
-          "name" : "Basic string methods",
+          "name" : "Méthodes de string",
           "files" : {
             "string_methods.py" : {
               "name" : "string_methods.py",
               "placeholders" : [
                 {
-                  "offset" : 131,
+                  "offset" : 135,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "65qTBzJxhsJNiRt1kC+yDNaEeD2PIcTxrjol+sTKBbQxCJfeYPQq0sS0Mc+1kkC3JoZb5WUj5WxDbyZrcIQuvXYaDx837mtXg+sl8ww2tDO7iy9VcONscPr4fWjEJO8LkdlqhegqesPRzFQlz9b80tsuKWKD476bNHpNEElBmWuQLbfB04T9QxyWYVBoGApD"
+              "text" : "65qTBzJxhsJNiRt1kC+yDNaEeD2PIcTxrjol+sTKBbQxCJfeYPQq0sS0Mc+1kkC3um7TZVQ0CSApDEzSQkc8V7N32hZjinho19rMWWnMwdq20/B71+Dsjkr89WuerZJJsTHbjy459mBKkCVTh7W+/tLFN42cMsaAwZc86Gmx+Xve5PYh4DItLD1kInZ3Hmnc"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -855,14 +842,13 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Basic string methods\n\nThere are many useful string methods. For instance, you can use the `lower()` method to get \nrid of any capitalization in your strings. The `upper()` method is used to make a string \nuppercase. To call any string method, type a dot after the string (or a variable containing \nthe string) and the method name after it, e.g., `\"John\".upper()`. In PyCharm, you can \nexplore all available string methods by using the &shortcut:CodeCompletion; shortcut after the dot. \nDetailed information about all string methods can be found <a href=\"https://docs.python.org/3/library/stdtypes.html#string-methods\">here</a>.\n  \nPrint `monty_python` in upper case using an appropriate string method.  \n\n<div class='hint'>Pay attention to how the <code>lower()</code> method is used in our code.</div>\n",
+          "description_text" : "## Méthodes de string\n\nIl y a beaucoup de méthodes utiles pour les strings.\nPar exemple, vous pouvez utiliser la méthode `lower()` pour transformer toutes les majuscules en minuscules dans vos strings.\nLa méthode `upper()` est utilisée pour transformer votre string en majuscules.\n\nPour appeler les méthodes de string, ajouter un point à la fin de la string (ou de la variable contenant la string),\nsuivi par le nom de la méthode, p.e. `\"John\".upper()`.\n\nDans PyCharm, vous pouvez explorer toutes les méthodes de string disponibles en utilisant le raccourci \n&shortcut:CodeCompletion; après le point.\n\nLes détails sur toutes ces méthodes peuvent être trouvés <a href=\"https://docs.python.org/3/library/stdtypes.html#string-methods\">ici</a>.\n\n### Tâche\nAffichez `monty_python` en majuscules en utilisant la bonne méthode.  \n\n<div class='hint'>Faîtes attention à comment la méthode <code>lower()</code> est utilisée dans le code.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+Basic+String+Methods",
           "task_type" : "edu"
         },
         {
           "id" : 1673168284,
-          "name" : "String formatting",
+          "name" : "Formattage de string",
           "files" : {
             "string_formatting.py" : {
               "name" : "string_formatting.py",
@@ -881,7 +867,7 @@
                 }
               ],
               "is_visible" : true,
-              "text" : "C008tCpVbf2bWeQ85pv9mUazd9ZSWm+15LQsNsNTGkhiQWOfOb7PiOlUMvOumx839a/1kIDBZFexmAo3yy4/1xak+gfbsLyQcu3J1ZrkN+u1oosKCrmreifmhn+RincIbcUNkpOnW7/H14EbmQxHX0d6rf+O9TGUl9Z88tdYxrbewM1OcC84KkehYcx6FPes/FDk8N5S7+IVW+yGU0LQew=="
+              "text" : "C008tCpVbf2bWeQ85pv9mRRYpwuvWAxL1Ph5Dh/r8TsATihjcXjuBV+N6RbR7JU/oIpRtgClqrsVz+XuF/kY1NeHm2p+dpMofb2KG/9bu7cCz6cHHMKIRkAVH/TJzudnOID0V8xzPCkw6aj+1HCMP45rzu2eNeuCzXE6cut1FgEnVypwlkLc0BdU1w/i7ki1u0Gr+Uk7q39EBL6+RpKjlw=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -896,9 +882,8 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## String formatting\n\nThe `%` operator after a string is used to combine the string with variables. \nThe `%` operator will replace `%s` in a string with the string variable that \ncomes after it. The `%d` special symbol is used as a placeholder for numeric \nor decimal values.  \n\n> <i><b>Note</b>: The formatting operations described here exhibit a variety \n> of quirks that lead to a number of common errors. \n> Using the newer formatted string literals (see [further](course://Textes/F-strings)), \n> the <code><a href=\"https://docs.python.org/3/library/stdtypes.html#str.format\">str.format()</a></code> \n> interface, or <a href=\"https://docs.python.org/3/library/string.html#template-strings\">template strings</a> may help avoid these errors. \n> Each of these alternatives provides their own trade-offs and benefits of \n> simplicity, flexibility, and/or extensibility.</i>\n  \nTell PyCharm how old you are (using digits).  \n\n<div class='hint'>Use the <code>%d</code> special symbol.</div>\n<div class='hint'>How old are you?</div>\n",
+          "description_text" : "## Formattage de string\n\nL'opérateur `%` après une string est utilisé pour la combiner avec des variables.\n\nL'opérateur `%` va remplacer `%s` dans une string avec la valeur de la variable qui sera après.\n\nLe symbole spécial `%d` est utilisé pour les valeurs entières ou décimales.  \n\n> <i><b>Note</b>: Les opérations de formatage décrites ici présentent une variété de bizarreries \n> qui conduisent à un certain nombre d'erreurs courantes. \n> En utilisant les nouvelles chaînes formatées (voir [plus loin](course://Textes/F-strings)), \n> La méthode <code><a href=\"https://docs.python.org/3/library/stdtypes.html#str.format\">str.format()</a></code> \n> , ou les <a href=\"https://docs.python.org/3/library/string.html#template-strings\">modèles</a> peuvent aider à éviter ces erreurs. \n> Chacune de ces alternatives offre ses propres compromis et avantages de simplicité,\n> de flexibilité et/ou d'extensibilité.</i>\n\n### Tâche\nDîtes à PyCharm quel âge vous avez (en utilisant des chiffres).\n\n<div class='hint'>Utilisez le symbole spécial <code>%d</code>.</div>\n<div class='hint'>Quel âge avez-vous ?</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+String+Formatting",
           "task_type" : "edu"
         },
         {
@@ -949,9 +934,8 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Formatted string literals\n\nA formatted string literal, or an f-string, is a string literal that is prefixed \nwith 'f' or 'F'. These strings may contain replacement fields, which are \nexpressions delimited by curly braces `{}`. \n\nThe parts of the string outside curly braces are treated literally. \nEscape sequences are decoded like in ordinary string literals.\nReplacement expressions can contain line breaks (e.g., in triple-quoted strings), \nbut they cannot contain comments. Each expression is evaluated in the context \nwhere the formatted string literal appears, in order from left to right.\n\nHere are some examples:\n```python\nname = \"Fred\"\nf\"He said his name is {name}.\"\n```\n```text\n'He said his name is Fred.'\n```\n\nThere are more fancy things you can do in f-strings, for example:\n```python\nf\"{name.lower()} is funny.\"\n```\n\n```text\n'fred is funny.'\n```\nFor more information about formatted string literals you can refer to <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals\">Python Docs</a>.\n\nTry creating an f-string yourself. Also try running the code to see what it prints.\n\n<div class=\"hint\">The value assigned to the <code>name</code> variable has to be a string, so it needs to be in quotes, \nlike so: <code>'Max'</code>.</div>\n\n",
+          "description_text" : "## Modèles de string\n\nUn modèle de string, ou f-string, est une string qui est préfixée avec 'f' ou 'F'.\nCes strings peuvent contenir des champs de remplacement, qui sont délimités par des crochets `{}`.\n\nLes parties de la string en dehors des crochets sont traitées littéralement.\n\nLes caractères d'échappement sont décodés comme dans une string normale.\nLes expressions de remplacement peuvent contenir des retours à la ligne mais ne peuvent pas contenir de commentaires. \nChaque expression est évaluée dans le contexte où la string apparaît, dans l'ordre de gauche à droite.\n\nVoici quelques exemples :\n```python\nname = \"Fred\"\nf\"He said his name is {name}.\"\n```\n```text\n'He said his name is Fred.'\n```\n\nIl y a d'autres choses particulières que vous pouvez faire avec les f-strings, par exemple :\n```python\nf\"{name.lower()} is funny.\"\n```\n\n```text\n'fred is funny.'\n```\n\nPour plus d'information avec les modèles, vous pouvez consulter la <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals\">Documentation Python</a>.\n\n### Tâche\nEssayez de créer une f-string vous-même. Essayez ensuite de lancer le code pour voir ce qui s'affiche.\n\n<div class=\"hint\">La valeur affectée à la variable <code>name</code> doit être une string,\net doit donc être entre caractère de citation, tel que : <code>'Max'</code>.</div>\n\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Textes+/+F-strings",
           "task_type" : "edu"
         }
       ],
@@ -962,21 +946,21 @@
       "title" : "Structures de données",
       "task_list" : [
         {
-          "id" : 1992997395,
-          "name" : "Lists introduction",
+          "id" : 445274496,
+          "name" : "Introduction aux listes",
           "files" : {
             "lists.py" : {
               "name" : "lists.py",
               "placeholders" : [
                 {
-                  "offset" : 72,
+                  "offset" : 76,
                   "length" : 3,
                   "possible_answer" : "DNNoaIYV+R2EaMNUG9TC/w==",
                   "placeholder_text" : "???"
                 }
               ],
               "is_visible" : true,
-              "text" : "2wbKfLqLledF05vgQmwVMZ4NQVKuCcEARmYXTs5bDpQddaRzdJUKadrSSzOi0xikRCgl9WkdvMCAFH/YHLgTvc9Yff1buglj6LSHlUS2HOI="
+              "text" : "+cZ/jTQFoHIsTNLZ97L3g+sZDB0WQaTKE2m6qPIkVHsqlCy0UqqfGSlG/tkMQ/Ceh4uODnDPi3CPjQaZwf2dPHa+a/zP++TuFk4uqxlswMhb2Le1klnbrvK60F7AvJnY"
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -991,27 +975,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Lists introduction\n\nPython has a number of compound data types used to group data together. \nThe most versatile is the list, which can be written as a series of comma-separated \nvalues (items) enclosed in square brackets, e.g., `lst = [item1, item2]`. \nLists might contain items of different types, but usually all the items in a list \nare of the same type. Like strings, lists can be indexed and sliced (see [Lesson 3](course://Textes/String slicing)).\nAll slice operations return a new list containing the requested elements.\n\nLists also support operations like concatenation:\n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares + [36, 49, 64, 81, 100]\n[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n```\n\nYou can explore lists in more detail by reading <a href=\"https://docs.python.org/3.9/tutorial/introduction.html#lists\">this page</a>.\n\nUse list slicing to print `[4, 9, 16]`.  \n\n<div class='hint'>List slicing syntax looks just like that for strings: <code>lst[index1:index2]</code>.\nDon't forget that the element with the index <code>index2</code> is not included!</div>\n",
+          "description_text" : "## Introduction aux listes\n\nPython a plusieurs types de donnée utilisés pour grouper des données ensemble.\nLe type le plus polyvalent est la liste,\nqui peut être écrite en une série de valeurs (éléments) séparées par des virgules et englobées dans des crochets,\npar exemple : `lst = [item1, item2]`. \n\nLes listes peuvent contenir des éléments de types différents, cependant,\npar convention, tous les éléments d'une liste sont d'un même type.\n\nTout comme les strings, les listes peuvent être indexées et découpées (voir la [Leçon 3](course://Chaînes de caractères/Découpage de string)).\nToutes les opérations de découpage retourneront une nouvelle liste contenant les éléments attendus.\n\nLes listes supportent également les opérations comme la concaténation :\n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares + [36, 49, 64, 81, 100]\n[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n```\n\nVous pouvez en apprendre plus sur les listes en lisant <a href=\"https://docs.python.org/3.9/tutorial/introduction.html#lists\">cette page</a>.\n\n### Tâche\nUtilisez le découpage pour afficher `[4, 9, 16]`.  \n\n<div class='hint'>\nLe découpage de liste fonctionne exactement comme pour les strings : <code>list[index1:index2]</code>.\n\nN'oubliez pas que l'élément avec l'index <code>index2</code> ne sera pas inclus !\n</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Lists+Introduction",
           "task_type" : "edu"
         },
         {
-          "id" : 1097553715,
-          "name" : "Lists operations",
+          "id" : 1432925376,
+          "name" : "Opérations sur les listes",
           "files" : {
             "list_operations.py" : {
               "name" : "list_operations.py",
               "placeholders" : [
                 {
-                  "offset" : 259,
+                  "offset" : 279,
                   "length" : 37,
-                  "possible_answer" : "3JCh9U8ibeF9rawNy2Uf/4mWr69etqR5yPF2yywmvLAdlTJNoBjP1FAqh2Dgtlau",
-                  "placeholder_text" : "# Replace \"dino\" with \"dinosaur\" here"
+                  "possible_answer" : "PYf3FC8f8u2aeDNF8bI1/csGdPPaT8ZlC8oQm/74dR3FjyjkUOnYGvEC4MUMLgxV",
+                  "placeholder_text" : "# Remplacez \"dino\" par \"dinosaur\" ici"
                 }
               ],
               "is_visible" : true,
-              "text" : "ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8ZQYUssTLeP9/zxjALi5j7KePAG3qNm9c/GnQIIFdrNQNdjqGokrSnY4TYE/fEYJgqeSoJcPVLtSUjOz+098586BOkH/xhBhtRtR/RIZx6xGru7S1S5NMHA9Qq3XLVP0JjcXO5EEiBxH1BMEtr4woEG3UB2VeIsNf8vbqlTk1z8EKnAR4vFV9VjLLhcShl0BA6Zc2Gf8N69a72mXSZNPL8ZDJIQbGt6B4k5f9oGENIFlwK9rvyvI+VsGC5jeMOywG6ysa9eIZDB6/plzGJyqre4/fqLSUKyEDm3ZQ2oBR4sP4AXZd7wC4nf+dOeCHPGbkfzivg3c56NyI2YSO7l/CA3eeuB+ujt8w/cQfWlkB/fk="
+              "text" : "+cZ/jTQFoHIsTNLZ97L3gwaHYS7QhYjUwkU3/gf29XVR2WL4fVgWSlyX20qE2RXbyZQ4HktPCdBJGek9MnPMIyZUCe/dyOmWCsPAU7FG692nX/pUuygzmzX84A5vv151R8coWEQ9jWFpqXZeHYilLUra3rZV2Ga8CW+WsdlrQpvFDfq+AjAN94YvUUImhDtrdzorivbTjRc2S86mw/cBRq3mFL4DQ/Uj5V4ERn+SvYtpgFa1EE+xuoQ0qDintsvKGeL8levrsxXarO8doy7wBLvnJISQg09077mEHRFgXgX8HcN07fVW7wf2N3WJFOmprYR6OxcQV1WiR5VaMj7Od7zhEG7gi8jlhdY+7RwmA0ZD885mbwdy8p0w1U3Nkp/FHEqxD9fTz4o60Qy8FTKsyHXOuml/7x1XWraMxxQIuqGyrvSIZrmHn6v2WPXJ3R500PTmpV6eMOYvm1JnXTUOIQ=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -1026,27 +1009,26 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List operations\n\nUnlike strings, lists are a mutable type, i.e., it is possible to\nchange their content using `lst[index] = new_item`.\n\n```python\ncubes = [1, 8, 27, 65, 125]  # something's wrong here\n4 ** 3  # the cube of 4 is 64, not 65!\n```\n```text\n64\n```\n```python\ncubes[3] = 64  # replace the wrong value\ncubes\n```\n```text\n[1, 8, 27, 64, 125]\n```\n\nYou can add new items at the end of the list by using the `append()` method or \nlist concatenation. \n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares.append(6**2)\nsquares\n```\n```text\n[1, 4, 9, 16, 25, 36]\n```\n  \nFind out about many other useful list methods on <a href=\"https://docs.python.org/3/tutorial/datastructures.html#more-on-lists\">this page</a>.\n\nReplace `\"dino\"` with `\"dinosaur\"` in the `animals` list.  \n<div class='hint'>Use list indexing operation and value assignment.</div>\n",
+          "description_text" : "## Opération sur les listes\n\nContrairement aux strings, les listes font partie des types mutables,\nc'est-à-dire qu'il est possible de modifier leur contenu en utilisant `lst[index] = new_item`.\n\n```python\n# Il y a quelque chose de faux ici\ncubes = [1, 8, 27, 65, 125]\n# Le cube de 4 est 64 et pas 65 !\n4 ** 3\n```\n```python\n# Remplace la mauvaise valeur\ncubes[3] = 64\n[1, 8, 27, 64, 125]\n```\n\nVous pouvez ajouter de nouveaux éléments à la fin de la liste en utilisant la méthode `append()` ou la concaténation.\n\n```python\nsquares = [1, 4, 9, 16, 25]\nsquares.append(6**2)\n[1, 4, 9, 16, 25, 36]\n```\n\nVous en apprendrez plus à propos des méthodes de liste sur <a href=\"https://docs.python.org/3/tutorial/datastructures.html#more-on-lists\">cette page</a>.\n\n### Tâche\nRemplacez `\"dino\"` par `\"dinosaur\"` dans la liste `animals`.\n\n<div class='hint'>Utilisez l'indexation de liste et l'assignation de valeur.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+List+Operations",
           "task_type" : "edu"
         },
         {
-          "id" : 1099063749,
-          "name" : "List items",
+          "id" : 461901592,
+          "name" : "Eléments de liste",
           "files" : {
             "list_items.py" : {
               "name" : "list_items.py",
               "placeholders" : [
                 {
-                  "offset" : 302,
-                  "length" : 16,
-                  "possible_answer" : "3GcT/SJiEYCTTQCkqmpgDtjVVOtZEG8kA6tFnfzXK0k=",
-                  "placeholder_text" : "# Clear the list"
+                  "offset" : 309,
+                  "length" : 46,
+                  "possible_answer" : "/tvQcZ2t2UHkMHz84EnaOKFbiS9BU343BPRmollzaMyhCFjiMpvGlFKOq94MqlybFuPdcBT7zBYPTTZ6hbZxbw==",
+                  "placeholder_text" : "# Videz les deux derniers éléments de la liste"
                 }
               ],
               "is_visible" : true,
-              "text" : "ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8Z5vzJxnuXBTUb9zRgAc/PIbu2Ekkzfnaaj/ENQyHiJ+VFOvMIViFyEGelUf2FY80h8TWAmbP8IGmdwT92Wm6ySqZioml8YdHSMxZhuuqVzbp0WqfbdyJrDFEqQuHmiFC9O/0T+ImkI85xmCmhnSvnqHNBF2RrlmLfqzEyCHnvDTH1Dd6PhS84qZISPdtufmF/pqZLoPjH+v+d8T7OWadjN8ymqahhxCpK0LcJnQxO/wioaGZaUsyb8L/7AGN8/Tbh40xrv8+Zf2FYugqSb+t6R9xRR42yJrSvnXnMf/IMwN1gwKU1kvgnTV/aMoj1JZCkVoH0WpN63BFHFeQxIwaM4MrytHaD/MTDbP5ZD/B81ykt4QYHvThlcYql/Ksc8P2"
+              "text" : "+cZ/jTQFoHIsTNLZ97L3gwaHYS7QhYjUwkU3/gf29XVR2WL4fVgWSlyX20qE2RXbyZQ4HktPCdBJGek9MnPMI1ZvFKSbiJUQNviTxq4DDxuRLd09AdQAs1ZnaX+QYoeyJ9R3+HbkYAqEm3w+l53XkIB6pjWsQMqvHGHE51M/bPlajv/o6PLjrzVgEw5l/sFSCsGn4fcIjR2KiumUFfhyUZt8eFVA45jWO3HjHRazZ8dWhbnaYSAvAV6WrjPpaxRuzeIabNv4TtH4rznYAQNuCydsFCBbldDDzX2p7E2GOx8etuL+Q8x6T4fODHUSRrDbCuoMuokncCQKIKZRrbsuIctURvNH4oNB2xLMrptTdZgrPvXsj4qnkBed0ePxLEh3RAgae+8TaM02ckrKZ54TGs1bpvGbtlexYuqwC6o7ilW14rNN6b5/+UPP/a9bikmyRq1wCrOrBrJzrbXupo0vvjAB6aT1r5L++UMpxjPsWQM1bkFJXZ8HJNRJbySE6pd+"
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -1061,33 +1043,32 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List items\n\nAssignment is possible to slices of lists, just like to individual list elements. \nThis way you can even change the size of a list or clear it entirely by doing something like:\n\n```python\nanimals[:] = []\n```\n  \nMake all `animals` elephants by replacing the last two items.  \n\n<div class='hint'>Use assignment to a slice as in examples.</div>\n",
+          "description_text" : "## Eléments de liste\n\nTout comme pour des éléments individuels, il est possible de faire une affectation sur un découpage de liste.\n\nDe cette manière, il est possible également de modifier la taille de la liste, voire de la vider entièrement,\nde cette manière :\n\n```python\nanimals[:] = []\n```\n\n### Tâche\nTransformer tous les animaux en `elephant` en remplaçant les deux derniers éléments.\n\n<div class='hint'>Faîtes une affectation vide avec un découpage sur les deux derniers éléments.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+List+Items",
           "task_type" : "edu"
         },
         {
-          "id" : 498225896,
-          "name" : "Nested Lists",
+          "id" : 340392382,
+          "name" : "Listes imbriquées",
           "files" : {
             "task.py" : {
               "name" : "task.py",
               "placeholders" : [
                 {
                   "offset" : 55,
-                  "length" : 37,
-                  "possible_answer" : "TfLtjS7O0XUJi+gnO3vD8wIIOEoDEMIJUNq+63+j4Fips50rAOK0dbPT+cWX0d9a",
-                  "placeholder_text" : "'Print number 9 from the nested list'"
+                  "length" : 43,
+                  "possible_answer" : "Zq0c36uHQI4BMtMroNSmj5tZciTfjPVit7qCFrlHxkcQBHmwAbe1OhDiQ6DoNMmR",
+                  "placeholder_text" : "'Affichez 9 à partir de la liste imbriquée'"
                 },
                 {
-                  "offset" : 100,
-                  "length" : 38,
-                  "possible_answer" : "gAmzN0dNpQSiYBfQCWLXRCi3UtC5cgqcT6K2vQxblTG7wRL+UtaBv5nN7Vq0j5oU",
-                  "placeholder_text" : "'Print number 10 from the nested list'"
+                  "offset" : 106,
+                  "length" : 44,
+                  "possible_answer" : "qijtZKLdEn/IhJ8DiqnrwhGyU/cdrGE/OVOzcFeQM2l0mwkfUPJnm+FbxxTX7cuT",
+                  "placeholder_text" : "'Affichez 10 à partir de la liste imbriquée'"
                 }
               ],
               "is_visible" : true,
-              "text" : "D6wqlir08VmCGA3oW5uWQS2/ryc0T1EA6bmBi7siQEGV+pGT8i+ea2oaIcvrEnAqTtLOxI5Y0dzSCXXLaWLLQ5bmohwkQ68gg/Ily6oZg5od/czz4cFi8X9fdvJoW1TVpJwvzQiYkvMs6yfySowNdHPMoYjVtRki+3iVuVTnqugyOc+XFxrXwAx7/3DH10tB"
+              "text" : "D6wqlir08VmCGA3oW5uWQS2/ryc0T1EA6bmBi7siQEGV+pGT8i+ea2oaIcvrEnAq0AV/izpsShyPjCog/kGO1RqlCdNFdqJ38hRIcLahn0iLj6N6mRYiIHyafSpExLjN99FyPnlw1Ppnz97neS/D3PlwW5YT8xHNDaXUkrdrTKIJpWkYl/IHxtNo6IRtULK8EHTGkkhP5yhL6ISJhTN0dQ=="
             },
             "tests/__init__.py" : {
               "name" : "tests/__init__.py",
@@ -1102,9 +1083,8 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Nested Lists\n\nA list can contain any kind of objects, even other lists (sublists). This \ndata structure is known as a nested list.\n\nYou can use nested lists to arrange data into hierarchical structures.\n\nA nested list can be created by writing a comma-separated sequence of sublists:\n\n```python\nnested_list = [[1, 2, 3], [4, 5], 6]\n```\n\nYou can access items in a nested list using indices just like before:\n\n```python\nprint(nested_list[1])\nprint(nested_list[2])\n```\nOutput:\n```text\n[4, 5]\n6\n```\nYou can access items within sublists in a nested list using multiple indices.\nTo access number `1` from `nested_list`, use the index `0` twice. First, you access the element `[1,2,3]` and then, the first element of that sublist:\n```python\nprint(nested_list[0][0])\n```\nOutput:\n```text\n1\n```\nIn the code editor, use indexing to access and print elements `9` and `10` from of the nested list `my_list`. \n\n<div class=\"hint\">If you're stuck, review the examples in the task description again.</div>",
+          "description_text" : "## Listes imbriquées\n\nUne liste peut contenir n'importe quel objet, même d'autres listes (sublists).\nDans ce cas de figure, on les nomme listes imbriquées (nested list).\n\nVous pouvez utiliser les listes imbriquées pour arranger les données en structures hiérarchiques.\n\nUne liste imbriquée peut être créée en séparant des listes par des virgules :\n\n```python\nnested_list = [[1, 2, 3], [4, 5], 6]\n```\n\nYou can access items in a nested list using indices just like before:\n\n```python\nprint(nested_list[1])\nprint(nested_list[2])\n```\nOutput:\n```text\n[4, 5]\n6\n```\nYou can access items within sublists in a nested list using multiple indices.\nTo access number `1` from `nested_list`, use the index `0` twice. First, you access the element `[1,2,3]` and then, the first element of that sublist:\n```python\nprint(nested_list[0][0])\n```\nOutput:\n```text\n1\n```\nIn the code editor, use indexing to access and print elements `9` and `10` from of the nested list `my_list`. \n\n<div class=\"hint\">If you're stuck, review the examples in the task description again.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Nested+Lists",
           "task_type" : "edu"
         },
         {
@@ -1303,7 +1283,6 @@
           },
           "description_text" : "## In keyword\n\nThe `in` keyword is used to check if a list or a dictionary contains a specific \nitem. You can apply `in` to lists or dictionaries the same way you did it with strings.  \n  \n1) Check if `grocery_dict` values contain number `6`.  \n2) Check if the dictionary contains `\"basil\"`.\n\nPlease complete the task in the specified order.\n\n<div class=\"hint\">Use the <code>in</code> keyword.</div>\n\n<div class=\"hint\">Use the <code>.values()</code> and <code>.keys()</code> attributes.</div>\n",
           "description_format" : "MD",
-          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+In+keyword",
           "task_type" : "edu"
         }
       ],
@@ -1502,7 +1481,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## for loop\n\nThe `for` statement is used to iterate over the elements of a sequence (such as \na string, tuple, or list) or another iterable object. The sequence is evaluated once.\nOn each iteration, the variable defined in the `for` loop will be assigned to the next value\nin the list. The code following the line with the `for` statement is executed once \nfor each item. When the items are exhausted, the loop terminates.\n\nYou can read more about the `for` statement on <a href=\"https://docs.python.org/3/reference/compound_stmts.html#the-for-statement\">this page</a> of Python Documentation.\n  \nPrint each prime number from the `primes` list using the `for` loop. A prime \nnumber is a natural number greater than `1` that has no positive divisors \nother than `1` and itself.  \n\n<div class='hint'>Use a <code>for</code> loop to iterate over <code>primes</code> and print each element one by one.</div>\n",
+          "description_text" : "## la boucle for\r\n\r\nLe mot clé `for` est utilisé pour passer d'un élément à un autre d'une séquence (tel qu'une chaine de caractère, \r\nun tuple ou une liste). La séquence est évaluée une seule fois. A chaque évaluation, la valeur suivante de la séquence \r\nsera attribuée àla variable définie dans la déclaration de la boucle `for`. Le code défini après le mot `for` \r\nsera exécuté une fois pour chaque élément. Lorsque l'on arrive à la fin des éléments, la boucle s'arrête.\r\n\r\nVous pouvez lire d'avantage au sujet de la boucle `for` sur<a href=\"https://docs.python.org/3/reference/compound_stmts.html#the-for-statement\">cete page</a> de la documentation python.\r\n\r\nImprimer chaque nombre premier depuis la liste `primes` en utilisant la boucle `for`. Un nombre premier est un nombre \r\nqui n'est divisible que par `1` ou lui même.\r\n  \r\n\r\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer à travers les éléments de <code>primes</code> et les imprimer un par un.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+For+Loop",
           "task_type" : "edu"
@@ -1537,7 +1516,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Loop over a string\n\nAs we discussed earlier, strings in Python are in many ways similar to lists. \nYou can iterate over a string just like you would iterate over a list.  \n  \nUse a loop to count how many characters `hello_world` contains. Store \nthis number in the variable `length`.  \n\n<div class='hint'>Use a <code>for</code> loop to iterate over the <code>hello_world</code> string.</div>\n",
+          "description_text" : "## Passer à travers une chaine de caractères\r\n\r\nComme discuter préalablement, une chaine de caractères en python est d'une certaine manière similaire à une liste.\r\nVous pouvez passer d'un caractère à un autre d'une chaine de la même manière qu'une liste.\r\n\r\nUtiliser une boucle pour compter le nombre de caractère que contient `hello_world`. Enregistrer le résultat dans \r\nla variable `length`. \r\n\r\n<div class='hint'>Utiliser la boucle <code>for</code> pour passer d'un caractère à un autre de la chaine <code>hello_world</code>.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Loop+over+a+String",
           "task_type" : "edu"
@@ -1578,7 +1557,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Nested Loops\n\nA nested loop is a loop inside another loop.\nThe inner loop is executed once for each iteration of the outer loop.\n\n```python\nadjectives = [\"black\", \"stylish\", \"expensive\"]\nclothes = [\"jacket\", \"shirt\", \"boots\"]\n\nfor x in adjectives:\n  for y in clothes:\n    print(x, y)\n```\nOutput:\n```text\nblack jacket\nblack shirt\nblack boots\nstylish jacket\nstylish shirt\nstylish boots\nexpensive jacket\nexpensive shirt\nexpensive boots\n```\n<details>\n\nNote that any type of loop can be nested inside another loop. \nFor example, a [`while` loop](course://Boucles/While loop) (see further) can be nested inside a `for` loop, or vice versa.\n</details>\n\n\nYou are given a tic-tac-toe board of 3x3, your task is to print every position. Coordinates along each side\nare stored in the list `coordinates`. The output should be:\n```text\n1 x 1\n1 x 2\n1 x 3\n2 x 1\n...\n```\nand so on for every combination of coordinates.\n\n<div class=\"hint\">\n\nIn the nested `for` loop, iterate over the same list once again but using another variable name\nthis time (`coordinate2`).\n</div>\n",
+          "description_text" : "## Boucles imbriquées\r\n\r\nUne boucle imbriquée est en faite une boucle dans une boucle. La boucle intérieur est exécutée\r\nà chaque itération de la boucle principale.\r\n\r\n\r\n```python\r\nadjectives = [\"black\", \"stylish\", \"expensive\"]\r\nclothes = [\"jacket\", \"shirt\", \"boots\"]\r\n\r\nfor x in adjectives:\r\n  for y in clothes:\r\n    print(x, y)\r\n```\r\nOutput:\r\n```text\r\nblack jacket\r\nblack shirt\r\nblack boots\r\nstylish jacket\r\nstylish shirt\r\nstylish boots\r\nexpensive jacket\r\nexpensive shirt\r\nexpensive boots\r\n```\r\n<details>\r\n\r\nNotez que n'importe quel type de boucle permet d'être imbriquée.\r\nPar exemple, la boucle [`while` loop](course://Boucles/While loop) (voir chapitre sur la boucle while) \r\npeut être imbriquée à l'intérieur d'une boucle `for` ou vice et versa.\r\n</details>\r\n\r\nOn vous donne un plateau du tic-tac-toe de taille 3x3, votre tâche est d'imprimer chaque position. \r\nLes coordonnées de chaque côté seront enrigistrés dans la liste `coordinates`. La sortie doit être :\r\n```text\r\n1 x 1\r\n1 x 2\r\n1 x 3\r\n2 x 1\r\n...\r\n```\r\nEt ceci pour chaque combinaison de coordonées.\r\n\r\n<div class=\"hint\">\r\n\r\nDans une boucle imbriquée `for`, énuméré chaque élément de la liste en utilisant une autre variable telque (`coordinate2`).\r\n</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Nested+For+Loop",
           "task_type" : "edu"
@@ -1619,7 +1598,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## List Comprehension\n\nYou can use a loop to build a list (or another data structure).\nFor example:\n\n```python\nmy_list = []\nfor i in range(5):\n    my_list.append(i)\n\nprint(my_list)\n```\nOutput:\n```text\n[0, 1, 2, 3, 4]\n```\n\nThis is nice, but quite bulky. List comprehension offers a more compact syntax when you want to create a new list based on the values of an existing list\nor another iterable (tuple, string, array, range, etc.). It does the same task and simplifies the program. Typically, list comprehensions are written in a single line of code.\n\n```python\nmy_list = [i for i in range(5)]\nprint(my_list)\n```\nOutput:\n```text\n[0, 1, 2, 3, 4]\n```\nList comprehensions are also more efficient computationally than a `for` loop.\n\nIn the code editor, use list comprehension to build `my_efficient_list` from the elements of `my_inefficient_list`\nby adding $10$ to each of them. For example, the first element of `my_inefficient_list` is $1 + 10 = 11$,\nso the first element of `my_efficient_list` should be $11 + 10 = 21$, and so on.\n\n\n<div class=\"hint\">\n\nIn the example above, we used `i for i in range(5)`. You can modify `i` as you like \nright inside this expression. For example, to subtract `5` from every `i`, you can do \n`i - 5 for i in range(5)`.\n</div>",
+          "description_text" : "## List comprehension\r\n\r\nVous pouvez utiliser une boucle afin de construire une liste (ou une autre structure).\r\nPar exemple:\r\n\r\n```python\r\nmy_list = []\r\nfor i in range(5):\r\n    my_list.append(i)\r\n\r\nprint(my_list)\r\n```\r\nSortie:\r\n```text\r\n[0, 1, 2, 3, 4]\r\n```\r\n\r\nC'est bien mais un peu long. Les `List comprehension` offre un moyen plus compact lorsque vous voulez créer une nouvelle liste depuis une liste existante \r\nou un autre itérable (tuple, chaine de caractères, tableau, rang, etc...). Elle permet de faire la même tâche d'une manière plus simple.\r\nTypiquement, les `List comprehension` s'écrivent en une seule ligne.\r\n\r\n```python\r\nmy_list = [i for i in range(5)]\r\nprint(my_list)\r\n```\r\nSortie:\r\n```text\r\n[0, 1, 2, 3, 4]\r\n```\r\n\r\nLes `List comprehension`  sont aussi plus efficace et rapide qu'une boucle `for`.\r\n\r\n# task\r\n\r\nDans l'éditeur de code, utilisez une `List comprehension` afin de construire la liste `my_efficient_list` \r\ndepuis les éléments de  `my_inefficient_list` en ajoutant $10$ a chaque élément. Par exemple, le premier élément de \r\n`my_inefficient_list` est $1 + 10 = 11$, donc le premier élément de `my_efficient_list` devrait être $11 + 10 = 21$, etc...\r\n\r\n\r\n<div class=\"hint\">\r\n\r\nDans l'exemple ci-dessus, nous utilisons `i for i in range(5)`. Vous pouvez modifier `i` comme vous le voulez directement \r\nà l'intérieur de l'expression. Par exemple, en enlevant `5` à chaque `i`, comme ceci `i - 5 for i in range(5)`.\r\n</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+List+Comprehension",
           "task_type" : "edu"
@@ -1660,7 +1639,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Nested List Comprehension\n\nNested list comprehensions are simply list comprehensions nested within other \nlist comprehension. This is quite similar to [nested loops](course://Boucles/Nested for Loop).\nHere is a program that builds a [nested list](course://Structures de données/Nested Lists) using a nested loop:\n\n```python\nmatrix = []\n\nfor i in range(3):\n\n    # Append an empty sublist inside the list\n    matrix.append([])\n\n    for j in range(0, 10, 2):\n        matrix[i].append(j)\n\nprint(matrix)\n```\nOutput:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\nThe same can be done in just one line using nested list comprehension:\n\n```python\nmatrix = [[j for j in range(0, 10, 2)] for i in range(3)]\nprint(matrix)\n```\nOutput:\n```text\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\n```\n\n### Task\n\nCreate a $10×10$ `matrix` such that each row (sublist) contains **characters** 0–9 from\n`string`. Use list comprehension to complete the task in one line of code. \n\n<div class=\"hint\">\n\nFollow the example in the task description. You simply need to use `string` as an iterable instead\nof one of the ranges.\n\n</div>\n\n\n\n",
+          "description_text" : "## L'imbrication de list comprehension\r\n\r\nUne liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.\r\nElles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).\r\nVoici un programme qui construit une [Liste imbriquée](course://Structures de données/Listes imbriquées) en utilisant \r\ndes boucles imbriquées :\r\n\r\n```python\r\nmatrix = []\r\n\r\nfor i in range(3):\r\n\r\n    # Append an empty sublist inside the list\r\n    matrix.append([])\r\n\r\n    for j in range(0, 10, 2):\r\n        matrix[i].append(j)\r\n\r\nprint(matrix)\r\n```\r\nSortie:\r\n```text\r\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\r\n```\r\n\r\nLe même programme peut être écrit en une seul ligne en utilisant les listes imbriquées :\r\n\r\n```python\r\nmatrix = [[j for j in range(0, 10, 2)] for i in range(3)]\r\nprint(matrix)\r\n```\r\nSortie:\r\n```text\r\n[[0, 2, 4, 6, 8], [0, 2, 4, 6, 8], [0, 2, 4, 6, 8]]\r\n```\r\n\r\n### Task\r\n\r\nCréer une `matrice` de $10x10$ de tel sorte que chaque ligne (sous liste) contiennent les **caractères** 0-9 depuis une \r\nchaine de caractères. Utilisez la technique présenter ci-dessous afin d'écrire un code en une ligne.\r\n\r\n<div class=\"hint\">\r\n\r\nsuivez l'exemple dans la partie ci-dessus. Vous devez simplement utiliser une `string` comme itérable à la place \r\nde chaque rang ([0],[1], etc ...)\r\n</div>\r\n\r\n\r\n\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Nested+List+Comprehension",
           "task_type" : "edu"
@@ -1695,7 +1674,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## while loop\n\nA `while` loop is somewhat similar to an `if` statement: it executes some code if some \ncondition is `True`. The key difference is that it will continue to execute indented \ncode for as long as the condition is `True`.  If the expression is `False`, the loop terminates.\n  \nPrint all squares from `1` to `9`  `(1, 4, ... , 81)`. Use the `number` variable in a\n`while` loop.  \n\n<div class='hint'>Make sure that <code>number</code> is strictly less than 10 in the condition.</div>\n",
+          "description_text" : "## la boucle while\r\n\r\nUne boucle `while` est similair à l'instruction `if`: la boucle exécute du code seulement si une condition est vrai `True`.\r\nLa principale différence est que la boucle s'exécutera sans intérruption tant que la condition de test est vrai. \r\nSi l'expression est fausse (`False`) la boucle s'arrête.\r\n\r\nA  l'aide de la variable `number` et une boucle `while`imprimer les carrés des nombres de `1` à `9`.\r\n\r\n\r\n<div class='hint'>Assurez-vous que la variable <code>number</code> est strictement plus petite que 10 dans la condition de la boucle.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+While+loop",
           "task_type" : "edu"
@@ -1736,7 +1715,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Break keyword\n\nAn infinite loop is a loop that never exits. If the loop condition happens to \nalways be `True`, such a loop becomes infinite. The most straightforward way to create\nan infinite loop is to use `while True`. The `break` keyword is used to \nescape the loop.  \n\n  \nWrite a condition to exit the loop on its third iteration after evaluating if `animal`\nis equal to `elephant`.  Use the `break` statement.  The `zoo` list in the end should contain \nonly `lion` and `tiger` (because you `pop` all the other ones in the loop).\n\n<div class=\"hint\">Use <code>==</code> to check if <code>animal</code> is equal to <code>\"elephant\"</code>.</div>\n",
+          "description_text" : "## le mot clé Break\r\n\r\nUne boucle infine comme son nom l'indique ne se termine jamais. Si la condition d'une boucle s'avère être \r\ntoujours vrai (`True`), nous appelons un tel boucle `une boucle infinie`. La manière la plus directe de faire \r\nune tel boucle est d'utiliser `while True`. Le mot clé `break`, permet de quitter une tel boucle.\r\n\r\nÉcrivez une condition permettant de quitter la boucle à sa troisième iteration après avoir évalué si `animal` est égal\r\nà `elephant`. Utiliser le mot clé `break`. A la fin du programme, la liste `zoo` doit seulement contenir les mots `lion`\r\net `tiger` (vu que vous avez utiliser `pop` sur les autres élements dans la boucle).\r\n\r\n<div class=\"hint\">utiliser <code>==</code> pour vérifier si  <code>animal</code> est égal à <code>\"elephant\"</code>.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Break+keyword",
           "task_type" : "edu"
@@ -1777,7 +1756,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Else with loops\n\nWe saw that the `break` statement breaks out of the innermost enclosing `for` or `while` loop.\n\nPython also allows loop statements to have an `else` clause. It is executed when the loop terminates\nthrough exhaustion of the iterable (with `for`) or when the condition becomes `False`\n(with `while`), but not when the loop is terminated by a `break` statement. Check\nout this example of a loop which searches for prime numbers:\n\n```python\nfor n in range(2, 10):\n    for x in range(2, n):\n        if n % x == 0:\n            print(n, 'equals', x, '*', n//x)\n            break\n    else:\n        # loop fell through without finding a factor\n        print(n, 'is a prime number')\n```\n```text\n2 is a prime number\n3 is a prime number\n4 equals 2 * 2\n5 is a prime number\n6 equals 2 * 3\n7 is a prime number\n8 equals 2 * 4\n9 equals 3 * 3\n```\nIn this code, the `else` clause belongs to the `for` loop, not the\n`if` statement.\n\nRemember, an `else` after an `if` statement is skipped and NOT executed if the expression following \n`if` is `True`, while in the case of loops, an `else` clause is executed after the loop itself\nis completed (unless there was a `break` in there somewhere).\n\nIn the code editor, add two lines of code to the second loop to make sure the loop only prints\nnumbers 1 and 2 and never prints the phrase `\"for loop is done\"`.\n\n<div class=\"hint\">It should terminate at number 3.</div>",
+          "description_text" : "## Les boucles avec Else\r\n\r\nNous avons déjà vu que le terme `break` sort de la boucle `for` ou `while`.\r\n\r\nPython permet aussi à une boucle d'avoir une clause `else`. Cette partie sera exécutée à la fin de la boucle sur un itérable\r\n(pour la boucle `for`) ou losque la condition devient `False`dans une boucle `while`, mais pas losque l'on quitte une boucle \r\navec `break`. Regarder l'exemple ci-dessous qui recherche les nombres premiers :\r\n\r\n\r\n```python\r\nfor n in range(2, 10):\r\n    for x in range(2, n):\r\n        if n % x == 0:\r\n            print(n, 'equals', x, '*', n//x)\r\n            break\r\n    else:\r\n        # loop fell through without finding a factor\r\n        print(n, 'is a prime number')\r\n```\r\n```text\r\n2 is a prime number\r\n3 is a prime number\r\n4 equals 2 * 2\r\n5 is a prime number\r\n6 equals 2 * 3\r\n7 is a prime number\r\n8 equals 2 * 4\r\n9 equals 3 * 3\r\n```\r\n\r\nDans le code ci-dessus, la claude `else` est attachée à la boucle `for` et pas a un teste logique `if`.\r\n\r\nRappelez-vous que `else` après un `if`n'est PAS exécuté  si l'expression après `if` est vrai (`True`), alors que dans le\r\ncas d'une boucle, un `else` sera exécuté à la fin de la boucle (sauf si celle-ci est terminée par un `break`).\r\n\r\n# task\r\n\r\nDans l'éditeur de code, ajoutez deux lignes de code à la seconde boucle afin d'être sûr que la boucle imprime seulement \r\nles nombres 1 et 2 and n'imprime jamais la phrase `\"for loop is done\"`.\r\n\r\n<div class=\"hint\">La boucle doit se terminer sur le nombre 3.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Else+with+loops",
           "task_type" : "edu"
@@ -1818,7 +1797,7 @@
               "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
             }
           },
-          "description_text" : "## Continue keyword\n\nThe `continue` keyword is used to skip the rest of the code inside the loop for \nthe current iteration only and proceed right to the next one. The loop returns to the `for` or \n`while` statement and evaluates the condition again. If there is no next item, \nthe `else` clause is executed if it is present.\n  \nPrint only the odd numbers `1, 3, 5, 7, 9`.  \n\n<div class='hint'>Use the <code>%</code> operator to check if <code>x</code> is even.</div>\n",
+          "description_text" : "## Le mot clé Continue\r\n\r\nLe mot clé `contine` est utilisé afin de sauter la suite du code à l'intéreur d'une boucle seulement\r\npour l'itération courante et procède directement à l'itération suivante. La boucle retour à l'évaluation \r\nde `for` ou `while`. Si il n'y a plus d'objet, la condition `else` est évaluée si présente.\r\n\r\nImprimer à l'écran seulement les nombres impairs `1, 3, 5, 7, 9`.\r\n\r\n<div class='hint'>Utilisez l'opérateur <code>%</code> pour vérifier si  <code>x</code> est pair.</div>\r\n",
           "description_format" : "MD",
           "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Boucles+/+Continue+keyword",
           "task_type" : "edu"

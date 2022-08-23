@@ -2,7 +2,7 @@
 
 Une liste imbriquée est simplement une liste qui contient à l'intérieur une autre liste.
 Elles sont très similaires aux [Boucles imbriquées](course://Boucles/Nested for Loop).
-Voici un programme qui construit une [Liste imbriquée](course://Structures de données/Nested Lists) en utilisant 
+Voici un programme qui construit une [Liste imbriquée](course://Structures de données/Listes imbriquées) en utilisant 
 des boucles imbriquées :
 
 ```python

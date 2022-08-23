@@ -1,7 +1,7 @@
 ## Args and kwargs
 
 When a final formal parameter of the form `**name` is present, it receives a dictionary 
-(see [Data Structures — Dictionaries ](course://Structures de données/Dictionaries)) containing 
+(see [Data Structures — Dictionaries ](course://Structures de données/Dictionnaires)) containing 
 all keyword arguments except for those corresponding 
 to a formal parameter. This may be combined with a formal parameter of the form `*name` which 
 receives a tuple containing any number of positional arguments beyond the formal parameter list 

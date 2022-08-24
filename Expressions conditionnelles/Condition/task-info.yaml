@@ -1,0 +1,15 @@
+type: edu
+files:
+- name: if_statement.py
+  visible: true
+  placeholders:
+  - offset: 253
+    length: 76
+    placeholder_text: '# TODO: Ecrivez une condition pour vérifier que la liste `tasks` est vide.'
+  - offset: 392
+    length: 88
+    placeholder_text: "# TODO: Vérifiez que la liste est bien vide et affichez 'Now empty!', si c'est le cas."
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

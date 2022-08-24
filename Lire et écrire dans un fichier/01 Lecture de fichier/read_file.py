@@ -1,8 +1,8 @@
 with open("input.txt", "r") as f:
-    # Iterate over the lines
-        # print each line
+    # Itération sur les lignes
+        # impression de chaque ligne
 
 
 with open("input1.txt", "r") as f1:
-    # print only first line of f1
+    # impression uniquement de la première ligne de f1
 

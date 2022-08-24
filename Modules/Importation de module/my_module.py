@@ -1,5 +1,5 @@
-""" documentation string for module my_module
-This module contains hello_world function
+"""  Chain de documentation du module my_module my_module
+Ce module contient la fonction hello_world
 """
 
 

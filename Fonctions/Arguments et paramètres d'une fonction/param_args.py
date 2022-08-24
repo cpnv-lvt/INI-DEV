@@ -1,11 +1,11 @@
-def foo(x):  # x is a function parameter
+def foo(x):  # x est un paramètre de la fonction
     print("x = " + str(x))
 
 
-foo(5)  # Pass 5 to foo(). Here 5 is an argument passed to function foo.
+foo(5)  # Passe 5 à foo(). Ici, 5 est un argument passé à la fonction foo.
 
 
-# Define a function named "square" that prints square of passed parameter
+# Définir une fonction appelée "square" qui imprime le carré du paramètre
     print(x ** 2)
 
 

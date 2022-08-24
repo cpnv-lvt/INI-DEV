@@ -3,8 +3,8 @@ files:
 - name: while_loop.py
   visible: true
   placeholders:
-  - offset: 302
-    length: 45
+  - offset: 305
+    length: 49
     placeholder_text: '# Use a while statement and a condition here.'
 - name: tests/__init__.py
   visible: false

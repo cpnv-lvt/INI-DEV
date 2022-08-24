@@ -1,12 +1,12 @@
 with open('input.txt', 'r') as my_file:
-    # Some action performed with the file, the read() method explained later.
+    # Une action effectuée avec un fichier, la méthode read() sera expliquée plus tard.
     print(my_file.read(), '\n')
 
 
-# Open the file input1.txt in read mode using the with statement
+# Ouvrez le fichier input1.txt en mode lecture à l'aide de l'instruction with
     print(file.read())
 
 
 outfile = open('outfile.txt', 'w')  # Opening the file in write mode (using `w` argument)
 outfile.write('Hello World')  # Writing to the file, the write() method is explained later.
-# Close the output file!
+# Fermeture fichier OUTFILE!

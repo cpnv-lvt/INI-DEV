@@ -1,12 +1,12 @@
 import my_module
-# Import the module `calculator` here
+# Importer le module `calculator` ici
 
 my_module.hello_world("John")
 
 
-calc = 'Create a new instance of Calculator class defined in calculator'
+calc = 'Créer une nouvelle instance de la classe Calculator'
 for i in range(100):
-    # Use Calculator method `add` to add `i` to the current value.
+    # Utiliser la méthode 'add' de Calculator pour ajouter `i`  à la valeur courante
 
 print(calc.get_current())
 

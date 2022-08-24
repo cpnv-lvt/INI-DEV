@@ -1,5 +1,5 @@
 """
-This module contains Calculator class
+Ce module contient un calculateur
 """
 
 

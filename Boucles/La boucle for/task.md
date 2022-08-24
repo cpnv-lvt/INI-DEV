@@ -7,6 +7,8 @@ sera exécuté une fois pour chaque élément. Lorsque l'on arrive à la fin des
 
 Vous pouvez lire d'avantage au sujet de la boucle `for` sur<a href="https://docs.python.org/3/reference/compound_stmts.html#the-for-statement">cete page</a> de la documentation python.
 
+## task
+
 Imprimer chaque nombre premier depuis la liste `primes` en utilisant la boucle `for`. Un nombre premier est un nombre 
 qui n'est divisible que par `1` ou lui même.
   

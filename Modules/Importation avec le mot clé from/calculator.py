@@ -1,5 +1,5 @@
 """
-This module contains a calculator
+Ce module contient un calculateur
 """
 
 

@@ -7,5 +7,5 @@ for i in starting_numbers:
 print(my_inefficient_list)
 
 
-my_efficient_list = ['Use list comprehension to build the same list as above']
+my_efficient_list = ['Utilisez les list comprehension pour construire la même liste que ci-dessus']
 print(my_efficient_list)

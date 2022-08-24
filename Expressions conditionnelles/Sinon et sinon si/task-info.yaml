@@ -1,0 +1,15 @@
+type: edu
+files:
+- name: else_elif.py
+  visible: true
+  placeholders:
+  - offset: 339
+    length: 44
+    placeholder_text: '# TODO: vérifiez si le nom est égal à "John"'
+  - offset: 400
+    length: 16
+    placeholder_text: '# TODO: sinon...'
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false

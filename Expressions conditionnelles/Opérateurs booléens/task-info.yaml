@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: boolean_operators.py
+  visible: true
+  placeholders:
+  - offset: 128
+    length: 3
+    placeholder_text: ???
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
